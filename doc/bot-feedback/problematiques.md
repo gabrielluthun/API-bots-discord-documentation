@@ -13,4 +13,9 @@
         <td>Le feedback est trop peu accessible </td>
         <td><a href="#">Changer le support </a></td>
     </tr>
+    <tr>
+        <td>En quoi l'amélioration du traitement des données permet-elle d'optimiser leur utilisation ?</td>
+        <td>Les formats de réponse sont trop complèxes</td>
+        <td><a href="#">Simplifier le format des réponses</a></td>
+    </tr>
 </table>
