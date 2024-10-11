@@ -5,3 +5,14 @@
 3. **L'onboarding doit-il être dédié à la création de sessions, ou pourrait-il être étendu à d'autres parties comme les réunions administratives ?**
 4. **Avez-vous déjà des conventions de nommage ?**
 5. **Comment représentez-vous l'interface de l'onboarding d'un point de vue fonctionnel ?**
+6. **Enchaîner ensuite sur des questions plus ciblées :**
+   - **Pour la convention de nommage : formulaire avec liste déroulante et possibilité de rajouter lors de la création d'une nouvelle promo, qu'en pensez-vous ?**
+   - **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
+   - **Faut-il d'autres rôles ?**
+   - **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
+   - **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
+   - **Qu'appréciez-vous dans l'ancienne version ?**
+   - **Qu'entendez-vous par "s'identifier par l'utilisateur" au niveau des fonctionnalités du bot ?**
+   - **Mais aussi la gestion de ses demandes d'identification ?**
+   - **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
+   - **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
