@@ -113,6 +113,7 @@ Bot Onboarding : facilite l'intégration des nouvelles promotions en automatisan
 Ces outils permettent à Simplon de gérer plus efficacement son serveur Discord, en évitant les erreurs humaines et en offrant un gain de temps précieux.
 
 #### Faciliter la communication verticale et horizontale
+![image](/./assets/images/schema-communication.png)
 L’un des principaux objectifs opérationnels est de bien gérer la communication au sein de Discord, à la fois entre les formateurs, les apprenants et les alumni (communication verticale), mais aussi entre les apprenants eux-mêmes (communication horizontale). Une communication fluide permet un partage des connaissances optimisé et une meilleure coordination des activités pédagogiques.
 
 Simplon doit s’assurer que les informations circulent correctement et que le partage des ressources est bien structuré entre les différents acteurs. Cela inclut des interactions régulières et pertinentes via Discord, notamment par la mise en place de canaux dédiés à chaque type de communication (ressources, retours, mentorat, etc.).
