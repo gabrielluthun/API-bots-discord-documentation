@@ -5,3 +5,5 @@ La problématique est qu'il arrive que les formateurs et les apprenants oublient
 Il est donc essentiel de réfléchir à des solutions afin de parer à ces problèmes.
 
 ## Problems table
+
+<table>
