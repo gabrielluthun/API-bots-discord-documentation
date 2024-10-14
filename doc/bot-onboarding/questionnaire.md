@@ -1,31 +1,23 @@
 ## QUESTIONS POUR LE CLIENT
 
-2. **Définition de "fabrique" : (...) Avons-nous bien compris ? Ce terme ne semble pas être utilisé à bon escient.**
+1. **Définition de "fabrique" : (...) Avons-nous bien compris ? Ce terme ne semble pas être utilisé à bon escient.**
 
-5. **Quelles sont vos conventions de nommage ?**
+2. **Quelles sont vos conventions de nommage ?**
 
-6. **Comment représentez-vous l'interface de l'onboarding d'un point de vue fonctionnel ?**
+3. **Pour la convention de nommage : Est-ce que les noms des promos sont pré-écrits ou bien faut-il le remplir à la main ?**
 
-7. **Pour la convention de nommage : formulaire avec liste déroulante et possibilité de rajouter lors de la création d'une nouvelle promo, qu'en pensez-vous ?**
+4. **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
 
-8. **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
+5. **Pouvez-vous nous donner un organigramme ?**
 
-9. **Faut-il d'autres rôles ?**
+6. **Dans le cadre du bot onboarding, est-ce la création de promo est figée, concernant les rôles et les autorisations ?**
 
-10. **Dans le cadre du bot onboarding, est-ce qu'un membre du personnel de Simplon sera en droit de créer un nouveau channel via le bot ?**
+7. **Accorde-t-on des commandes pour effectuer des actions en dehors du personnel de Simplon ? Ex: Ajouter un forum ?**
 
-11. **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
+8. **Est-ce que l'organisation des channels est figé ? Peut-on proposer des améliorations ?**
 
-12. **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
+9. **Pourquoi la v1 n'a pas été mise en production ?**
 
-13. **Dans le cas où nous avons une meilleure organisation des channels de l'onboarding, a t'on la possibilité de la modifier ?**
+10. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
 
-14. **Qu'appréciez-vous dans l'ancienne version ?**
-
-15. **Au niveau de l'identification on a compris à quoi cela servait, à confirmer l'identité des nouveaux venus. Mais plusieurs problèmes se pose le fait que lors de notre invitation recu par Claire nous n'avions pas de formulaire à remplir pour s'identifier d'où le problème du bot qui ne renomme pas , n'attribue pas les rôles et ne supprime le channel identification**
-
-16. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
-
-17. **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
-
-18. **Préférez-vous que nous vous recommandions une stack technologique, ou avez-vous déjà une préférence spécifique ? Dans ce dernier cas, laquelle ?**
+11. **Préférez-vous que nous vous recommandions une stack technologique, ou avez-vous déjà une préférence spécifique ? Dans ce dernier cas, laquelle ?**
