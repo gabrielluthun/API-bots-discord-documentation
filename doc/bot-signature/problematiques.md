@@ -13,3 +13,9 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td>Conséquences</td>
         <td>Solution</td>
     </tr>
+    <tr>
+        <td rowspan="4">Oubli de signature</td>
+        <td>Rattrapages</td>
+        <td>Perte de temps</td>
+        <td rowspan="2"><a href="#">Automatisation des rappels</a></td>
+    </tr>
