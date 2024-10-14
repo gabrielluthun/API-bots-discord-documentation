@@ -23,3 +23,8 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td>Absence injustifiée non légitime</td>
         <td>Manque à gagner</td>
     </tr>
+    <tr>
+        <td>Difficulté à cibler les apprenants</td>
+        <td rowspan="2">Perte de temps <br> Risque d'oublis</td>
+        <td><a href="#">Centraliser les groupes d'apprenants</a></td>
+    </tr>
