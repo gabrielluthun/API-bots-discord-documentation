@@ -5,17 +5,16 @@
         <td align="center">Solution</td>
     </tr>
     <tr>
-        <td rowspan="2" align="center">Peu de personne répondent au feedback</td>
-        <td align="center">Le feedback n'est pas assez attractif</td>
-        <td align="center"><a href="#">Rendre le feedback plus simple </a></td>
+        <td rowspan="3" align="center"><strong>Collecte des retours</strong></td>
+        <td align="center">Le processus de collecte des retours des apprenants est souvent manuel</td>
+        <td align="center"><a href="#">Intégrer un bot de feedback pour automatiser la collecte et le suivi des retours des apprenants</a></td>
     </tr>
     <tr>
-        <td align="center">Le feedback est trop peu accessible </td>
-        <td align="center"><a href="#">Changer le support </a></td>
+        <td align="center">Les rappels pour les retours peuvent être ignorés par les apprenants</td>
+        <td align="center"><a href="">Utiliser le bot pour envoyer des rappels personnalisés et automatisés pour encourager les retours</a></td>
     </tr>
     <tr>
-        <td align="center">En quoi l'amélioration du traitement des données permet-elle d'optimiser leur utilisation ?</td>
-        <td align="center">Les formats de réponse sont trop complèxes</td>
-        <td align="center"><a href="#">Simplifier le format des réponses</a></td>
+        <td align="center">L'analyse des retours manuels peut entraîner des erreurs humaines</td>
+        <td align="center"><a href="#">Mettre en place des outils d'analyse intégrés au bot pour traiter les retours et générer des rapports automatiques</a></td>
     </tr>
 </table>
