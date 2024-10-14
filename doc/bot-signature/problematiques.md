@@ -28,3 +28,7 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td rowspan="2">Perte de temps <br> Risque d'oublis</td>
         <td><a href="#">Centraliser les groupes d'apprenants</a></td>
     </tr>
+    <tr>
+        <td>Demander un envoi de signature au formateur</td>
+        <td><a href="#">Système de vote</a></td>
+    </tr>
