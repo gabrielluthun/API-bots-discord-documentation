@@ -15,8 +15,8 @@
 8. **Faut-il d'autres rôles ?**
 9. **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
 10. **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
-   - **Qu'appréciez-vous dans l'ancienne version ?**
-   - **Qu'entendez-vous par "s'identifier par l'utilisateur" au niveau des fonctionnalités du bot ?**
-   - **Mais aussi la gestion de ses demandes d'identification ?**
-   - **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
-   - **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
+11. **Qu'appréciez-vous dans l'ancienne version ?**
+12. **Qu'entendez-vous par "s'identifier par l'utilisateur" au niveau des fonctionnalités du bot ?**
+13. **Mais aussi la gestion de ses demandes d'identification ?**
+14. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
+15. **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
