@@ -17,4 +17,17 @@
         <td align="center">L'analyse des retours manuels peut entraîner des erreurs humaines</td>
         <td align="center"><a href="#">Mettre en place des outils d'analyse intégrés au bot pour traiter les retours et générer des rapports automatiques</a></td>
     </tr>
+    <tr>
+       <td rowspan="3" align="center"><strong>Manque de structuration</strong></td>
+        <td align="center">Les retours des apprenants manquent souvent de clarté et de cohérence.</td>
+        <td align="center"><a href="#">Utiliser le bot pour créer des modèles de questionnaires standardisés afin d'obtenir des retours structurés.</a></td>
+    </tr>
+    <tr>
+        <td align="center">Les informations recueillies sont souvent trop vagues pour être exploitables</td>
+        <td align="center"><a href="#">Proposer des questions précises via le bot pour obtenir des retours clairs et exploitables</a></td>
+    </tr>
+    <tr>
+        <td align="center">Les retours peuvent être dispersés sur plusieurs plateformes, rendant leur suivi difficile</td>
+        <td align="center"><a href="#">Centraliser la collecte des retours via le bot sur une plateforme unique pour simplifier l'analyse</a></td>
+    </tr>
 </table>
