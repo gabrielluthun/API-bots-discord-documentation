@@ -35,4 +35,13 @@
         <td align="center">Les apprenants trouvent le système de feedback difficile à naviguer</td>
         <td align="center"><a href="#">Améliorer l'interface du bot pour qu'elle soit plus intuitive et facile à utiliser</a></td>
     </tr>
+    <tr>
+       <td rowspan="2" align="center"><strong>Erreur de casting</strong></td>
+        <td align="center">Les apprenants trouvent que le rythme de la formation est trop rapide ou trop lent</td>
+        <td align="center"><a href="#">Utiliser le bot pour recueillir des retours en temps réel sur le rythme et ajuster le contenu en conséquence</a></td>
+    </tr>
+    <tr>
+        <td align="center">Les formateurs peuvent ne pas s'adapter aux différents niveaux de compétence des apprenants</td>
+        <td align="center"><a href="#">Fournir des fonctionnalités de feedback sur la performance des formateurs via le bot pour les aider à s'adapter</a></td>
+    </tr>
 </table>
