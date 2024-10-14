@@ -32,3 +32,9 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td>Demander un envoi de signature au formateur</td>
         <td><a href="#">Système de vote</a></td>
     </tr>
+    <tr>
+        <td rowspan="2">Outils de signature externes</td>
+        <td>Outils différents</td>
+        <td>Dispersion entre les plateformes</td>
+        <td><a href="#">Centraliser les rappels de signatures</a></td>
+    </tr>
