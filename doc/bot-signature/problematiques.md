@@ -7,3 +7,9 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
 ## Problems table
 
 <table>
+    <tr>
+        <td>Problématiques</td>
+        <td>Problèmes</td>
+        <td>Conséquences</td>
+        <td>Solution</td>
+    </tr>
