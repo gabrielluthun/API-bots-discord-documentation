@@ -19,3 +19,7 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td>Perte de temps</td>
         <td rowspan="2"><a href="#">Automatisation des rappels</a></td>
     </tr>
+    <tr>
+        <td>Absence injustifiée non légitime</td>
+        <td>Manque à gagner</td>
+    </tr>
