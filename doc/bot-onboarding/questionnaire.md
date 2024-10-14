@@ -6,26 +6,30 @@
 
 3. **L'onboarding doit-il être dédié à la création de sessions, ou pourrait-il être étendu à d'autres parties comme les réunions administratives ?**
 
-4. **Avez-vous déjà des conventions de nommage ?**
+4. **A quoi sert le channel nouveau-canal-demo ? Sachant qu'il permet aussi de créer une nouvelle interface de formation**
 
-5. **Comment représentez-vous l'interface de l'onboarding d'un point de vue fonctionnel ?**
+5. **Avez-vous déjà des conventions de nommage ?**
 
-6. **Pour la convention de nommage : formulaire avec liste déroulante et possibilité de rajouter lors de la création d'une nouvelle promo, qu'en pensez-vous ?**
+6. **Comment représentez-vous l'interface de l'onboarding d'un point de vue fonctionnel ?**
 
-7. **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
+7. **Pour la convention de nommage : formulaire avec liste déroulante et possibilité de rajouter lors de la création d'une nouvelle promo, qu'en pensez-vous ?**
 
-8. **Faut-il d'autres rôles ?**
+8. **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
 
-9. **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
+9. **Faut-il d'autres rôles ?**
 
-10. **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
+10. **Dans le cadre du bot onboarding, est-ce qu'un membre du personnel de Simplon sera en droit de créer un nouveau channel via le bot ?**
 
-11. **Qu'appréciez-vous dans l'ancienne version ?**
+11. **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
 
-12. **Qu'entendez-vous par "s'identifier par l'utilisateur" au niveau des fonctionnalités du bot ?**
+12. **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
 
-13. **Mais aussi la gestion de ses demandes d'identification ?**
+13. **Dans le cas où nous avons une meilleure organisation des channels de l'onboarding, a t'on la possibilité de la modifier ?**
 
-14. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
+14. **Qu'appréciez-vous dans l'ancienne version ?**
 
-15. **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
+15. **Au niveau de l'identification on a compris à quoi cela servait, à confirmer l'identité des nouveaux venus. Mais plusieurs problèmes se pose le fait que lors de notre invitation recu par Claire nous n'avions pas de formulaire à remplir pour s'identifier d'où le problème du bot qui ne renomme pas , n'attribue pas les rôles et ne supprime le channel identification**
+
+16. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
+
+17. **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
