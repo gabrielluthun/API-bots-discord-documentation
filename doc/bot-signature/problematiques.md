@@ -38,3 +38,8 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td>Dispersion entre les plateformes</td>
         <td><a href="#">Centraliser les rappels de signatures</a></td>
     </tr>
+    <tr>
+        <td>Rappels officiels pas assez efficaces</td>
+        <td>Surcharge de travail administratif</td>
+        <td><a href="#">Commande manuelle de notification</a></td>
+    </tr>
