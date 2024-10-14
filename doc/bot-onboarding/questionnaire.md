@@ -11,10 +11,10 @@
 5. **Comment représentez-vous l'interface de l'onboarding d'un point de vue fonctionnel ?**
 
 6. **Pour la convention de nommage : formulaire avec liste déroulante et possibilité de rajouter lors de la création d'une nouvelle promo, qu'en pensez-vous ?**
-   - **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
-   - **Faut-il d'autres rôles ?**
-   - **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
-   - **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
+7. **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
+8. **Faut-il d'autres rôles ?**
+9. **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
+10. **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
    - **Qu'appréciez-vous dans l'ancienne version ?**
    - **Qu'entendez-vous par "s'identifier par l'utilisateur" au niveau des fonctionnalités du bot ?**
    - **Mais aussi la gestion de ses demandes d'identification ?**
