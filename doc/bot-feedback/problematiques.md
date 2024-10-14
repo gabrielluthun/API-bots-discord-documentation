@@ -30,4 +30,9 @@
         <td align="center">Les retours peuvent être dispersés sur plusieurs plateformes, rendant leur suivi difficile</td>
         <td align="center"><a href="#">Centraliser la collecte des retours via le bot sur une plateforme unique pour simplifier l'analyse</a></td>
     </tr>
+    <tr>
+        <td align="center"><strong>Accessibilité de l'interface</strong></td>
+        <td align="center">Les apprenants trouvent le système de feedback difficile à naviguer</td>
+        <td align="center"><a href="#">Améliorer l'interface du bot pour qu'elle soit plus intuitive et facile à utiliser</a></td>
+    </tr>
 </table>
