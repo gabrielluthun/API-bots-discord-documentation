@@ -43,3 +43,4 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td>Surcharge de travail administratif</td>
         <td><a href="#">Commande manuelle de notification</a></td>
     </tr>
+</table>
