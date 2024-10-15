@@ -6,3 +6,4 @@
 - À quel moment dans la formation les feedbacks sont-ils collectés ?
   - S'il n y'a que des formulaires en fin de formation, combien y'en a t'il ?
     - S'il y'en a plusieurs, a quel intervalle sont-ils envoyés ?
+- De quelle manière sont utilisées les données collectées ? Y a-t-il des statistiques générées automatiquement ou manuellement ?
