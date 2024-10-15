@@ -53,3 +53,9 @@ Exemple :
 
     gestion-utilisateurs.js
     verifier-email.md
+
+## Suivi des changements dans les pull requests
+
+ Demandes de changements détaillées par les reviewers : Si un reviewer exige des modifications sur une pull request, il doit clairement spécifier dans un commentaire les changements à effectuer.
+ 
+  Le reviewer doit fournir une explication détaillée pour s'assurer que le contributeur comprend bien les modifications demandées. Cela favorise la transparence et permet à tous les membres de l'équipe de suivre l'évolution de la pull request.
