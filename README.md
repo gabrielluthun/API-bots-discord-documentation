@@ -25,3 +25,9 @@ Explication :
 Ajouter un body : Si nécessaire, détailler davantage les changements dans le body du commit. 
 
 Cela permet de donner plus d’informations sur les raisons du changement, son impact ou les fichiers modifiés.
+
+## Commits atomiques
+
+ Commits atomiques : Chaque commit doit être atomique, c’est-à-dire qu’il doit se concentrer sur une seule fonctionnalité ou un seul changement.
+    
+Cela garantit une meilleure traçabilité et simplifie la gestion des erreurs.
