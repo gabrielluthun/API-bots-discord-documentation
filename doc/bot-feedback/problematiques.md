@@ -34,10 +34,9 @@
     <tr>
        <td rowspan="2" align="center"><strong>Erreur de casting</strong></td>
         <td align="center">L'apprenant trouve que le rythme de la formation ne correspond pas à son propre rythme de progression</td>
-        <td align="center"><a href="#">Utiliser le bot pour recueillir des retours sur le rythme et ajuster le contenu en conséquence</a></td>
+        <td rowspan="2 "align="center"><a href="#">Utiliser le bot pour recueillir des retours sur le rythme et ajuster le contenu en conséquence</a></td>
     </tr>
     <tr>
         <td align="center">Rythme émis par le formateur non adapté au groupe</td>
-        <td align="center"><a href="#">Utiliser le bot pour recueillir des retours sur le rythme et ajuster le contenu en conséquence</a></td>
     </tr>
 </table>
