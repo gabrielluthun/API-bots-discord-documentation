@@ -5,7 +5,7 @@
         <td align="center">Solution</td>
     </tr>
     <tr>
-        <td rowspan="3" align="center"><strong>Collecte des retours</strong></td>
+        <td rowspan="3" align="center"><strong>Automatisation de la collecte</strong></td>
         <td align="center">Le processus de collecte des retours des apprenants est souvent manuel</td>
         <td align="center"><a href="#">Intégrer un bot de feedback pour automatiser la collecte et le suivi des retours des apprenants</a></td>
     </tr>
@@ -18,12 +18,8 @@
         <td align="center"><a href="#">Mettre en place des outils d'analyse intégrés au bot pour traiter les retours et générer des rapports automatiques</a></td>
     </tr>
     <tr>
-       <td rowspan="3" align="center"><strong>Manque de structuration</strong></td>
-        <td align="center">Les retours des apprenants manquent souvent de clarté et de cohérence.</td>
-        <td align="center"><a href="#">Utiliser le bot pour créer des modèles de questionnaires standardisés afin d'obtenir des retours structurés.</a></td>
-    </tr>
-    <tr>
-        <td align="center">Les informations recueillies sont souvent trop vagues pour être exploitables</td>
+       <td rowspan="2" align="center"><strong>Uniformisation du formulaire</strong></td>
+       <td align="center">Les informations recueillies sont souvent trop vagues pour être exploitables</td>
         <td align="center"><a href="#">Proposer des questions précises via le bot pour obtenir des retours clairs et exploitables</a></td>
     </tr>
     <tr>
@@ -31,7 +27,7 @@
         <td align="center"><a href="#">Centraliser la collecte des retours via le bot sur une plateforme unique pour simplifier l'analyse</a></td>
     </tr>
     <tr>
-        <td align="center"><strong>Accessibilité de l'interface</strong></td>
+        <td align="center"><strong>Manque d'ergonomie</strong></td>
         <td align="center">Les apprenants trouvent le système de feedback difficile à naviguer</td>
         <td align="center"><a href="#">Améliorer l'interface du bot pour qu'elle soit plus intuitive et facile à utiliser</a></td>
     </tr>
