@@ -21,3 +21,5 @@
 10. **Préférez-vous que nous vous recommandions une stack technologique, ou avez-vous déjà une préférence spécifique ? Dans ce dernier cas, laquelle ?**
 
 11. **Est-ce que l'on fait lire et valider les règles du Discord aux nouveaux arrivants ?**
+
+12. **On a remarqué qu'il restait une issue sur Simplon Remastered. Pourquoi avez-vous recommandé de passer de Prisma à TypeORM ?**
