@@ -19,3 +19,5 @@
 9. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
 
 10. **Préférez-vous que nous vous recommandions une stack technologique, ou avez-vous déjà une préférence spécifique ? Dans ce dernier cas, laquelle ?**
+
+11. **Est-ce que l'on fait lire et valider les règles du Discord aux nouveaux arrivants ?**
