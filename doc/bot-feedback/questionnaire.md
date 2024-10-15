@@ -1,12 +1,15 @@
 - Actuellement, comment sont effectués les retours des apprenants ?
-- Sur quel support ?
-- Peut on voir un exemple de formulaire ?
-- Quel est le taux de participation ?
-- Est-ce que le bot doit renvoyer vers un lien ou peut il être totalement indépendant en étant sur discord ?
-- Anonyme ou pas ?
-- Peut on utiliser les feeback en dehors d'une formation pour remonter un problème ?
-- Quel est le contenu actuel des formulaires de feedback ? a quoi ils servent ? pour qui?
-- De quelles façons sont utilisées les données ? Y a t-il des statistiques faites ? A la main ou automatique ?
-- Est-ce que l'utilisation des données récoltées reste en interne ou il peut être amené a être exposé sur le site ? (sous forme de statistiques)
-- Combien de formulaire après la formation et à quel intervalle ?
-- A quel moment donne t'on un feedback ? Début, milieu, fin ?
+- Sur quel support sont collectés ces retours ?
+- Peut-on voir un exemple de formulaire utilisé actuellement ?
+- Quel est le taux de participation aux feedbacks ?
+  - Si le taux de participation est bas, êtes vous ouvert à une amélioration du formulaire ?
+- À quel moment dans la formation les feedbacks sont-ils collectés ?
+  - S'il n y'a que des formulaires en fin de formation, combien y'en a t'il ?
+    - S'il y'en a plusieurs, a quel intervalle sont-ils envoyés ?
+- De quelle manière sont utilisées les données collectées ? Y a-t-il des statistiques générées automatiquement ou manuellement ?
+- Le bot doit-il renvoyer vers un lien externe (support autre que Discord) pour les feedbacks ou peut-il fonctionner entièrement sur Discord ?
+  - Êtes-vous ouvert à une modification des questions si besoin ?
+    - Les questions doivent-elles avoir des réponses avec des notations détaillées (échelles, choix multiples), ou des réponses plus générales et ouvertes ?
+- Les feedbacks doivent-ils être anonymes ou identifiés ?
+- Souhaitez-vous que le bot soit utilisé pour recueillir des retours pendant les sessions de formation ?
+- Les données récoltées restent-elles strictement internes ou peuvent-elles être publiées sur votre site, par exemple sous forme de statistiques ?
