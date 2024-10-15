@@ -42,3 +42,14 @@ Nom en anglais : Les titres des pull requests doivent être rédigés en anglais
 Ajout de tags : Chaque pull request doit inclure un ou plusieurs tags pour faciliter la gestion des PRs. 
 
 Les tags peuvent indiquer le type de changement, la partie du projet concernée, ou des informations spécifiques comme la documentation ou le nom d’un bot.
+
+## Noms de fichiers
+
+ Nom des fichiers en français : Les noms des fichiers dans le projet doivent être en français pour garder une cohérence avec la langue principale du projet.
+
+ Utiliser le **kebab-case** : Les noms de fichiers doivent être écrits en kebab-case, c’est-à-dire tout en minuscules, avec des mots séparés par des tirets.
+
+Exemple :
+
+    gestion-utilisateurs.js
+    verifier-email.md
