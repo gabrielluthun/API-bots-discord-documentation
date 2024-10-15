@@ -1,18 +1,21 @@
 ## QUESTIONS POUR LE CLIENT
 
-1. **Voici un ensemble de solutions, voyez-vous d'autres problèmes sur l'onboarding auxquels nous n'avons pas répondu ?**
-2. **Définition de "fabrique" : (...) Avons-nous bien compris ? Ce terme ne semble pas être utilisé à bon escient.**
-3. **L'onboarding doit-il être dédié à la création de sessions, ou pourrait-il être étendu à d'autres parties comme les réunions administratives ?**
-4. **Avez-vous déjà des conventions de nommage ?**
-5. **Comment représentez-vous l'interface de l'onboarding d'un point de vue fonctionnel ?**
-6. **Enchaîner ensuite sur des questions plus ciblées :**
-   - **Pour la convention de nommage : formulaire avec liste déroulante et possibilité de rajouter lors de la création d'une nouvelle promo, qu'en pensez-vous ?**
-   - **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
-   - **Faut-il d'autres rôles ?**
-   - **Qui aura accès aux commandes du bot à part le personnel de Simplon ?**
-   - **Quels défauts majeurs trouvez-vous sur l'ancienne version ?**
-   - **Qu'appréciez-vous dans l'ancienne version ?**
-   - **Qu'entendez-vous par "s'identifier par l'utilisateur" au niveau des fonctionnalités du bot ?**
-   - **Mais aussi la gestion de ses demandes d'identification ?**
-   - **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
-   - **Dans les rôles, qu'est-ce que "Caps", et pourquoi ne pas changer le nom "noob" en "néophyte" ou "nouveau-arrivant" ?**
+1. **Définition de "fabrique" : (...) Avons-nous bien compris ? Ce terme ne semble pas être utilisé à bon escient.**
+
+2. **Quelles sont vos conventions de nommage ?**
+
+3. **À la création d'une session, combien de rôles faudra-t-il créer par la suite ?**
+
+4. **Pouvez-vous nous donner un organigramme ?**
+
+5. **Dans le cadre du bot onboarding, est-ce la création de promo est figée, concernant les rôles et les autorisations ?**
+
+6. **Accorde-t-on des commandes pour effectuer des actions en dehors du personnel de Simplon ? Ex: Ajouter un forum ?**
+
+7. **Est-ce que l'organisation des channels est figé ? Peut-on proposer des améliorations ?**
+
+8. **Pourquoi la v1 n'a pas été mise en production ?**
+
+9. **Est-ce qu'à la création d'une promo, ça génère automatiquement le nom de la promo ?**
+
+10. **Préférez-vous que nous vous recommandions une stack technologique, ou avez-vous déjà une préférence spécifique ? Dans ce dernier cas, laquelle ?**
