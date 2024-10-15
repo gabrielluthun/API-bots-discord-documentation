@@ -4,15 +4,15 @@
 
 ### Répondre aux besoins du marché
 
-L’un des principaux défis de Simplon est de répondre à l’évolution des besoins du marché du travail. Initialement, il y avait une forte demande pour des développeurs web juniors, ce qui a entraîné la création de nombreuses formations. Cependant, le marché s’est depuis saturé : aujourd'hui, il y a trop de développeurs juniors et une demande accrue pour des profils plus expérimentés. Simplon doit donc adapter ses formations pour mieux répondre aux besoins actuels des entreprises, tout en continuant à former des juniors compétents.
+L’un des principaux défis de Simplon est de répondre à l’évolution des besoins du marché du travail. Initialement, il y avait une forte demande pour des développeurs web juniors, ce qui a entraîné la création de nombreuses formations. Cependant, le marché s’est saturé depuis : aujourd'hui, il y a trop de développeurs juniors et une demande accrue pour des profils plus expérimentés. Simplon doit donc adapter ses formations pour mieux répondre aux besoins actuels des entreprises, tout en continuant à former des juniors compétents.
 
 Un autre enjeu est l’émergence rapide de nouveaux métiers, notamment dans le domaine de l’intelligence artificielle (IA), ainsi que l’évolution des technologies utilisées dans les métiers existants. Par exemple, les développeurs doivent désormais maîtriser de nouveaux frameworks et s’adapter à des méthodes de travail modifiées par des outils comme l’IA. Simplon doit donc veiller à mettre à jour régulièrement ses contenus pédagogiques pour rester pertinent sur ce marché en constante évolution.
 
 ### Insertion professionnelle et inclusion
 
-L'insertion professionnelle est au cœur de la mission de Simplon. L'objectif final de ses formations est de permettre aux apprenants d’accéder à l’emploi, en particulier pour les publics éloignés du marché du travail. Simplon met un point d'honneur à rendre ses formations inclusives et accessibles, afin de donner une chance à des personnes issues de milieux sous-représentés dans le secteur du numérique.
+L'insertion professionnelle est au cœur de la mission de Simplon. L'objectif final de ses formations est de permettre aux apprenants d’accéder à l’emploi, en particulier pour les publics éloignés du marché du travail. Simplon met un point d'honneur à rendre ses formations inclusives et accessibles, afin de donner leur chance dans le numérique à des personnes issues de milieux sous-représentés.
 
-La pédagogie active, axée sur l’apprentissage par la pratique, est un atout majeur dans cette optique. En permettant aux apprenants de se former directement aux techniques utilisées en entreprise, Simplon assure une meilleure employabilité de ses étudiants. En outre, la gratuité des formations pour les apprenants est un facteur clé pour attirer des publics diversifiés et favoriser l’inclusion sociale.
+La pédagogie active, axée sur l’apprentissage par la pratique, est un atout majeur dans cette optique. En permettant aux apprenants de se former directement aux techniques utilisées en entreprise, Simplon assure une meilleure employabilité de ses étudiants. En outre, pour les apprenants, la gratuité des formations ainsi que la potentielle rémunération en participant à celles-ci sont des facteurs clés pour attirer des publics diversifiés et favoriser l’inclusion sociale.
 
 ### Gestion des outils et des communautés
 
@@ -24,7 +24,7 @@ Simplon peut également explorer de nouvelles opportunités pour enrichir son ut
 
 Dans un marché ultra-concurrentiel, la réputation est un levier crucial pour Simplon. La qualité des formations, la réussite des anciens étudiants et la satisfaction des financeurs sont des éléments déterminants pour maintenir une image de sérieux et d'excellence. Les anciens étudiants jouent un rôle clé en tant qu'ambassadeurs de l'école, contribuant à son rayonnement et à attirer de nouveaux apprenants.
 
-Pour garantir cette réputation, Simplon doit s’assurer de recruter des formateurs compétents et expérimentés, capables de transmettre efficacement les compétences recherchées par le marché du travail. Un autre aspect important est le maintien de relations solides avec ses partenaires financiers (régions, OPCO, entreprises), qui permettent de rendre la formation gratuite pour les apprenants.
+Pour garantir cette réputation, Simplon doit s’assurer de recruter des formateurs compétents et expérimentés, capables de transmettre efficacement les compétences recherchées par le marché du travail. Un autre aspect important est le maintien de relations solides avec ses partenaires financiers (régions, OPCO, entreprises), qui permettent de financer les formations pour les apprenants.
 
 ## Enjeux autour de Discord
 
