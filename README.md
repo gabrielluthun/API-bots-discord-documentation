@@ -70,3 +70,7 @@ Par exemple :
  ***Demandes de changements détaillées par les reviewers*** : Si un reviewer exige des modifications sur une pull request, il doit clairement spécifier dans un commentaire les changements à effectuer.
  
   Le reviewer doit fournir une explication détaillée pour s'assurer que le contributeur comprend bien les modifications demandées. Cela favorise la transparence et permet à tous les membres de l'équipe de suivre l'évolution de la pull request.
+
+ ## Processus d'approbation et de fusion des pull requests
+
+***Responsabilité lors de la fusion*** : Le dernier reviewer qui approuve une pull request est responsable de la fusion de celle-ci. En acceptant de fusionner la pull request, il accepte également de prendre la responsabilité en cas de problèmes futurs liés à cette pull request.
