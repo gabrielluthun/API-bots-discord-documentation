@@ -9,3 +9,4 @@
 - De quelle manière sont utilisées les données collectées ? Y a-t-il des statistiques générées automatiquement ou manuellement ?
 - Le bot doit-il renvoyer vers un lien externe (support autre que Discord) pour les feedbacks ou peut-il fonctionner entièrement sur Discord ?
   - Êtes-vous ouvert à une modification des questions si besoin ?
+    - Les questions doivent-elles avoir des réponses avec des notations détaillées (échelles, choix multiples), ou des réponses plus générales et ouvertes ?
