@@ -15,7 +15,7 @@ Explication :
 
  bot/fichier : Le nom du bot puis du fichier concerné par la modification.
 
- titre du commit : Une description concise du changement apporté.
+ titre du commit : Une description concise du changement apporté. (en anglais)
  
  Exemple :
 
@@ -31,3 +31,14 @@ Cela permet de donner plus d’informations sur les raisons du changement, son i
  Commits atomiques : Chaque commit doit être atomique, c’est-à-dire qu’il doit se concentrer sur une seule fonctionnalité ou un seul changement.
     
 Cela garantit une meilleure traçabilité et simplifie la gestion des erreurs.
+
+## Noms des pull requests
+
+Nom en anglais : Les titres des pull requests doivent être rédigés en anglais pour garantir une compréhension globale de l'équipe.
+
+
+## Tags sur les pull requests
+
+Ajout de tags : Chaque pull request doit inclure un ou plusieurs tags pour faciliter la gestion des PRs. 
+
+Les tags peuvent indiquer le type de changement, la partie du projet concernée, ou des informations spécifiques comme la documentation ou le nom d’un bot.
