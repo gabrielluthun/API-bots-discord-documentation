@@ -3,3 +3,6 @@
 - Peut-on voir un exemple de formulaire utilisé actuellement ?
 - Quel est le taux de participation aux feedbacks ?
   - Si le taux de participation est bas, êtes vous ouvert à une amélioration du formulaire ?
+- À quel moment dans la formation les feedbacks sont-ils collectés ?
+  - S'il n y'a que des formulaires en fin de formation, combien y'en a t'il ?
+    - S'il y'en a plusieurs, a quel intervalle sont-ils envoyés ?
