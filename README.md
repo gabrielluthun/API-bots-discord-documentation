@@ -20,3 +20,8 @@ Explication :
  Exemple :
 
     docs(bot-feedback/problematiques.md): add problems
+## Body du commit (corps détaillé)
+
+Ajouter un body : Si nécessaire, détailler davantage les changements dans le body du commit. 
+
+Cela permet de donner plus d’informations sur les raisons du changement, son impact ou les fichiers modifiés.
