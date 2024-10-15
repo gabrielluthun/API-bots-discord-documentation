@@ -8,3 +8,4 @@
     - S'il y'en a plusieurs, a quel intervalle sont-ils envoyés ?
 - De quelle manière sont utilisées les données collectées ? Y a-t-il des statistiques générées automatiquement ou manuellement ?
 - Le bot doit-il renvoyer vers un lien externe (support autre que Discord) pour les feedbacks ou peut-il fonctionner entièrement sur Discord ?
+  - Êtes-vous ouvert à une modification des questions si besoin ?
