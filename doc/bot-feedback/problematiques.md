@@ -33,11 +33,11 @@
     </tr>
     <tr>
        <td rowspan="2" align="center"><strong>Erreur de casting</strong></td>
-        <td align="center">Les apprenants trouvent que le rythme de la formation est trop rapide ou trop lent</td>
-        <td align="center"><a href="#">Utiliser le bot pour recueillir des retours en temps réel sur le rythme et ajuster le contenu en conséquence</a></td>
+        <td align="center">L'apprenant trouve que le rythme de la formation ne correspond pas à son propre rythme de progression</td>
+        <td align="center"><a href="#">Utiliser le bot pour recueillir des retours sur le rythme et ajuster le contenu en conséquence</a></td>
     </tr>
     <tr>
-        <td align="center">Les formateurs peuvent ne pas s'adapter aux différents niveaux de compétence des apprenants</td>
-        <td align="center"><a href="#">Fournir des fonctionnalités de feedback sur la performance des formateurs via le bot pour les aider à s'adapter</a></td>
+        <td align="center">Rythme émis par le formateur non adapté au groupe</td>
+        <td align="center"><a href="#">Utiliser le bot pour recueillir des retours sur le rythme et ajuster le contenu en conséquence</a></td>
     </tr>
 </table>
