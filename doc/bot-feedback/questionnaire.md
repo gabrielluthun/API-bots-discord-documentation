@@ -12,3 +12,4 @@
     - Les questions doivent-elles avoir des réponses avec des notations détaillées (échelles, choix multiples), ou des réponses plus générales et ouvertes ?
 - Les feedbacks doivent-ils être anonymes ou identifiés ?
 - Souhaitez-vous que le bot soit utilisé pour recueillir des retours pendant les sessions de formation ?
+- Les données récoltées restent-elles strictement internes ou peuvent-elles être publiées sur votre site, par exemple sous forme de statistiques ?
