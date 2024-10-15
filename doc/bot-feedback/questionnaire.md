@@ -1,3 +1,5 @@
 - Actuellement, comment sont effectués les retours des apprenants ?
 - Sur quel support sont collectés ces retours ?
 - Peut-on voir un exemple de formulaire utilisé actuellement ?
+- Quel est le taux de participation aux feedbacks ?
+  - Si le taux de participation est bas, êtes vous ouvert à une amélioration du formulaire ?
