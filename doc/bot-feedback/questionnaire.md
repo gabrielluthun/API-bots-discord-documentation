@@ -11,3 +11,4 @@
   - Êtes-vous ouvert à une modification des questions si besoin ?
     - Les questions doivent-elles avoir des réponses avec des notations détaillées (échelles, choix multiples), ou des réponses plus générales et ouvertes ?
 - Les feedbacks doivent-ils être anonymes ou identifiés ?
+- Souhaitez-vous que le bot soit utilisé pour recueillir des retours pendant les sessions de formation ?
