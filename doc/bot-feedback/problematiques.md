@@ -5,7 +5,7 @@
         <td align="center">Solution</td>
     </tr>
     <tr>
-        <td rowspan="3" align="center"><strong>Collecte des retours</strong></td>
+        <td rowspan="3" align="center"><strong>Automatisation de la collecte</strong></td>
         <td align="center">Le processus de collecte des retours des apprenants est souvent manuel</td>
         <td align="center"><a href="#">Intégrer un bot de feedback pour automatiser la collecte et le suivi des retours des apprenants</a></td>
     </tr>
