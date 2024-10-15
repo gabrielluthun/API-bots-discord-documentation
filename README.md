@@ -42,11 +42,11 @@ Cela garantit une meilleure traçabilité et simplifie la gestion des erreurs.
 Nom en anglais : Les titres des pull requests doivent être rédigés en anglais pour garantir une compréhension globale de l'équipe.
 
 
-## Tags sur les pull requests
+## Labels sur les pull requests
 
-Ajout de tags : Chaque pull request doit inclure un ou plusieurs tags pour faciliter la gestion des PRs. 
+Ajout de labels : Chaque pull request doit inclure un ou plusieurs labels pour faciliter la gestion des PRs. 
 
-Les tags peuvent indiquer le type de changement, la partie du projet concernée, ou des informations spécifiques comme la documentation ou le nom d’un bot.
+Les labels peuvent indiquer le type de changement, la partie du projet concernée, ou des informations spécifiques comme la documentation ou le nom d’un bot.
 
 ## Noms de fichiers
 
