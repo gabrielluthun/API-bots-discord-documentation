@@ -6,7 +6,7 @@ Les objectifs stratégiques de Simplon visent à renforcer sa position dans le s
 
 ### Gagner la confiance des financeurs et partenaires
 
-L’un des objectifs majeurs de Simplon est de maintenir la confiance des financeurs tels que les régions, les entreprises et les OPCO (Opérateurs de Compétences) qui financent les formations. Il est crucial pour Simplon de démontrer un haut niveau de professionnalisme, y compris à travers l’utilisation de ses outils numériques, comme Discord. Le serveur Discord doit donc rester propre et professionnel, garantissant un environnement de travail efficace et organisé. Cela est essentiel pour inspirer confiance non seulement aux apprenants, mais aussi aux financeurs.
+L’un des objectifs majeurs de Simplon est de maintenir la confiance des financeurs tels que les régions, les entreprises et les OPCO (Opérateurs de Compétences) qui financent les formations. Il est crucial pour Simplon de démontrer un haut niveau de professionnalisme, y compris à travers l’utilisation de ses outils numériques. Le serveur Discord doit donc rester propre et professionnel, garantissant un environnement de travail efficace et organisé. Cela est essentiel pour inspirer confiance non seulement aux apprenants, mais aussi aux financeurs.
 
 Simplon doit aussi s'assurer que Discord est utilisé de manière à faciliter les interactions entre les apprenants, les formateurs et les alumni, renforçant ainsi les liens au sein de la communauté Simplon.
 
@@ -34,7 +34,7 @@ Discord peut être optimisé grâce à divers bots qui permettent d’automatise
 
 **Bot Onboarding :** facilite l'intégration des nouvelles promotions en automatisant la création des salons pour chaque groupe. Avant cela, les chargés de projet devaient configurer manuellement les espaces Discord pour chaque nouvelle promotion, ce qui représentait une charge de travail importante.
 
-Ces outils permettent à Simplon de gérer plus efficacement son serveur Discord, en évitant les erreurs humaines et en offrant un gain de temps précieux.
+Ces outils permettront à Simplon de gérer plus efficacement son serveur Discord, en évitant les erreurs humaines et en offrant un gain de temps précieux.
 
 ### Faciliter la communication verticale et horizontale
 

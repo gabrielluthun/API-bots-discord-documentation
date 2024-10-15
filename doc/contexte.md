@@ -1,4 +1,4 @@
-# Contexte et enjeux: le client et son secteur d'activité
+# Contexte: le client et son secteur d'activité
 
 ## Présentation de Simplon
 
