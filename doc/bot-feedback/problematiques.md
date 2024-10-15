@@ -18,12 +18,8 @@
         <td align="center"><a href="#">Mettre en place des outils d'analyse intégrés au bot pour traiter les retours et générer des rapports automatiques</a></td>
     </tr>
     <tr>
-       <td rowspan="3" align="center"><strong>Uniformisation du formulaire</strong></td>
-        <td align="center">Les retours des apprenants manquent souvent de clarté et de cohérence.</td>
-        <td align="center"><a href="#">Utiliser le bot pour créer des modèles de questionnaires standardisés afin d'obtenir des retours structurés.</a></td>
-    </tr>
-    <tr>
-        <td align="center">Les informations recueillies sont souvent trop vagues pour être exploitables</td>
+       <td rowspan="2" align="center"><strong>Uniformisation du formulaire</strong></td>
+       <td align="center">Les informations recueillies sont souvent trop vagues pour être exploitables</td>
         <td align="center"><a href="#">Proposer des questions précises via le bot pour obtenir des retours clairs et exploitables</a></td>
     </tr>
     <tr>
