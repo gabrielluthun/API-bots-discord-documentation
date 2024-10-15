@@ -1,10 +1,10 @@
-## Objet : Remerciements et compte-rendu suite à notre rendez-vous du *"Insérer date"*
+## Objet : Remerciements et compte-rendu suite à notre rendez-vous du _"Insérer date"_
 
 Bonjour Claire et Benjamin,
 
 Nous tenons à vous remercier sincèrement pour le temps précieux que vous nous avez accordé lors de notre rencontre du **"insérer date"**.
 
-Ce fut un véritable plaisir d'échanger avec vous, et nous avons particulièrement apprécié la qualité de vos retours ainsi que votre vision claire du projet. 
+Ce fut un véritable plaisir d'échanger avec vous, et nous avons particulièrement apprécié la qualité de vos retours ainsi que votre vision claire du projet.
 
 Vos idées et suggestions ont été extrêmement enrichissantes pour nous, et elles contribueront sans aucun doute à la réussite de ce projet.
 
@@ -43,11 +43,9 @@ Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 -
 -
 
-Si vous avez des éléments supplémentaires à ajouter ou des sujets que vous souhaiteriez que nous abordions dans les prochaines discussions, n’hésitez surtout pas à nous en faire part. Nous sommes très heureux de collaborer avec vous et enthousiastes à l'idée d'avancer ensemble sur les prochaines phases du projet.
+Si vous avez des réserves sur un des points évoqués plus haut, d'autres éléments à ajouter ou des sujets que vous souhaiteriez aborder lors de nos prochains échanges; n’hésitez pas à nous en faire part. Nous sommes très heureux de collaborer avec vous et sommes enthousiastes à l'idée d'avancer ensemble sur les prochaines phases du projet.
 
-Nous restons bien entendu à votre disposition pour toute question complémentaire. 
-
-N'hésitez pas à revenir vers nous si vous avez besoin de précisions sur les points abordés lors de notre rendez-vous.
+Nous restons bien entendu à votre disposition pour toute question complémentaire. Aussi, n'hésitez pas à revenir vers nous si vous avez besoin de précisions sur les points abordés lors de notre rendez-vous.
 
 Dans l’attente de vous lire, nous vous souhaitons une excellente journée.
 
