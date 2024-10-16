@@ -38,7 +38,10 @@ Ces outils permettront à Simplon de gérer plus efficacement son serveur Discor
 
 ### Faciliter la communication verticale et horizontale
 
+Le schéma ci-dessous illustre les interactions au sein de notre plateforme Discord, qui sert de point central pour les échanges entre différents acteurs de la formation. Il montre les flux de communication entre les apprenants, les formateurs, les centres de formation répartis dans la région, ainsi que les partenaires, anciens apprenants, membres du staff et, à terme, les entreprises. Ce réseau collaboratif favorise le partage de connaissances et le suivi tout au long du parcours de formation.
+
 ![image](/./doc/assets/images/schema-communication.png)
+
 L’un des principaux objectifs opérationnels est de bien gérer la communication au sein de Discord, à la fois entre les formateurs, les apprenants et les alumni (communication verticale), mais aussi entre les apprenants eux-mêmes (communication horizontale). Une communication fluide permet un partage des connaissances optimisé et une meilleure coordination des activités pédagogiques.
 
 Simplon doit s’assurer que les informations circulent correctement et que le partage des ressources est bien structuré entre les différents acteurs. Cela inclut des interactions régulières et pertinentes via Discord, notamment par la mise en place de canaux dédiés à chaque type de communication (ressources, retours, mentorat, etc.).
