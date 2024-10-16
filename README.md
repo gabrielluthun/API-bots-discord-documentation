@@ -7,19 +7,19 @@ Afin de maintenir une cohérence et une clarté dans notre travail collaboratif,
 Les messages de commit doivent suivre ce format :
 
 
-    type(bot/fichier): titre du commit
+    type(bot): titre du commit
 
 ### Explication :
 
  ***type*** : Le type de modification, par exemple "docs" ou "feat".
 
- ***bot/fichier*** : Le nom du bot puis du fichier concerné par la modification.
+ ***bot*** : Le nom du bot.
 
  ***titre du commit***: Une description concise du changement apporté. (en anglais)
  
 ### Exemple :
 
-    docs(bot-feedback/problematiques.md): add problems
+    docs(bot-feedback): add problems
 
 ## Body du commit (corps détaillé)
 
