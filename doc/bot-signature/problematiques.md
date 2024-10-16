@@ -4,7 +4,7 @@ Actuellement, les apprenants signent chaque jour sur l'application SWS student e
 La problématique est qu'il arrive que les formateurs et les apprenants oublient d'émarger, ce qui est très pénalisant sur certains points, se trouvant dans le tableau ci-dessous, et les moyens mis en place pour y pallier sont inefficients. 
 Il est donc essentiel de réfléchir à des solutions afin de parer à ces problèmes.
 
-## Problems table
+
 
 <table>
     <tr>
@@ -29,7 +29,7 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td><a href="#">Centraliser les groupes d'apprenants</a></td>
     </tr>
     <tr>
-        <td>Demander un envoi de signature au coach</td>
+        <td>Demander un envoi de signature au formateur</td>
         <td><a href="#">Système de vote</a></td>
     </tr>
     <tr>
