@@ -45,7 +45,7 @@ Nous planifions également à l'avenir de travailler les points suivants :
 
 Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 
-- Par rapport à la première version du bot onboarding, nous avons compris qu'elle fonctionnait plûtôt bien jusqu'à ce que plusieurs problèmes soient apparus :
+- Par rapport à la première version du bot onboarding, nous avons compris qu'elle fonctionnait plutôt bien jusqu'à ce que plusieurs problèmes soient apparus :
 
   - Problème d'hébergement
 
@@ -63,7 +63,7 @@ Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 
 - Au sujet de l'organisation des channels ainsi que des rôles et des permissions associées, nous avons compris que ces points avait été figés en amont. Toutefois, des ajustements restent possibles si des propositions pertinentes sont soumises.
 
-- Également, au niveau des permissions données en dehors du staff, nous avons compris que ça pas d'utilité à première vue. Cela pourrait même être risqué mais comme précédemment cela reste ouvert à la discussion en cas de suggestions pertinentes.
+- Également, au niveau des permissions données en dehors du staff, nous avons compris que ça n'a pas d'utilité à première vue. Cela pourrait même être risqué mais comme précédemment cela reste ouvert à la discussion en cas de suggestions pertinentes.
 
 - En ce qui concerne les channels vocaux, nous avons noté que :
 
