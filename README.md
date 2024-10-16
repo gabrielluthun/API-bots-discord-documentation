@@ -13,7 +13,7 @@ Les messages de commit doivent suivre ce format :
 
  ***type*** : Le type de modification, par exemple "docs" ou "feat".
 
- ***bot** : Le nom du bot.
+ ***bot*** : Le nom du bot.
 
  ***titre du commit***: Une description concise du changement apporté. (en anglais)
  
