@@ -42,7 +42,7 @@ Comme convenu, les prochaines étapes seront les suivantes :
 
 Nous planifions également à l'avenir de travailler les points suivants :
 
-- Au niveau des noms de promo explorer le choix entre rentrer le nom à la main et avoir une liste déroulante
+- Exploration des options pour les noms de promotion : saisie manuelle ou liste déroulante
 
 Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 
@@ -52,7 +52,7 @@ Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 
         - Problème d'hébergement 
 
-        - Problème de MAJ du Framework  
+        - Problème de mise à jour du Framework  
 
         - Insatisfaction de la qualité du code
         
@@ -68,25 +68,25 @@ Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 
     - Ce point a été figé en amont 
 
-    - Cependant ouvert à proposition 
+    - Toutefois, des ajustements restent possibles si des propositions pertinentes sont soumises. 
 
 - Actuellement, nous avons compris que les rôles et leurs autorisations associées sont figées et ne sont pas vouées à évoluer, sauf suggestion pertinente.
 
 - Également, au niveau des permissions données en dehors du staff, nous avons compris que pas d'utilité à première vue, voir risqué, ouvert à la discussion si suggestion pertinente    
     
-- On a abordé les channels vocaux, et on a compris que : 
+- En ce qui concerne les channels vocaux, nous avons noté que :
 
-    - Actuellement il y'a d'office 5 channels vocaux par promo ce qui sature le nombre de channel global.
+    - Il y a actuellement 5 channels vocaux par promotion, ce qui sature le nombre total de channels.
 
-    - Piste du channel vocal temporaire comme solution d'optimisation  
+    - La piste des channels vocaux temporaires est envisagée comme une solution pour optimiser cet aspect.  
 
 - Nous retenons que l'instabilité de la nomenclature des formations est un frein à l'automatisation de leurs nommages.
 
 - Concernant l'utilité du rôle fabrique : 
 
-    - Sert à taguer les personnes concernées par la fabrique 
+    - Il permet d'identifier les personnes associées à une fabrique spécifique.
 
-    - Ouvert à l'amélioration
+    - Son usage actuel peut cependant être optimisé, et des améliorations sont envisageables.
 
 Pour rappel, lors de cet entretien, vous avez convenu de :
 
