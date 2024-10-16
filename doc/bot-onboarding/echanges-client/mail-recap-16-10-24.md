@@ -10,8 +10,8 @@ Vos réponses, idées et suggestions ont été extrêmement enrichissantes pour 
 
 Durant notre rendez-vous, nous avons discuté des points suivants :
 
-- La version 1.0 du bot onboarding 
-- La stack technologique du projet 
+- La version 1.0 du bot onboarding
+- La stack technologique du projet
 - Choix Prisma vs TypeORM
 - L'organisation des channels
 - Les rôles et leurs autorisations associées
@@ -20,15 +20,14 @@ Durant notre rendez-vous, nous avons discuté des points suivants :
 - L'automatisation des nommages de promo
 - L'utilité du rôle fabrique
 - Les channels vocaux temporaires
-- Terme de fabrique et son utilité dans le serveur 
 - Faire valider les règles aux nouveaux arrivants
 - L'utilité du channel identification et pourquoi il est encore sur le serveur ?
 
 À l'issue de notre discussion, nous avons convenu des actions suivantes :
 
-- Envoi des questions en amont des entretiens lors des rendez-vous suivants
+- Envoi des questions en amont des prochains rendez-vous
 
-Nous avons également validé les éléments suivants à prendre en compte lors du développement du bot:
+Nous avons également validé les éléments suivants pour le développement du bot:
 
 - Faire valider les règles aux nouveaux arrivants
 - La création de channels temporaires
@@ -46,55 +45,47 @@ Nous planifions également à l'avenir de travailler les points suivants :
 
 Je vous confirme que nous avons bien pris en compte les remarques suivantes :
 
-- Par rapport à la première version du bot onboarding nous avons compris que :
-    
-    - La v1 fonctionnait plûtôt bien jusqu'à ce que plusieurs problèmes sont apparus 
+- Par rapport à la première version du bot onboarding, nous avons compris qu'elle fonctionnait plûtôt bien jusqu'à ce que plusieurs problèmes soient apparus :
 
-        - Problème d'hébergement 
+  - Problème d'hébergement
 
-        - Problème de mise à jour du Framework  
+  - Problème de mise à jour du Framework
 
-        - Insatisfaction de la qualité du code
-        
-        - Manque de temps
+  - Insatisfaction de la qualité du code
 
-        - Manque de développeur
+  - Manque de temps
 
-        - Manque d'organisation entre le software et le hardware (hébergeur)
+  - Manque de développeur
+
+  - Manque d'organisation entre le software et le hardware (hébergeur)
 
 - Concernant la stack technique et le choix de l'ORM, nous avons compris que la réalisation d'un benchmark sera nécessaire.
 
-- Au sujet de l'organisation des channels, nous avons compris que : 
+- Au sujet de l'organisation des channels ainsi que des rôles et des permissions associées, nous avons compris que ces points avait été figés en amont. Toutefois, des ajustements restent possibles si des propositions pertinentes sont soumises.
 
-    - Ce point a été figé en amont 
+- Également, au niveau des permissions données en dehors du staff, nous avons compris que ça pas d'utilité à première vue. Cela pourrait même être risqué mais comme précédemment cela reste ouvert à la discussion en cas de suggestions pertinentes.
 
-    - Toutefois, des ajustements restent possibles si des propositions pertinentes sont soumises. 
-
-- Actuellement, nous avons compris que les rôles et leurs autorisations associées sont figées et ne sont pas vouées à évoluer, sauf suggestion pertinente.
-
-- Également, au niveau des permissions données en dehors du staff, nous avons compris que pas d'utilité à première vue, voir risqué, ouvert à la discussion si suggestion pertinente    
-    
 - En ce qui concerne les channels vocaux, nous avons noté que :
 
-    - Il y a actuellement 5 channels vocaux par promotion, ce qui sature le nombre total de channels.
+  - Il y a actuellement 5 channels vocaux par promotion, ce qui sature le nombre total de channels.
 
-    - La piste des channels vocaux temporaires est envisagée comme une solution pour optimiser cet aspect.  
+  - La piste des channels vocaux temporaires est envisagée comme une solution pour optimiser cet aspect.
 
 - Nous retenons que l'instabilité de la nomenclature des formations est un frein à l'automatisation de leurs nommages.
 
-- Concernant l'utilité du rôle fabrique : 
+- Concernant l'utilité du rôle fabrique :
 
-    - Il permet d'identifier les personnes associées à une fabrique spécifique.
+  - Il permet d'identifier les personnes associées à une fabrique spécifique.
 
-    - Son usage actuel peut cependant être optimisé, et des améliorations sont envisageables.
+  - Son usage actuel peut cependant être optimisé, et des améliorations sont envisageables.
 
 Pour rappel, lors de cet entretien, vous avez convenu de :
 
 - Nous fournir l'arborescence du serveur discord
 
-- Nous communiquer également dernière nomenclature en date
+- Nous communiquer également la dernière nomenclature en date
 
-- Vous pencher sur la question du channel identification
+- Vous pencher sur la persistance du channel identification
 
 Si vous avez des réserves sur un des points évoqués plus haut, d'autres éléments à ajouter ou des sujets que vous souhaiteriez aborder lors de nos prochains échanges; n’hésitez pas à nous en faire part. Nous sommes très heureux de collaborer avec vous et sommes enthousiastes à l'idée d'avancer ensemble sur les prochaines phases du projet.
 
