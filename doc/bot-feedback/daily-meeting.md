@@ -3,6 +3,7 @@
 **Présents :**
 - Boris
 - Justin
+- Julien
 
 ## Avancement :
 - Boris :
