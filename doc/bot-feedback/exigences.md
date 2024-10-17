@@ -19,4 +19,9 @@
    - Le bot doit pouvoir automatiser l'envoi des sondages à des dates précises, en fonction des étapes clés du parcours des apprenants.
    - Le bot doit pouvoir intégrer automatiquement les résultats des sondages.
 
+
 # Exigences non fonctionnelles
+
+1. **Facilité d'utilisation** :
+   - Le bot doit être simple à utiliser, avec une interface intuitive sur Discord, accessible aux apprenants et aux administrateurs.
+   - La gestion des sondages et de notifications doit être fluide, afin de réduire le besoin d’interventions manuelles.
