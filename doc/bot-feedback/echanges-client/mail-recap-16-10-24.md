@@ -21,3 +21,9 @@ Voici un récapitulatif des principaux points abordés et des décisions prises 
 - Sondages standardisés et non standardisés
 
 - Automatisation des sondages
+
+
+**Décisions prises :**
+- Notification de rappel : Un système de rappel sera mis en place pour rappeler aux apprenants de remplir les formulaires Simplon. Ces notifications seront envoyées à des moments stratégiques, comme une semaine avant la fin de la formation, afin d’améliorer le taux de réponse.
+
+- Sondages exclusivement sur Discord : Nous avons convenu d’utiliser exclusivement Discord pour l’envoi et la collecte des sondages. Cela permettra de centraliser les retours sur une seule plateforme, facilitant ainsi la gestion des réponses.
