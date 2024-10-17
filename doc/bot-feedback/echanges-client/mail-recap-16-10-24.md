@@ -65,3 +65,12 @@ Voici un récapitulatif des principaux points abordés et des décisions prises 
 
 6. **Maintien des formulaires actuels** :
    - Garantir que les formulaires déjà en place ne soient pas modifiés.
+
+   Si vous souhaitez ajouter ou modifier certains points, n’hésitez pas à nous le faire savoir.
+
+Nous restons à votre disposition pour toutes questions ou précision.
+
+Bien cordialement,
+
+**Boris Betremieux**
+Le groupe bot discord feedback.
