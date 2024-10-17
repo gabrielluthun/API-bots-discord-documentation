@@ -15,6 +15,8 @@
 
 ## Exigences non fonctionnelles
 
+### Sécurité
+
 - En accord avec le principe de moindre privilège, les fonctionnalités sensibles doivent être limitées aux admins et protégés par un système d'authentification robuste.
 - En accord avec la RGPD, les données des nouveaux arrivants doivent être stockées de manière sécurisée.
 - En accord avec la RGPD, les données des nouveaux arrivants doivent être protégées.
@@ -22,3 +24,7 @@
 - Les nouveaux arrivants ne doivent pas avoir accès aux channels avant d'avoir son identification accepté et d'avoir accepté le règlement.
 - Le système doit permettre la journalisation des évènements survenus au sein de ce dernier.
 - Les nouveaux arrivants doivent également être sensibilisés aux bonnes pratiques en termes de sécurité via un guide d'utilisation.
+
+### Performance
+
+- Le bot doit être réactif et répondre rapidement  aux commandes des utilisateurs et gérer plusieurs requêtes en même temps.
