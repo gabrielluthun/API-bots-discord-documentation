@@ -29,3 +29,6 @@
 2. **Sécurité et confidentialité des données** :
    - Le bot doit assurer la sécurité des données collectées, avec une protection adéquate des informations personnelles des apprenants (RGPD).
    - Le bot doit permettre l'anonymisation des réponses pour les sondages, garantissant la confidentialité des participants.
+
+5. **Adaptabilité aux évolutions** :
+   - Le bot doit être conçu de manière à pouvoir évoluer, avec la possibilité d’ajouter de nouvelles fonctionnalités ou de modifier les sondages en fonction des besoins futurs.
