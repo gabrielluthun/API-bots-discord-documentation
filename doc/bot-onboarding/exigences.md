@@ -19,3 +19,5 @@
 - En accord avec la RGPD, les données des nouveaux arrivants doivent être stockées de manière sécurisée.
 - En accord avec la RGPD, les données des nouveaux arrivants doivent être protégées.
 - En accord avec la RGPD, les nouveaux arrivants doivent accepter le traitement de leurs données.
+- Les nouveaux arrivants ne doivent pas avoir accès aux channels avant d'avoir son identification accepté et d'avoir accepté le règlement.
+- Le système doit permettre la journalisation des évènements survenus au sein de ce dernier.
