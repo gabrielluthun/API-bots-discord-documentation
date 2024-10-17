@@ -32,6 +32,7 @@
 ### Ergonomie
 
 - Le bot doit offrir une interface ergonomique. 
+- Le bot doit offrir des messages d'erreurs clair.
 
 ### Disponibilité
 
