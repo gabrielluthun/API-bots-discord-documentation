@@ -31,3 +31,7 @@ Voici un récapitulatif des principaux points abordés et des décisions prises 
 - Variation de scope des sondages : Il a été décidé d’ajuster la portée des sondages. Cela permettra de personnaliser les questions et d’obtenir des données plus pertinentes pour chaque groupe.
 
 - Sondages standardisés et non standardisés : Les sondages seront divisés en deux catégories. Les sondages standardisés seront utilisés pour les besoins globaux, tandis que les sondages non standardisés serviront à obtenir des retours plus libres et personnalisés. Certains sondages non standardisés pourront également être anonymes pour encourager des réponses plus sincères.
+
+- Automatisation des sondages : Nous avons validé l’opportunité d’automatiser les sondages standardisés. Cette automatisation comprendra l’envoi automatique des questionnaires et des rappels.
+
+- Maintien des formulaires actuels : Les formulaires déjà en place (Qualiopi et Région) ne seront pas modifiés, conformément aux exigences du siège et des certifications Qualiopi. Ces formulaires sont essentiels pour garantir la conformité et maintenir les contrats en cours, notamment avec France Travail.
