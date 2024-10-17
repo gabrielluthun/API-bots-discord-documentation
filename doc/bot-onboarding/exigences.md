@@ -28,3 +28,7 @@
 ### Performance
 
 - Le bot doit être réactif et répondre rapidement  aux commandes des utilisateurs et gérer plusieurs requêtes en même temps.
+
+### Ergonomie
+
+- Le bot doit offrir une interface ergonomique. 
