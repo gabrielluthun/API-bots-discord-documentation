@@ -12,3 +12,5 @@
 5.  Doit-on fournir un guide d'utilisation aux nouveaux arrivants pour évoquer les bonnes pratiques en terme de sécurité ?
 
 6. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
+
+7. A la création d'une promotion, la possibilité de mettre une date de début et une date de fin pour définir sa période de validité ? Possibilité d'enlevé la période de validité. 
