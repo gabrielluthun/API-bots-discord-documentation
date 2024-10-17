@@ -25,3 +25,7 @@
 1. **Facilité d'utilisation** :
    - Le bot doit être simple à utiliser, avec une interface intuitive sur Discord, accessible aux apprenants et aux administrateurs.
    - La gestion des sondages et de notifications doit être fluide, afin de réduire le besoin d’interventions manuelles.
+
+2. **Sécurité et confidentialité des données** :
+   - Le bot doit assurer la sécurité des données collectées, avec une protection adéquate des informations personnelles des apprenants (RGPD).
+   - Le bot doit permettre l'anonymisation des réponses pour les sondages, garantissant la confidentialité des participants.
