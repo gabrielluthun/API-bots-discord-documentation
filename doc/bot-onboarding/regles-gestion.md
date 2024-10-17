@@ -11,3 +11,17 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 **RG6** : Lors de la modification, un message pour confirmer apparait
 **RG7** : Lors de la suppression, un message pour confirmer apparait
 **RG8** : Lors de la création, un message pour confirmer apparait
+**RG9** : Pour créer une promotion il sera nécesssaire de sélectionner sa formation et sa fabrique associé
+**RG10** : La création d'une promotion crée également un rôle associé avec le nom de la promo
+
+## Gestion de formation
+**RG11** : Une formation contient un nom qui l'a décrit
+**RG12** : Une formation contient un nom qui la décrit 
+**RG13** : Seul un administrateur peut créer une formation
+**RG14** : Seul un administrateur peut modifier une formation 
+**RG15** : Seul un admnistrateur peut supprimer une formation 
+**RG16** : Lors de la modification, un message pour confirmer apparait
+**RG17** : Lors de la suppression, un message pour confirmer apparait
+**RG18** : Lors de la création, un message pour confirmer apparait
+**RG18** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
+**RG19** : Lors de la modification d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
