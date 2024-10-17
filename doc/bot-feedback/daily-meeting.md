@@ -13,6 +13,7 @@
 ## Blocages :
 - Boris :
 - Justin :
+- Julien :
 
 ## Priorités du jour :
 - Boris :
