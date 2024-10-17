@@ -18,3 +18,4 @@
 ## Priorités du jour :
 - Boris :
 - Justin :
+- Julien :
