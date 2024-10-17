@@ -16,3 +16,5 @@
 - Le bot doit permettre aux nouveaux arrivants de s'identifier 
 - Le bot doit permettre aux admins d'accepter ou refuser les demandes d'identifications
 - Le bot doit permettre aux apprenants de savoir si leur demande d'identification a été accepté
+- Le bot doit permettre à l'admin de masquer ou non les promos pour lui
+- Le bot donne accès aux diffèrents channel une fois le réglement accepté par les nouveaux arrivants
