@@ -68,7 +68,7 @@ Voici un récapitulatif des principaux points abordés et des décisions prises 
 
    Si vous souhaitez ajouter ou modifier certains points, n’hésitez pas à nous le faire savoir.
 
-Nous restons à votre disposition pour toutes questions ou précision.
+Nous restons à votre disposition pour toute question ou précision.
 
 Bien cordialement,
 
