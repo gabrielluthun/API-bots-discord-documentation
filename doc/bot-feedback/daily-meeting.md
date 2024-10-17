@@ -8,6 +8,7 @@
 ## Avancement :
 - Boris :
 - Justin :
+- Julien :
 
 ## Blocages :
 - Boris :
