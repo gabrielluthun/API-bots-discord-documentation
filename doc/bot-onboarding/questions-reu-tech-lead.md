@@ -8,3 +8,7 @@
 
 - J'ai lu et j'accepte les règles du serveur
 - J'ai pris connaissance des règles du serveur
+
+5.  Doit-on fournir un guide d'utilisation aux nouveaux arrivants pour évoquer les bonnes pratiques en terme de sécurité ?
+
+6. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
