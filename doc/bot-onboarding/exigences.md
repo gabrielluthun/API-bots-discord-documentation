@@ -32,3 +32,7 @@
 ### Ergonomie
 
 - Le bot doit offrir une interface ergonomique. 
+
+### Disponibilité
+
+- Le bot doit être disponible en permanence, sauf pendant les périodes de maintenance, qui devraient de préférence avoir lieu le soir.
