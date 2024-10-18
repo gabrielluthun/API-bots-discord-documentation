@@ -45,7 +45,7 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG28** : Seul un admnistrateur pourra notifier les personnes concerné par une fabrique 
 
 ## Gestion des channels
-- **RGX** : Un channel contient un nom unique qui la décrit 
+- **RGX** : Un channel contient un nom unique qui le décrit 
 - **RGX** : Un channel a un emoji qui le défini
 - **RGX** : Deux channels peuvent avoir le même emoji
 - **RGX** : LOrs de la création d'un channel, celui-ci peut être stocké en tant que template de channel
@@ -57,3 +57,10 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 ## Gestion des channels vocaux
 - **RGX** : Les channels vocaux peuvent être temporaire
 
+## Gestion des Forums
+- **RGX** : Un forum contient un nom unique qui le décrit
+- **RGX** : 
+- **RGX** : 
+
+## Gestion des Posts
+- **RGX** : Empêcher les apprenants de créer des posts
