@@ -25,3 +25,5 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 **RG18** : Lors de la création, un message pour confirmer apparait
 **RG18** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
 **RG19** : Lors de la modification d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
+
+## Gestion de fabrique
