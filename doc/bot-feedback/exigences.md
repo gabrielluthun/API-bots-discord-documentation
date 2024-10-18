@@ -33,7 +33,7 @@
 
 3. **Facilité d'utilisation** :
    - Le bot doit permettre une utilisation simple avec une interface intuitive.
-   - Le bot doit permettre la simplification de la reception des sondages aux apprenants.
+   - Le bot doit simplifier la reception des sondages aux apprenants.
    - Le bot doit permettre une gestion fluide des sondages et des notifications, réduisant le besoin d’interventions manuelles.
 
 4. **Adaptabilité aux évolutions** :
