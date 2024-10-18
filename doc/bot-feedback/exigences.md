@@ -26,3 +26,7 @@
 
 1. **Formulaires existants non modifiés** :
    - Le bot ne doit pas modifier les formulaires existants imposés par Qualiopi et le siège.
+   
+2. **Sécurité et confidentialité des données** :
+   - Le bot doit permettre la protection des données collectées, avec conformité RGPD.
+   - Le bot doit permettre l’anonymisation des réponses pour garantir la confidentialité des participants.
