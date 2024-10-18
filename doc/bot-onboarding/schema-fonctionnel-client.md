@@ -12,7 +12,7 @@
 
 ## Onboarding par promo - forums et chans
 
-**Par promo :**
+### Par promo 
 
 - Forum Apprenants
     
@@ -22,7 +22,7 @@
     - Détente/Zoo
     - Briefs/Fil rouge
 
-**Le formateur doit avoir la possibilité de rajouter des forums (par exemple "point de fin de semaine" etc..).**
+***Le formateur doit avoir la possibilité de rajouter des forums (par exemple "point de fin de semaine" etc..).***
 
 - Channels vocaux
 
@@ -31,4 +31,25 @@
 
 - Forum pédago
     - Orga
-    
+
+### Architecture par famille de métier
+
+- **Forum DEV**
+    - HTML/CC
+    - PHP
+    - COBOL
+    - JS/TS
+    - C#
+    - Java
+    - Python
+    - BDD
+    - GIT/ GITHUB
+    - IDE
+    - Container
+    - ORM
+    - MAC
+    - Linux
+    - Windows
+    - Terminal
+
+
