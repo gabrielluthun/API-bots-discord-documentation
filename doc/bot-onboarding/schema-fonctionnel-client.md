@@ -132,3 +132,52 @@
         - Shell
         - SQL
 
+    - **Forums de Développement**
+    - HTML/CSS
+        - Responsive Design
+        - Frameworks
+        - SASS
+        - Bootstrap
+    - PHP
+        - Laravel
+        - Symfony
+        - Wordpress
+        - Composer
+    - COBOL
+        - Mainframe
+        - JCL
+        - DB2
+        - Modernisation
+    - JavaScript/TypeScript
+        - NodeJS
+        - React
+        - Angular
+        - VueJS
+        - ES6
+    - C#
+        - .NET
+        - ASP.NET
+        - Unity
+        - Xamarin
+        - WPF
+    - Java
+        - Spring
+        - Hibernate
+        - J2EE
+        - Maven
+    - Python
+        - Django
+        - Flask
+        - Data Science
+        - Machine Learning
+    - Base de données (BDD)
+        - MySQL
+        - PostgreSQL
+        - MongoDB
+        - SQL Server
+    - GIT/GitHub
+        - Branching
+        - Merging
+        - CI/CD
+        - Repositories
+
