@@ -15,3 +15,9 @@
 
 4. **Sondages standardisés et non standardisés** :
    - Le bot doit permettre la gestion de sondages standardisés (questions fixes) et non standardisés (questions personnalisées).
+
+5. **Automatisation des sondages** :
+   - Le bot doit permettre l’automatisation des envois de sondages à des dates précises, en fonction des étapes du parcours des apprenants.
+   - Le bot doit permettre l’intégration automatique des résultats des sondages pour analyse.
+
+
