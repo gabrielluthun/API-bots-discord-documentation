@@ -10,3 +10,5 @@
 - J'ai pris connaissance des règles du serveur
 
 5. On a entendu dire que le terme de fabrique serait sans doute remplacé par celui de campus, quel terme doit-on utiliser dans la documentation ?
+
+6. Sur ce sujet, avons-nous des nouvelles concerant la nouvelle nomenclature ? Par exemple, pour les noms de promo ?
