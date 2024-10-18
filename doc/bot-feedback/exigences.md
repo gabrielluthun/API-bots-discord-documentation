@@ -12,3 +12,6 @@
 
 3. **Personnalisation de la portée des sondages** :
    - Le bot doit permettre de créer des sondages ciblant des groupes spécifiques ou toute la communauté.
+
+4. **Sondages standardisés et non standardisés** :
+   - Le bot doit permettre la gestion de sondages standardisés (questions fixes) et non standardisés (questions personnalisées).
