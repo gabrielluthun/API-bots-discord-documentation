@@ -21,3 +21,8 @@
    - Le bot doit permettre l’intégration automatique des résultats des sondages pour analyse.
 
 
+
+# Exigences non fonctionnelles
+
+1. **Formulaires existants non modifiés** :
+   - Le bot ne doit pas modifier les formulaires existants imposés par Qualiopi et le siège.
