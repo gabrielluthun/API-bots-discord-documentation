@@ -16,13 +16,19 @@
 
 - Forum Apprenants
     
-    - général
-    - absences / retards
-    - signature
-    - détente / zoo
-    - briefs / fil-rouge
+    - Général
+    - Absences/retard
+    - Signature
+    - Détente/Zoo
+    - Briefs/Fil rouge
+
+**Le formateur doit avoir la possibilité de rajouter des forums (par exemple "point de fin de semaine" etc..).**
 
 - Channels vocaux
 
     - On demand
     - SOS
+
+- Forum pédago
+    - Orga
+    
