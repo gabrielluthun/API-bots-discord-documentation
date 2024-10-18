@@ -71,3 +71,20 @@
     - automatisation
     - Scripting
 
+- Data IA
+    - HTML/CSS
+    - Containers
+    - Linux
+    - Django
+    - IDE
+    - BDD
+    - Machine Learning 
+    - Data
+    - Azure
+    - prompt Engineering
+    - Terminal
+    - Notion
+    - Scrapping
+    - Déploiement
+    - Agilité
+    - Gestion de projet
