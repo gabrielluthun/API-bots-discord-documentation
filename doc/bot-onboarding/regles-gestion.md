@@ -13,6 +13,10 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG8** : Lors de la création, un message pour confirmer apparait
 - **RG9** : Pour créer une promotion il sera nécesssaire de sélectionner sa formation et sa fabrique associé
 - **RG10** : La création d'une promotion crée également un rôle associé avec le nom de la promo
+- **RG11** : La promotion disparaît un mois après la fin de la session associée
+- **RG12** : Une promotion est forcément lié à une fabrique
+- **RG13** : Une promotion est forcément lié à une promotion
+- **RG14** : Les promotions seront triées visuellement par fabrique
 
 ## Gestion de formation
 - **RG11** : Une formation contient un nom qui l'a décrit
@@ -25,7 +29,7 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG18** : Lors de la création, un message pour confirmer apparait
 - **RG18** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
 - **RG19** : Lors de la modification d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
-- **RG20** : Une formation contient un template de channels dédié
+- **RG20** : Une formation contient un template de channels organisé qui lui est dédié
 
 ## Gestion de fabrique
 - **RG21** : Une fabrique contient un nom qui la décrit 
@@ -35,4 +39,28 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG25** : Lors de la modification, un message pour confirmer apparait
 - **RG26** : Lors de la suppression, un message pour confirmer apparait
 - **RG27** : Lors de la création, un message pour confirmer apparait
-- **(A revoir)** **RG28** : Une création de fabrique a pour conséquence la création de son canal discord associé
+- **RGX** : Une fabrique est lié à tous les apprenants en cours de formation dans celle-ci
+- **RGX** : Une fabrique n'est plus lié à un apprenant lorsqu'il termine sa formation
+- **RG28** : Une création de fabrique a pour conséquence la création de son rôle discord associé
+- **RG28** : Seul un admnistrateur pourra notifier les personnes concerné par une fabrique 
+
+## Gestion des channels
+- **RGX** : Un channel contient un nom unique qui le décrit 
+- **RGX** : Un channel a un emoji qui le défini
+- **RGX** : Deux channels peuvent avoir le même emoji
+- **RGX** : LOrs de la création d'un channel, celui-ci peut être stocké en tant que template de channel
+- **RGX** : Un template de channels générique et disponible
+- **RGX** : Les channels disparaissent un mois après la fin de la session associé
+- **RGX** : Une template de channels est une liste de channels organisés
+- **RGX** : Les channels disparaissent un mois après la fin de la session associé
+
+## Gestion des channels vocaux
+- **RGX** : Les channels vocaux peuvent être temporaire
+
+## Gestion des Forums
+- **RGX** : Un forum contient un nom unique qui le décrit
+- **RGX** : 
+- **RGX** : 
+
+## Gestion des Posts
+- **RGX** : Empêcher les apprenants de créer des posts
