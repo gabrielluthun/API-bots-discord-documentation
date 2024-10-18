@@ -27,7 +27,8 @@
    - Le bot doit permettre l'anonymisation des réponses pour les sondages, garantissant la confidentialité des participants.
 
 2. **Facilité d'utilisation** :
-   - Le bot doit être simple à utiliser, avec une interface intuitive sur Discord, accessible aux apprenants et aux administrateurs.
+   - Le bot doit être simple à utiliser avec une interface intuitive.
+   - Le bot doit permettre la simplification de la reception des sondages aux apprenants.
    - La gestion des sondages et de notifications doit être fluide, afin de réduire le besoin d’interventions manuelles.
 
 5. **Adaptabilité aux évolutions** :
