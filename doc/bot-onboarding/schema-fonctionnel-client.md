@@ -132,52 +132,92 @@
         - Shell
         - SQL
 
-    - **Forums de Développement**
-    - HTML/CSS
-        - Responsive Design
-        - Frameworks
-        - SASS
-        - Bootstrap
-    - PHP
-        - Laravel
-        - Symfony
-        - Wordpress
-        - Composer
-    - COBOL
-        - Mainframe
-        - JCL
-        - DB2
-        - Modernisation
-    - JavaScript/TypeScript
-        - NodeJS
-        - React
-        - Angular
-        - VueJS
-        - ES6
-    - C#
-        - .NET
-        - ASP.NET
-        - Unity
-        - Xamarin
-        - WPF
-    - Java
-        - Spring
-        - Hibernate
-        - J2EE
-        - Maven
-    - Python
-        - Django
-        - Flask
-        - Data Science
-        - Machine Learning
-    - Base de données (BDD)
-        - MySQL
-        - PostgreSQL
-        - MongoDB
-        - SQL Server
-    - GIT/GitHub
-        - Branching
-        - Merging
-        - CI/CD
-        - Repositories
+- **Forums de Développement**
+- **Forum HTML/CSS**
+    - Responsive Design
+    - Frameworks
+    - SASS
+    - Bootstrap
+- **Forum PHP**
+    - Laravel
+    - Symfony
+    - Wordpress
+    - Composer
+- **Forum COBOL**
+    - Mainframe
+    - JCL
+    - DB2
+    - Modernisation
+- **Forum JavaScript/TypeScript**
+    - NodeJS
+    - React
+    - Angular
+    - VueJS
+    - ES6
+- **Forum C#**
+    - .NET
+    - ASP.NET
+    - Unity
+    - Xamarin
+    - WPF
+- **Forum Java**
+    - Spring
+    - Hibernate
+    - J2EE
+    - Maven
+- **Forum Python**
+    - Django
+    - Flask
+    - Data Science
+    - Machine Learning
+ - **Forum Base de données (BDD)**
+    - MySQL
+    - PostgreSQL
+    - MongoDB
+    - SQL Server
+- **Forum GIT/GitHub**
+    - Branching
+    - Merging
+    - CI/CD
+    - Repositories
+
+- **Forums d'Infrastructure**
+- **Forum Hardware**
+    - CPU
+    - GPU
+    - RAM
+    - Storage
+- **Forum Virtualisation**
+    - VMWare
+    - Hyper-V
+    - KVM
+- **Forum Stockage**
+    - SAN
+    - NAS
+    - Cloud Storage
+ - **Forum Pare-feu**
+    - Configuration
+    - Sécurité
+    - Règles
+ - **Forum Supervision**
+    - Outils de monitoring
+    - Performance
+    - Alerting
+- **Forum Réseaux**
+    - Routing
+    - Switching
+    - TCP/IP
+    - VPN
+- **Forum Windows Desktop**
+    - Installation
+    - Configuration
+    - Dépannage
+- **Forum Windows Server**
+    - Active Directory
+    - IIS
+    - PowerShell
+- **Forum Android/iOS**
+    - Développement d'applications
+    - Mises à jour système
+    - Sécurité
 
