@@ -5,3 +5,7 @@
    - Le bot doit permettre la configuration de rappels
    - Le bot doit permettre de personnaliser le contenu des notifications
 
+2. **Sondages exclusivement sur Discord** :
+   - Le bot doit permettre la gestion de sondages directement via Discord.
+   - Le bot doit permettre la création de sondages directement via Discord.
+   - Le bot doit permettre la collecte des réponses
