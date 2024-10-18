@@ -12,3 +12,5 @@
 5. On a entendu dire que le terme de fabrique serait sans doute remplacé par celui de campus, quel terme doit-on utiliser dans la documentation ?
 
 6. Sur ce sujet, avons-nous des nouvelles concerant la nouvelle nomenclature ? Par exemple, pour les noms de promo ?
+
+7. Proposition pour les canaux vocaux temporaires lorsque des apprenants sont encore présents en dehors des heures de cours : préférez-vous que ces canaux disparaissent automatiquement une heure après la fin des cours (avec impossibilité d'en créer en dehors des heures de cours), ou qu'ils disparaissent à minuit, avec la possibilité de les recréer immédiatement après ? 
