@@ -35,3 +35,6 @@
    - Le bot doit permettre une utilisation simple avec une interface intuitive.
    - Le bot doit permettre la simplification de la reception des sondages aux apprenants.
    - Le bot doit permettre une gestion fluide des sondages et des notifications, réduisant le besoin d’interventions manuelles.
+
+4. **Adaptabilité aux évolutions** :
+   - Le bot doit permettre l’ajout de nouvelles fonctionnalités ou la modification des sondages en fonction des besoins futurs.
