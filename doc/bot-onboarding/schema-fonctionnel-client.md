@@ -14,7 +14,7 @@
 
 ### Par promo 
 
-- Forum Apprenants
+- **Forum Apprenants**
     
     - Général
     - Absences/retard
@@ -29,7 +29,7 @@
     - On demand
     - SOS
 
-- Forum pédago
+- **Forum pédago**
     - Orga
 
 ### Architecture par famille de métier
@@ -71,7 +71,7 @@
     - automatisation
     - Scripting
 
-- Data IA
+- **Forum Data IA**
     - HTML/CSS
     - Containers
     - Linux
@@ -88,3 +88,47 @@
     - Déploiement
     - Agilité
     - Gestion de projet
+
+- **Forum Cloud**
+    - Containers
+        - Docker
+        - ACI
+        - LCX
+    - Orchestrateurs
+        - Kubernates
+        - Docker swarm
+        - Puppet
+    - IAC
+        - Packer
+        - Terraform
+        - Ansible
+        - Python
+    - Virtualisation
+        - VMWarz
+        - Vagrant
+        - Proxmox
+        - Hypervison
+    - Pipeline
+        - Jenkins
+        - Gitlab
+        - Azure Devops
+    - Cloudcomputing
+        - Azure
+        - Open Nebulla
+        - Openstack
+    - Schématisation
+        - Draw.io
+        - Cloudcraft
+        - Visual Paradigm
+        - Cloudockit
+    - Gestion de projet
+        - Scrum
+        - Agilité
+    - Langages
+        - YAML
+        - JSON
+        - Python
+        - PowerShell
+        - Shell
+        - SQL
+
