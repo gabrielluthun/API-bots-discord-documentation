@@ -9,6 +9,6 @@
 - J'ai lu et j'accepte les règles du serveur
 - J'ai pris connaissance des règles du serveur
 
-5.  Doit-on fournir un guide d'utilisation aux nouveaux arrivants pour évoquer les bonnes pratiques en terme de sécurité ?
+5. On a entendu dire que le terme de fabrique serait sans doute remplacé par celui de campus, quel terme doit-on utiliser dans la documentation ?
 
-6. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
+6. Sur ce sujet, avons-nous des nouvelles concerant la nouvelle nomenclature ? Par exemple, pour les noms de promo ?
