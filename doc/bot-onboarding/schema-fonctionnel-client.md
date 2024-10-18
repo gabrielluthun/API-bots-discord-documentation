@@ -1,0 +1,2 @@
+## Schéma fonctionnel Discord
+
