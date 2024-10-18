@@ -25,7 +25,7 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG18** : Lors de la création, un message pour confirmer apparait
 - **RG18** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
 - **RG19** : Lors de la modification d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
-- **RG20** : Une formation contient un template de channels dédié
+- **RG20** : Une formation contient un template de channels organisé qui lui est dédié
 
 ## Gestion de fabrique
 - **RG21** : Une fabrique contient un nom qui la décrit 
@@ -36,3 +36,17 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG26** : Lors de la suppression, un message pour confirmer apparait
 - **RG27** : Lors de la création, un message pour confirmer apparait
 - **(A revoir)** **RG28** : Une création de fabrique a pour conséquence la création de son canal discord associé
+
+## Gestion des channels
+- **RGX** : Un channel contient un nom unique qui la décrit 
+- **RGX** : Un channel a un emoji qui le défini
+- **RGX** : Deux channels peuvent avoir le même emoji
+- **RGX** : LOrs de la création d'un channel, celui-ci peut être stocké en tant que template de channel
+- **RGX** : Un template de channels générique et disponible
+- **RGX** : Les channels disparaissent un mois après la fin de la session associé
+- **RGX** : Une template de channels est une liste de channels organisés
+- **RGX** : Les channels disparaissent un mois après la fin de la session associé
+
+## Gestion des channels vocaux
+- **RGX** : Les channels vocaux peuvent être temporaire
+
