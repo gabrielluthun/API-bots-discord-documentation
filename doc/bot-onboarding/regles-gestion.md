@@ -45,6 +45,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG28** : Seuls un administrateur et un directeur peuvent notifier les personnes concerné par une fabrique 
 
 ## Gestion des channels
+- **RG22** : Seuls un administrateur et un directeur peuvent créer un channel dans le stock de channel
+- **RG23** : Seuls un administrateur et un directeur peuvent modifier un channel dans le stock de channel
+- **RG24** : Seuls un administrateur et un directeur peuvent supprimer un channel dans le stock de channel
 - **RGX** : Un channel contient un nom unique qui le décrit 
 - **RGX** : Un channel a un emoji qui le défini
 - **RGX** : Deux channels peuvent avoir le même emoji
