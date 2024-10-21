@@ -24,6 +24,7 @@
 - Les nouveaux arrivants ne doivent pas avoir accès aux channels avant d'avoir son identification accepté et d'avoir accepté le règlement.
 - Le système doit permettre la journalisation des évènements survenus au sein de ce dernier.
 - Les nouveaux arrivants doivent également être sensibilisés aux bonnes pratiques en termes de sécurité via un guide d'utilisation.
+- Le Staff de Simplon doit être sensibilisés aux exigences de modération que requièrent les forums communs.
 
 ### Performance
 
