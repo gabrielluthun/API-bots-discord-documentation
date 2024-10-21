@@ -64,9 +64,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RGX** : Un forum contient un nom unique qui le décrit
 - **RGX** : Un forum peut être privé
 - **RGX** : Dans le cas d'un forum privé, l'administrateur choisir les membres ou rôles qui peuvent rejoindre ce forum
-- **RGX** : Seul un administrateur peut créer un forum
-- **RGX** : Seul un administrateur peut modifier un forum
-- **RGX** : Seul un admnistrateur peut supprimer un forum
+- **RGX** : Seuls un administrateur et un directeur peuvent créer un forum
+- **RGX** : Seuls un administrateur et un directeur peuvent modifier un forum
+- **RGX** : Seuls un administrateur et un directeur peuvent supprimer un forum
 - **RGX** : Un forum peut contenir une guideline indiquant la nature de ce forum
 - **RGX** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts
 
