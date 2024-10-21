@@ -7,8 +7,34 @@
 **500 channels maximum par serveur :**
     Discord limite le nombre total de channels (textuels et vocaux) à 500. Il est donc important d'organiser efficacement les channels pour ne pas dépasser cette limite.
 
+
 **200 rôles maximum par serveur :**
     Un serveur Discord peut avoir jusqu'à 200 rôles. Cela implique de bien structurer les rôles pour éviter toute surcharge ou duplication.
+
+
+### Rôles
+
+- Dev
+- CDP
+- Formateur
+- CM
+- Directeur
+- Admin
+- Administrateur
+- Pedago
+- Staff
+- Com
+- Partenaire
+- Mentor
+
+### Lieux
+
+- Lille
+- Valenciennes
+- Roubaix
+- Bethune
+- Lens
+- Boulogne
 
 ## Onboarding par promo - forums et chans
 
