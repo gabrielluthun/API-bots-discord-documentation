@@ -48,8 +48,8 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RGX** : Un channel contient un nom unique qui le décrit 
 - **RGX** : Un channel a un emoji qui le défini
 - **RGX** : Deux channels peuvent avoir le même emoji
-- **RGX** : LOrs de la création d'un channel, celui-ci peut être stocké en tant que template de channel
-- **RGX** : Un template de channels générique et disponible
+- **RGX** : Lors de la création d'un channel, celui-ci peut être stocké en tant que template de channel
+- **RGX** : Un template de channels générique est disponible
 - **RGX** : Les channels disparaissent un mois après la fin de la session associé
 - **RGX** : Une template de channels est une liste de channels organisés
 - **RGX** : Les channels disparaissent un mois après la fin de la session associé
@@ -59,8 +59,28 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 
 ## Gestion des Forums
 - **RGX** : Un forum contient un nom unique qui le décrit
-- **RGX** : 
-- **RGX** : 
+- **RGX** : Un forum peut être privé
+- **RGX** : Dans le cas d'un forum privé, l'administrateur choisir les membres ou rôles qui peuvent rejoindre ce forum
+- **RGX** : Seul un administrateur peut créer un forum
+- **RGX** : Seul un administrateur peut modifier un forum
+- **RGX** : Seul un admnistrateur peut supprimer un forum
+- **RGX** : Un forum peut contenir une guideline indiquant la nature de ce forum
+- **RGX** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts
 
 ## Gestion des Posts
 - **RGX** : Empêcher les apprenants de créer des posts
+- **RGX** : Un post contient un titre
+- **RGX** : Un post contient un message
+- **RGX** : Un post peut contenir un emoji
+- **RGX** : Un post peut contenir une image
+- **RGX** : Un post peut contenir une réaction par défaut
+- **RGX** : Un post peut contenir un ou plusieurs tags
+- **RGX** : Seul un administrateur peut créer un post
+- **RGX** : Lors de la création d'un post, celui-ci peut être stocké en tant que template de post
+- **RGX** :  Un template de posts générique est disponible
+- **RGX** : Seul un administrateur peut modifier un post
+- **RGX** : Seul un admnistrateur peut vérouiller un post
+- **RGX** : Seul un admnistrateur et un modérateur peut écrire sur un post vérouillé
+- **RGX** : Seul un admnistrateur peut dévérouiller un post
+- **RGX** : Seul un admnistrateur peut fermer un post
+- **RGX** : Seul un admnistrateur peut supprimer un post
