@@ -78,15 +78,16 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RGX** : Un post peut contenir une image
 - **RGX** : Un post peut contenir une réaction par défaut
 - **RGX** : Un post peut contenir un ou plusieurs tags
-- **RGX** : Seul un administrateur peut créer un post
+- **RGX** : Seuls un administrateur et un directeur peuvent créer un post dans le stock de post
 - **RGX** : Lors de la création d'un post, celui-ci peut être stocké en tant que template de post
 - **RGX** :  Un template de posts générique est disponible
-- **RGX** : Seul un administrateur peut modifier un post
-- **RGX** : Seul un admnistrateur peut vérouiller un post
-- **RGX** : Seul un admnistrateur et un modérateur peut écrire sur un post vérouillé
-- **RGX** : Seul un admnistrateur peut dévérouiller un post
-- **RGX** : Seul un admnistrateur peut fermer un post
-- **RGX** : Seul un admnistrateur peut supprimer un post
+- **RGX** : Seuls un administrateur et un directeur peuvent modifier un post dans le stock de post
+- **RGX** : Seuls un administrateur et un directeur peuvent supprimer un post dans le stock de post
+- **RGX** : Seuls un administrateur et un directeur peuvent vérouiller un post
+- **RGX** : Seuls un admnistrateur et un modérateur peuvent écrire sur un post vérouillé
+- **RGX** : Seuls un administrateur et un directeur peuvent dévérouiller un post
+- **RGX** : Seuls un administrateur et un directeur peuvent fermer un post
+- **RGX** : Seuls un administrateur et un directeur peuvent supprimer un post
 
 ## Gestion d'identification
 - **RGX** : Une demande d'identification est effectuée par un nouvel arrivant
