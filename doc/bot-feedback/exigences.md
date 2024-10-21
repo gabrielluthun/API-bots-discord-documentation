@@ -38,4 +38,9 @@
    - Le bot doit intéragir avec l'API de Discord
    - Le bot doit intéragir avec l'API de Simplon
 
+#### Schéma fonctionnel discord
+
+Ici le bot feedback sur lequel nous travaillons est representé par le rectangle "bot discord"
+
 ![schemafonctionnel](../assets/images/schema-fonctionnel.jpg)
+
