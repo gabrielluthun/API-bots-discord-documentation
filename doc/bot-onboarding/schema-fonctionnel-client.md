@@ -11,7 +11,6 @@
 **200 rôles maximum par serveur :**
     Un serveur Discord peut avoir jusqu'à 200 rôles. Cela implique de bien structurer les rôles pour éviter toute surcharge ou duplication.
 
-## Schéma par rôles
 
 ### Rôles
 
