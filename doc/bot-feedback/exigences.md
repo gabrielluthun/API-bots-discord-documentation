@@ -1,9 +1,9 @@
 # Exigences fonctionnelles
 
 1. **Notifications automatiques** :
-   - Le bot doit permettre l’envoi de notifications automatiques sur Discord
-   - Le bot doit permettre la configuration de rappels
-   - Le bot doit permettre de personnaliser le contenu des notifications
+   - Le bot doit permettre l’envoi de messages automatiques par messages privés ou sur un canal.
+   - Le bot doit permettre la configuration de rappels par messages privés ou par canal
+   - Le bot doit permettre de personnaliser les messages envoyés en privée ou dans un canal
 
 2. **Sondages exclusivement sur Discord** :
    - Le bot doit permettre la gestion de sondages directement via Discord.
