@@ -19,16 +19,15 @@
    - Le bot doit permettre l’automatisation des envois de sondages à des dates précises, en fonction des étapes du parcours des apprenants.
    - Le bot doit permettre l'ajout des réponses afin de générer des statistiques
 
+6. **Sécurité et confidentialité des données** :
+   - Le bot doit permettre la protection des données collectées, avec conformité RGPD.
+   - Le bot doit permettre l’anonymisation des réponses pour garantir la confidentialité des participants.
 
 
 # Exigences non fonctionnelles
 
 1. **Formulaires existants non modifiés** :
    - Le bot ne doit pas modifier les formulaires existants imposés par Qualiopi et le siège.
-   
-2. **Sécurité et confidentialité des données** :
-   - Le bot doit permettre la protection des données collectées, avec conformité RGPD.
-   - Le bot doit permettre l’anonymisation des réponses pour garantir la confidentialité des participants.
 
 3. **Facilité d'utilisation** :
    - Le bot doit permettre une utilisation simple avec une interface intuitive.
