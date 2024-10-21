@@ -30,8 +30,14 @@
 
 # Exigences non fonctionnelles
 
+1. **API**
+   - Le bot doit intéragir avec l'API de Discord
+   - Le bot doit intéragir avec l'API de Simplon
+
+![schemafonctionnel](../assets/images/schema-fonctionnel.jpg)
+
+
+
+
 1. **Formulaires existants non modifiés** :
    - Le bot ne doit pas modifier les formulaires existants imposés par Qualiopi et le siège.
-
-3. **Adaptabilité aux évolutions** :
-   - Le bot doit permettre l’ajout de nouvelles fonctionnalités ou la modification des sondages en fonction des besoins futurs.
