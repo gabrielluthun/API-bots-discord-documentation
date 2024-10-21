@@ -5,9 +5,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 ## Gestion de promotion
 - **RG1** : Une promotion contient un nom qui la décrit 
 - **RG2** : Une promotion contient une date de début et une date de fin
-- **RG3** : Seul un administrateur peut créer une promotion
-- **RG4** : Seul un administrateur peut modifier une promotion 
-- **RG5** : Seul un admnistrateur peut supprimer une promotion 
+- **RG3** : Seuls un administrateur et un directeur peuvent créer une promotion
+- **RG4** : Seuls un administrateur et un directeur peuvent modifier une promotion 
+- **RG5** : Seuls un administrateur et un directeur peuvent supprimer une promotion 
 - **RG6** : Lors de la modification, un message pour confirmer apparait
 - **RG7** : Lors de la suppression, un message pour confirmer apparait
 - **RG8** : Lors de la création, un message pour confirmer apparait
@@ -21,9 +21,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 ## Gestion de formation
 - **RG11** : Une formation contient un nom qui l'a décrit
 - **RG12** : Une formation contient un nom qui la décrit 
-- **RG13** : Seul un administrateur peut créer une formation
-- **RG14** : Seul un administrateur peut modifier une formation 
-- **RG15** : Seul un admnistrateur peut supprimer une formation 
+- **RG13** : Seuls un administrateur et un directeur peuvent créer une formation
+- **RG14** : Seuls un administrateur et un directeur peuvent modifier une formation 
+- **RG15** : Seuls un administrateur et un directeur peuvent supprimer une formation 
 - **RG16** : Lors de la modification, un message pour confirmer apparait
 - **RG17** : Lors de la suppression, un message pour confirmer apparait
 - **RG18** : Lors de la création, un message pour confirmer apparait
@@ -33,18 +33,21 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 
 ## Gestion de fabrique
 - **RG21** : Une fabrique contient un nom qui la décrit 
-- **RG22** : Seul un administrateur peut créer une fabrique
-- **RG23** : Seul un administrateur peut modifier une fabrique
-- **RG24** : Seul un admnistrateur peut supprimer une fabrique
+- **RG22** : Seuls un administrateur et un directeur peuvent créer une fabrique
+- **RG23** : Seuls un administrateur et un directeur peuvent modifier une fabrique
+- **RG24** : Seuls un administrateur et un directeur peuvent supprimer une fabrique
 - **RG25** : Lors de la modification, un message pour confirmer apparait
 - **RG26** : Lors de la suppression, un message pour confirmer apparait
 - **RG27** : Lors de la création, un message pour confirmer apparait
 - **RGX** : Une fabrique est lié à tous les apprenants en cours de formation dans celle-ci
 - **RGX** : Une fabrique n'est plus lié à un apprenant lorsqu'il termine sa formation
 - **RG28** : Une création de fabrique a pour conséquence la création de son rôle discord associé
-- **RG28** : Seul un admnistrateur pourra notifier les personnes concerné par une fabrique 
+- **RG28** : Seuls un administrateur et un directeur peuvent notifier les personnes concerné par une fabrique 
 
 ## Gestion des channels
+- **RG22** : Seuls un administrateur et un directeur peuvent créer un channel dans le stock de channel
+- **RG23** : Seuls un administrateur et un directeur peuvent modifier un channel dans le stock de channel
+- **RG24** : Seuls un administrateur et un directeur peuvent supprimer un channel dans le stock de channel
 - **RGX** : Un channel contient un nom unique qui le décrit 
 - **RGX** : Un channel a un emoji qui le défini
 - **RGX** : Deux channels peuvent avoir le même emoji
@@ -61,9 +64,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RGX** : Un forum contient un nom unique qui le décrit
 - **RGX** : Un forum peut être privé
 - **RGX** : Dans le cas d'un forum privé, l'administrateur choisir les membres ou rôles qui peuvent rejoindre ce forum
-- **RGX** : Seul un administrateur peut créer un forum
-- **RGX** : Seul un administrateur peut modifier un forum
-- **RGX** : Seul un admnistrateur peut supprimer un forum
+- **RGX** : Seuls un administrateur et un directeur peuvent créer un forum
+- **RGX** : Seuls un administrateur et un directeur peuvent modifier un forum
+- **RGX** : Seuls un administrateur et un directeur peuvent supprimer un forum
 - **RGX** : Un forum peut contenir une guideline indiquant la nature de ce forum
 - **RGX** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts
 
@@ -75,15 +78,16 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RGX** : Un post peut contenir une image
 - **RGX** : Un post peut contenir une réaction par défaut
 - **RGX** : Un post peut contenir un ou plusieurs tags
-- **RGX** : Seul un administrateur peut créer un post
+- **RGX** : Seuls un administrateur et un directeur peuvent créer un post dans le stock de post
 - **RGX** : Lors de la création d'un post, celui-ci peut être stocké en tant que template de post
 - **RGX** :  Un template de posts générique est disponible
-- **RGX** : Seul un administrateur peut modifier un post
-- **RGX** : Seul un admnistrateur peut vérouiller un post
-- **RGX** : Seul un admnistrateur et un modérateur peut écrire sur un post vérouillé
-- **RGX** : Seul un admnistrateur peut dévérouiller un post
-- **RGX** : Seul un admnistrateur peut fermer un post
-- **RGX** : Seul un admnistrateur peut supprimer un post
+- **RGX** : Seuls un administrateur et un directeur peuvent modifier un post dans le stock de post
+- **RGX** : Seuls un administrateur et un directeur peuvent supprimer un post dans le stock de post
+- **RGX** : Seuls un administrateur et un directeur peuvent vérouiller un post
+- **RGX** : Seuls un admnistrateur et un modérateur peuvent écrire sur un post vérouillé
+- **RGX** : Seuls un administrateur et un directeur peuvent dévérouiller un post
+- **RGX** : Seuls un administrateur et un directeur peuvent fermer un post
+- **RGX** : Seuls un administrateur et un directeur peuvent supprimer un post
 
 ## Gestion d'identification
 - **RGX** : Une demande d'identification est effectuée par un nouvel arrivant
