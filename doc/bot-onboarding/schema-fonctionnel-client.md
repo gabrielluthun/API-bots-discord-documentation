@@ -28,7 +28,14 @@
 - Partenaire
 - Mentor
 
+### Lieux
 
+- Lille
+- Valenciennes
+- Roubaix
+- Bethune
+- Lens
+- Boulogne
 
 ## Onboarding par promo - forums et chans
 
