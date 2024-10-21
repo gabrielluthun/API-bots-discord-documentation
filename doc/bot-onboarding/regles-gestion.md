@@ -84,3 +84,17 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RGX** : Seul un admnistrateur peut dévérouiller un post
 - **RGX** : Seul un admnistrateur peut fermer un post
 - **RGX** : Seul un admnistrateur peut supprimer un post
+
+## Gestion d'identification
+- **RGX** : Une demande d'identification est effectuée par un nouvel arrivant
+- **RGX** : Une demande d'identification passe par un formulaire
+- **RGX** : Un formulaire de demande d'identification contient le nom de la personne
+- **RGX** : Un formulaire de demande d'identification contient le prénom de la personne
+- **RGX** : Un formulaire de demande d'identification contient l'username discord de la personne
+- **RGX** : Un formulaire de demande d'identification contient l'adresse email de la personne
+- **RGX** : Un formulaire de demande d'identification contient des informations supplémentaires de la personne
+- **RGX** : Seul un administrateur, un CDP, un membre du staff peut accepter/refuser une demande d'identification
+- **RGX** : La personne acceptant la demande d'identification peut attribuer le rôle de staff ou apprenant
+- **RGX** : Lorsque ce rôle est apprenant, la personne acceptant la demande d'identification lui attribue le rôle de sa formation
+- **RGX** : Une fois un rôle attribué au nouvel arrivant, ce rôle de nouvel arrivant lui est retiré
+- **RGX** : Une fois le processus d'identification terminé, la demande d'identification est supprimée
