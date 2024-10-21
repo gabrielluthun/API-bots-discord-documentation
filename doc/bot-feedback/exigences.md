@@ -8,7 +8,6 @@
 2. **Sondages exclusivement sur Discord** :
    - Le bot doit permettre la gestion de sondages directement via Discord.
    - Le bot doit permettre la création de sondages directement via Discord.
-   - Le bot doit permettre la collecte des réponses
 
 3. **Personnalisation de la portée des sondages** :
    - Le bot doit permettre de créer des sondages ciblant des groupes spécifiques ou toute la communauté.
