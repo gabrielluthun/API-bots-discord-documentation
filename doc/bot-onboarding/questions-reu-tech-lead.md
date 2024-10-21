@@ -13,10 +13,18 @@
 
 6. Sur ce sujet, avons-nous des nouvelles concerant la nouvelle nomenclature ? Par exemple, pour les noms de promo ?
 
-7. Proposition pour les canaux vocaux temporaires lorsque des apprenants sont encore présents en dehors des heures de cours : préférez-vous que ces canaux disparaissent automatiquement une heure après la fin des cours (avec impossibilité d'en créer en dehors des heures de cours), ou qu'ils disparaissent à minuit, avec la possibilité de les recréer immédiatement après ? 
+7. Proposition pour les canaux vocaux temporaires lorsque des apprenants sont encore présents en dehors des heures de cours : préférez-vous que ces canaux disparaissent automatiquement une heure après la fin des cours (avec impossibilité d'en créer en dehors des heures de cours), ou qu'ils disparaissent à minuit, avec la possibilité de les recréer immédiatement après ?
 
 8. Combien de formation avez-vous en moyenne en parallèle ?
 
-9. Combien de channels fixes existe t'il sur le discord des hauts-de-France? Par exemple il existe la formation CDA qui possède 4 channels en continu et 6 forums. 
+9. Combien de channels fixes existe t'il sur le discord des hauts-de-France? Par exemple il existe la formation CDA qui possède 4 channels en continu et 6 forums.
 
 10. Pourquoi ne pas avoir mis que des forums?
+
+11. On a remarqué qu'il était possible pour les apprenants de faire des posts; est-ce intentionnel ?
+
+12. Doit-on fournir un guide d'utilisation aux nouveaux arrivants pour évoquer les bonnes pratiques en terme de sécurité ?
+
+13. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
+
+14. A la création d'une promotion, la possibilité de mettre une date de début et une date de fin pour définir sa période de validité ? Possibilité d'enlevé la période de validité.
