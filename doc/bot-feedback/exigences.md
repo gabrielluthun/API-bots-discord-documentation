@@ -17,7 +17,7 @@
 
 5. **Automatisation des sondages** :
    - Le bot doit permettre l’automatisation des envois de sondages à des dates précises, en fonction des étapes du parcours des apprenants.
-   - Le bot doit permettre l’intégration automatique des résultats des sondages pour analyse.
+   - Le bot doit permettre l'ajout des réponses afin de générer des statistiques
 
 
 
