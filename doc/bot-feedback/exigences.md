@@ -28,6 +28,10 @@
    - Le bot doit simplifier la reception des sondages aux apprenants.
    - Le bot doit permettre une gestion fluide des sondages et des notifications, réduisant le besoin d’interventions manuelles.
 
+8. **Formulaires existants non modifiés** :
+   - Le bot ne doit pas modifier les formulaires existants (région, Qualiopi, Simplon).
+
+
 # Exigences non fonctionnelles
 
 1. **API**
@@ -35,9 +39,3 @@
    - Le bot doit intéragir avec l'API de Simplon
 
 ![schemafonctionnel](../assets/images/schema-fonctionnel.jpg)
-
-
-
-
-1. **Formulaires existants non modifiés** :
-   - Le bot ne doit pas modifier les formulaires existants imposés par Qualiopi et le siège.
