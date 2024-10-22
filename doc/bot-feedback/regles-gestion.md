@@ -4,9 +4,9 @@
 
 **RG1** - Le bot permet au formateur de créer un sondage.
 
-**RG2** - Le bot permet au formateur de modifier un sondage uniquement si la hiérarchie le permet.
+**RG2** - Le bot permet au formateur de modifier un sondage uniquement si son rôle le permet.
 
-**RG3** - Le bot permet au formateur de supprimer un sondage uniquement si la hiérarchie le permet.
+**RG3** - Le bot permet au formateur de supprimer un sondage uniquement si son rôle le permet.
 
 **RG4** - Le bot permet au formateur de répondre à un sondage.
 
@@ -68,9 +68,9 @@
 
 **RG31** - Le bot permet aux membres du staff de créer un sondage.
 
-**RG32** - Le bot permet aux membres du staff de modifier un sondage uniquement si la hiérarchie le permet.
+**RG32** - Le bot permet aux membres du staff de modifier un sondage uniquement si son rôle le permet.
 
-**RG33** - Le bot permet aux membres du staff de supprimer un sondage uniquement si la hiérarchie le permet.
+**RG33** - Le bot permet aux membres du staff de supprimer un sondage uniquement si son rôle le permet.
 
 **RG34** - Le bot permet aux membres du staff de répondre à un sondage.
 
@@ -100,9 +100,9 @@
 
 **RG46** - Le bot permet aux délégués de créer un sondage.
 
-**RG47** - Le bot permet aux délégués de modifier un sondage uniquement si la hiérarchie le permet.
+**RG47** - Le bot permet aux délégués de modifier un sondage uniquement si son rôle le permet.
 
-**RG48** - Le bot permet aux délégués de supprimer un sondage uniquement si la hiérarchie le permet.
+**RG48** - Le bot permet aux délégués de supprimer un sondage uniquement si son rôle le permet.
 
 **RG49** - Le bot permet aux délégués de répondre à un sondage.
 
@@ -129,6 +129,7 @@
 **RG59** - Le bot permet aux apprennants de répondre à un sondage.
 
 ### Bot
+
 **RG60** - Le bot permet la communication avec l'API Discord.
 
 **RG61** - Le bot permet la communication avec l'API Simplon.
