@@ -8,7 +8,7 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG3** : Seuls un administrateur et un directeur peuvent créer une promotion
 - **RG4** : Seuls un administrateur et un directeur peuvent modifier une promotion 
 - **RG5** : Seuls un administrateur et un directeur peuvent supprimer une promotion 
-- **RG6** : Lors de la modification, un message pour confirmer apparait
+- **RG6** : Lors de la modification, un message pour confirmer apparait(revoir formulation)
 - **RG7** : Lors de la suppression, un message pour confirmer apparait
 - **RG8** : Lors de la création, un message pour confirmer apparait
 - **RG9** : Pour créer une promotion il sera nécesssaire de sélectionner sa formation et sa fabrique associé
@@ -16,33 +16,32 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG11** : La promotion disparaît un mois après la fin de la session associée
 - **RG12** : Une promotion est forcément lié à une fabrique
 - **RG13** : Une promotion est forcément lié à une promotion
-- **RG14** : Les promotions seront triées visuellement par fabrique
+- **RG14** : Les promotions seront triées visuellement par fabrique(préciser l'endroit)
 
 ## Gestion de formation
 - **RG15** : Une formation contient un nom qui l'a décrit
-- **RG16** : Une formation contient un nom qui la décrit 
 - **RG17** : Seuls un administrateur et un directeur peuvent créer une formation
 - **RG18** : Seuls un administrateur et un directeur peuvent modifier une formation 
 - **RG19** : Seuls un administrateur et un directeur peuvent supprimer une formation 
-- **RG20** : Lors de la modification, un message pour confirmer apparait
+- **RG20** : Lors de la modification, un message pour confirmer apparait(revoir formulation)
 - **RG21** : Lors de la suppression, un message pour confirmer apparait
 - **RG22** : Lors de la création, un message pour confirmer apparait
-- **RG23** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
-- **RG24** : Lors de la modification d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré
-- **RG25** : Une formation contient un template de channels organisé qui lui est dédié
+- **RG23** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré (template)
+- **RG24** : Lors de la modification d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistré (template)
+- **RG25** : Une formation contient un template de channels organisé qui lui est dédié 
 
 ## Gestion de fabrique
 - **RG26** : Une fabrique contient un nom qui la décrit 
 - **RG27** : Seuls un administrateur et un directeur peuvent créer une fabrique
 - **RG28** : Seuls un administrateur et un directeur peuvent modifier une fabrique
 - **RG29** : Seuls un administrateur et un directeur peuvent supprimer une fabrique
-- **RG30** : Lors de la modification, un message pour confirmer apparait
+- **RG30** : Lors de la modification, un message pour confirmer apparait (revoir formulation)
 - **RG31** : Lors de la suppression, un message pour confirmer apparait
 - **RG32** : Lors de la création, un message pour confirmer apparait
 - **RG33** : Une fabrique est lié à tous les apprenants en cours de formation dans celle-ci
-- **RG34** : Une fabrique n'est plus lié à un apprenant lorsqu'il termine sa formation
+- **RG34** : Une fabrique n'est plus lié à un apprenant lorsqu'il termine sa formation (doit âtre lié à l'apprenant)
 - **RG35** : Une création de fabrique a pour conséquence la création de son rôle discord associé
-- **RG36** : Seuls un administrateur et un directeur peuvent notifier les personnes concerné par une fabrique 
+- **RG36** : Seuls un administrateur et un directeur peuvent notifier les personnes concerné par une fabrique
 
 ## Gestion des channels
 - **RG37** : Seuls un administrateur et un directeur peuvent créer un channel dans le stock de channel
@@ -52,12 +51,12 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG41** : Un channel a un emoji qui le défini
 - **RG42** : Deux channels peuvent avoir le même emoji
 - **RG43** : Lors de la création d'un channel, celui-ci peut être stocké en tant que template de channel
-- **RG44** : Un template de channels générique est disponible
-- **RG45** : Les channels disparaissent un mois après la fin de la session associé
+- **RG44** : Un template de channels générique est disponible et modifiable
+- **RG45** : Les channels disparaissent un mois après la fin de la session associé (retravailler phrase)
 - **RG46** : Une template de channels est une liste de channels organisés
-- **RG47** : Les channels disparaissent un mois après la fin de la session associé
 
 ## Gestion des channels vocaux
+- **RG48** : un channel vocal général, un SOS et le reste créé à la demande
 - **RG48** : Les channels vocaux peuvent être temporaire
 
 ## Gestion des Forums
@@ -80,8 +79,8 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG63** : Un post peut contenir un ou plusieurs tags
 - **RG64** : Seuls un administrateur et un directeur peuvent créer un post dans le stock de post
 - **RG65** : Lors de la création d'un post, celui-ci peut être stocké en tant que template de post
-- **RG66** :  Un template de posts générique est disponible
-- **RG67** : Seuls un administrateur et un directeur peuvent modifier un post dans le stock de post
+- **RG66** : Un template de posts générique est disponible
+- **RG67** : Seuls un administrateur et un directeur peuvent modifier un post dans le stock de post (formateur leur donner la liberté)
 - **RG68** : Seuls un administrateur et un directeur peuvent supprimer un post dans le stock de post
 
 
@@ -90,9 +89,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG70** : Une demande d'identification passe par un formulaire
 - **RG71** : Un formulaire de demande d'identification contient le nom de la personne
 - **RG72** : Un formulaire de demande d'identification contient le prénom de la personne
-- **RG73** : Un formulaire de demande d'identification contient l'username discord de la personne
 - **RG74** : Un formulaire de demande d'identification contient l'adresse email de la personne
-- **RG75** : Un formulaire de demande d'identification contient des informations supplémentaires de la personne
+- **RG75** : Un formulaire de demande d'identification contient des informations supplémentaires de la personne (champs fermé)
+- **RG74** : Un formulaire de demande d'identification contient un encart lié au RGPD
 - **RG76** : Seul un administrateur, un CDP, un membre du staff peut accepter/refuser une demande d'identification
 - **RG77** : La personne acceptant la demande d'identification peut attribuer le rôle de staff ou apprenant
 - **RG78** : Lorsque ce rôle est apprenant, la personne acceptant la demande d'identification lui attribue le rôle de sa formation
