@@ -34,3 +34,7 @@
 16. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
 
 17. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
+
+18. Dans le schéma discord par rôle fourni par Claire, on remarque l'existence des rôles "admins" et "administrateur" ? Pour éviter la confusion ne serait-il pas mieux de parler de "administration" et "administrateur" ?
+
+19. Lors de la confirmation d'identification, il y a un choix "staff" et "apprenant"? Faudrait-il ajouter d'autres rôles comme "formateur" ou "invité" ?
