@@ -2,12 +2,15 @@
 
 Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fonctionnalités et les règles qui y sont associées. Vous trouverez donc ci-dessous les règles de gestions du bot onboarding.
 
+Attention, ***les règles de gestions en italiques** sont des suggestions et **ne sont pas prioritaires***.
+
 ## Gestion de promotion
-- **RG1** : Une promotion contient un nom qui la décrit 
+
+- **RG1** : Une promotion contient un nom qui la décrit
 - **RG2** : Une promotion contient une date de début et une date de fin
 - **RG3** : Un administrateur, un directeur et un chargé de projet peuvent créer une promotion
-- **RG4** : Un administrateur et un directeur et un chargé de projet peuvent modifier une promotion 
-- **RG5** : Un administrateur et un directeur et un chargé de projet peuvent supprimer une promotion 
+- **RG4** : Un administrateur et un directeur et un chargé de projet peuvent modifier une promotion
+- **RG5** : Un administrateur et un directeur et un chargé de projet peuvent supprimer une promotion
 - **RG6** : Lors de la modification, un message de confirmation apparait
 - **RG7** : Lors de la suppression, un message de confirmation apparait
 - **RG8** : Lors de la création, un message de confirmation apparait
@@ -19,19 +22,21 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG14** : Dans le client discord, les promotions seront groupées visuellement par fabrique
 
 ## Gestion de formation
+
 - **RG15** : Une formation contient un nom qui l'a décrit
 - **RG16** : Un administrateur, un directeur et un chargé de projet peuvent créer une formation
-- **RG17** : Un administrateur, un directeur et un chargé de projet peuvent modifier une formation 
-- **RG18** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une formation 
+- **RG17** : Un administrateur, un directeur et un chargé de projet peuvent modifier une formation
+- **RG18** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une formation
 - **RG19** : Lors de la modification, un message de confirmation apparait
 - **RG20** : Lors de la suppression, un message de confirmation apparait
 - **RG21** : Lors de la création, un message de confirmation apparait
 - **RG22** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistrés (template)
 - **RG23** : Lors de la modification d'une formation, il sera possible de choisir des autres canaux déjà pré-enregistrés (template)
-- **RG24** : Une formation contient un template de channels organisé qui lui est dédié 
+- **RG24** : Une formation contient un template de channels organisé qui lui est dédié
 
 ## Gestion de fabrique
-- **RG25** : Une fabrique contient un nom qui la décrit 
+
+- **RG25** : Une fabrique contient un nom qui la décrit
 - **RG26** : Un administrateur, un directeur et un chargé de projet peuvent créer une fabrique
 - **RG27** : Un administrateur, un directeur et un chargé de projet peuvent modifier une fabrique
 - **RG28** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une fabrique
@@ -44,21 +49,24 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG35** : Seuls un administrateur et un directeur peuvent notifier les personnes concerné par une fabrique
 
 ## Gestion des channels
+
 - **RG36** : Un administrateur, un directeur et un chargé de projet peuvent créer un channel dans le stock de channel
 - **RG37** : Un administrateur, un directeur et un chargé de projet peuvent modifier un channel dans le stock de channel
 - **RG38** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un channel dans le stock de channel
-- **RG39** : Un channel contient un nom unique qui le décrit 
-- **RG40** : Un channel a un emoji qui le défini
+- **RG39** : Un channel contient un nom unique qui le décrit
+- ***RG40** : Un channel a un emoji qui le défini*
 - **RG41** : Deux channels peuvent avoir le même emoji
 - **RG42** : Lors de la création d'un channel, celui-ci peut être stocké en tant que template de channel
 - **RG43** : Un template de channels générique est disponible et modifiable
 - **RG44** : Une template de channels est une liste de channels organisés
 
 ## Gestion des channels vocaux
+
 - **RG45** : un channel vocal général et un channel vocal SOS sont présents par défaut, le reste est créé à la demande
 - **RG46** : Les channels vocaux créés sont temporaires
 
 ## Gestion des Forums
+
 - **RG47** : Un forum contient un nom unique qui le décrit
 - **RG48** : Un forum peut être privé
 - **RG49** : Dans le cas d'un forum privé, l'administrateur choisir les membres ou rôles qui peuvent rejoindre ce forum
@@ -69,6 +77,7 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG54** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts
 
 ## Gestion des Posts
+
 - **RG55** : Empêcher les apprenants de créer des posts
 - **RG56** : Un post contient un titre
 - **RG57** : Un post contient un message
@@ -82,8 +91,8 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG65** : Seuls un administrateuret un directeur peuvent modifier un post dans le stock de post
 - **RG66** : Seuls un administrateur et un directeur peuvent supprimer un post dans le stock de post
 
-
 ## Gestion d'identification
+
 - **RG67** : Une demande d'identification est effectuée par un nouvel arrivant
 - **RG68** : Une demande d'identification passe par un formulaire
 - **RG69** : Un formulaire de demande d'identification contient le nom de la personne
@@ -100,4 +109,5 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG80** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur
 
 ## Ciblages
+
 - **RG81** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes avec @everyone et @here
