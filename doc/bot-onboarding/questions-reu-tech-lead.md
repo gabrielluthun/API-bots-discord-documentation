@@ -38,3 +38,11 @@
 18. Dans le schéma discord par rôle fourni par Claire, on remarque l'existence des rôles "admins" et "administrateur" ? Pour éviter la confusion ne serait-il pas mieux de parler de "administration" et "administrateur" ?
 
 19. Lors de la confirmation d'identification, il y a un choix "staff" et "apprenant"? Faudrait-il ajouter d'autres rôles comme "formateur" ou "invité" ?
+
+20. Actuellement même les apprennants peuvent notifier toute une fabrique, est-ce que l'on garde cet état de fait ?
+
+21. Accordons-nous le droit à un formateur de créer des posts ? Avec une limite ?
+
+22. Concernant les demandes d'identifications, est-ce que tu accepterais un message supplémentaire ?
+
+23. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
