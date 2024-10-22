@@ -22,7 +22,7 @@ Les messages de commit doivent suivre ce format :
 
 ## Body du commit (corps détaillé)
 
-**_Ajouter un body_** : Si nécessaire, détailler davantage les changements dans le body du commit.
+**_Ajouter un body_** : Si le titre du commit n'est pas assez explicite sur la localisation de la modification, le nom du fichier doit être précisé dans le body.
 
 Cela permet de donner plus d’informations sur les raisons du changement, son impact ou les fichiers modifiés.
 
