@@ -32,3 +32,5 @@
 15. Concernant la modération des zones communes, est-ce que vous pensez qu'une simple sensibilisation suffirait ou faudrait-il mettre en place des restrictions notamment pour la création de post ?
 
 16. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
+
+17. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
