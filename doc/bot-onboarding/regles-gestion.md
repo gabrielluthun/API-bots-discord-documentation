@@ -5,13 +5,13 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 ## Gestion de promotion
 - **RG1** : Une promotion contient un nom qui la décrit 
 - **RG2** : Une promotion contient une date de début et une date de fin
-- **RG3** : Seuls un administrateur et un directeur peuvent créer une promotion
-- **RG4** : Seuls un administrateur et un directeur peuvent modifier une promotion 
-- **RG5** : Seuls un administrateur et un directeur peuvent supprimer une promotion 
+- **RG3** : Un administrateur, un directeur et un chargé de projet peuvent créer une promotion
+- **RG4** : Un administrateur et un directeur et un chargé de projet peuvent modifier une promotion 
+- **RG5** : Un administrateur et un directeur et un chargé de projet peuvent supprimer une promotion 
 - **RG6** : Lors de la modification, un message de confirmation apparait
 - **RG7** : Lors de la suppression, un message de confirmation apparait
 - **RG8** : Lors de la création, un message de confirmation apparait
-- **RG9** : Pour créer une promotion il sera nécesssaire de sélectionner sa formation et sa fabrique associées
+- **RG9** : Pour créer une promotion il sera nécessaire de sélectionner sa formation et sa fabrique associées
 - **RG10** : La création d'une promotion crée également un rôle associé avec le nom de la promo
 - **RG11** : La promotion est archivée un mois après la fin de la session associée
 - **RG12** : Une promotion est forcément lié à une fabrique
@@ -20,9 +20,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 
 ## Gestion de formation
 - **RG15** : Une formation contient un nom qui l'a décrit
-- **RG16** : Seuls un administrateur et un directeur peuvent créer une formation
-- **RG17** : Seuls un administrateur et un directeur peuvent modifier une formation 
-- **RG18** : Seuls un administrateur et un directeur peuvent supprimer une formation 
+- **RG16** : Un administrateur, un directeur et un chargé de projet peuvent créer une formation
+- **RG17** : Un administrateur, un directeur et un chargé de projet peuvent modifier une formation 
+- **RG18** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une formation 
 - **RG19** : Lors de la modification, un message de confirmation apparait
 - **RG20** : Lors de la suppression, un message de confirmation apparait
 - **RG21** : Lors de la création, un message de confirmation apparait
@@ -32,9 +32,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 
 ## Gestion de fabrique
 - **RG25** : Une fabrique contient un nom qui la décrit 
-- **RG26** : Seuls un administrateur et un directeur peuvent créer une fabrique
-- **RG27** : Seuls un administrateur et un directeur peuvent modifier une fabrique
-- **RG28** : Seuls un administrateur et un directeur peuvent supprimer une fabrique
+- **RG26** : Un administrateur, un directeur et un chargé de projet peuvent créer une fabrique
+- **RG27** : Un administrateur, un directeur et un chargé de projet peuvent modifier une fabrique
+- **RG28** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une fabrique
 - **RG29** : Lors de la modification, un message de confirmation apparait
 - **RG30** : Lors de la suppression, un message de confirmation apparait
 - **RG31** : Lors de la création, un message de confirmation apparait
@@ -44,9 +44,9 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG35** : Seuls un administrateur et un directeur peuvent notifier les personnes concerné par une fabrique
 
 ## Gestion des channels
-- **RG36** : Seuls un administrateur et un directeur peuvent créer un channel dans le stock de channel
-- **RG37** : Seuls un administrateur et un directeur peuvent modifier un channel dans le stock de channel
-- **RG38** : Seuls un administrateur et un directeur peuvent supprimer un channel dans le stock de channel
+- **RG36** : Un administrateur, un directeur et un chargé de projet peuvent créer un channel dans le stock de channel
+- **RG37** : Un administrateur, un directeur et un chargé de projet peuvent modifier un channel dans le stock de channel
+- **RG38** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un channel dans le stock de channel
 - **RG39** : Un channel contient un nom unique qui le décrit 
 - **RG40** : Un channel a un emoji qui le défini
 - **RG41** : Deux channels peuvent avoir le même emoji
@@ -91,8 +91,8 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG71** : Un formulaire de demande d'identification contient l'adresse email de la personne
 - **RG72** : Un formulaire de demande d'identification contient un champs libre de données complémentaires de la personne
 - **RG73** : Un formulaire de demande d'identification contient des listes déroulantes permettant de cibler le profil de l'utilisateur (ex. sa formation)
-- **RG74** : Un formulaire de demande d'identification contient un encart lié au RGPD selon lequel la personne Jonsent au traitement de ses données personnelles
-- **RG75** : Seul un administrateur, un CDP, un membre du staff peut accepter/refuser une demande d'identification
+- **RG74** : Un formulaire de demande d'identification contient un encart lié au RGPD selon lequel la personne consent au traitement de ses données personnelles
+- **RG75** : Un administrateur, un directeur, un chargé de projet peuvent accepter/refuser une demande d'identification
 - **RG76** : La personne acceptant la demande d'identification peut attribuer le rôle en question
 - **RG77** : Une fois la demande d'identification acceptée, la personne sera automatiquement renommée par son nom et prénom
 - **RG78** : Lorsque ce rôle est apprenant, la personne acceptant la demande d'identification lui attribue le rôle de sa formation et de la promotion
@@ -100,4 +100,4 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 - **RG80** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur
 
 ## Ciblages
-- **RG81** : Seuls un administrateur et un directeur peuvent notifier les personnes avec @everyone et @here
+- **RG81** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes avec @everyone et @here
