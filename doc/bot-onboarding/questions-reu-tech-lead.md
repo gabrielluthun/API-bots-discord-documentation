@@ -28,3 +28,13 @@
 13. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
 
 14. A la création d'une promotion, la possibilité de mettre une date de début et une date de fin pour définir sa période de validité ? Possibilité d'enlevé la période de validité.
+
+15. Concernant la modération des zones communes, est-ce que vous pensez qu'une simple sensibilisation suffirait ou faudrait-il mettre en place des restrictions notamment pour la création de post ?
+
+16. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
+
+17. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
+
+18. Dans le schéma discord par rôle fourni par Claire, on remarque l'existence des rôles "admins" et "administrateur" ? Pour éviter la confusion ne serait-il pas mieux de parler de "administration" et "administrateur" ?
+
+19. Lors de la confirmation d'identification, il y a un choix "staff" et "apprenant"? Faudrait-il ajouter d'autres rôles comme "formateur" ou "invité" ?
