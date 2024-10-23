@@ -41,3 +41,15 @@
 **RG15** - *Le sondage peut être réouvert*
 
 **RG16** - Le sondage peut être supprimé
+
+### Rappels :
+
+**RG17** - Le bot doit pouvoir sélectionner un membre du Discord
+
+**RG18** - Le bot doit pouvoir envoyer un message en privé
+
+**RG19** - Le bot doit pouvoir envoyer un message dans un canal
+
+**RG20** - Le bot doit pouvoir mentionner dans un canal
+
+**RG21** - Le bot doit pouvoir personnaliser les messages envoyés
