@@ -31,3 +31,13 @@
 **RG11** - Le destinataire du sondage peut être un rôle
 
 **RG12** - Le bot peut mentionner un rôle lors de l'envoi du sondage
+
+### Gestion du sondage :
+
+**RG13** - Le sondage est envoyé dans un cannal
+
+**RG14** - Le sondage peut être fermé
+
+**RG15** - *Le sondage peut être réouvert*
+
+**RG16** - Le sondage peut être supprimé
