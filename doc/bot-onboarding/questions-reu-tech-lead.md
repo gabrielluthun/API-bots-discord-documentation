@@ -48,3 +48,5 @@
 23. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
 
 24. Dans la doc de Simplon Remastered, lorsqu'une fabrique est supprimée il est dit que les promotions actives qui y sont liées sont supprimées aussi. Sont-elles vraiment supprimées ou plutôt archivées ?
+
+24. Est-il pertinent de prévoir, une fois le forum privé créé et paramétré, la possibilité via le bot de modifier ultérieurement les rôles inclus dans ce forum ?
