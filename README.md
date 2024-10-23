@@ -70,6 +70,11 @@ Le reviewer doit fournir une explication détaillée pour s'assurer que le contr
 
 ## Processus d'approbation et de fusion des pull requests
 
+
 **_Responsabilité lors de la fusion_** : Le dernier reviewer qui approuve une pull request est responsable de la fusion de celle-ci. En acceptant de fusionner la pull request, il accepte également de prendre la responsabilité en cas de problèmes futurs liés à cette pull request.
 
 **_Approbation partagée_** : Une pull request doit être validée par au moins un membre du groupe émetteur de la PR en question.
+
+**_Nombre minimum de reviewers_** : Pour qu'une pull request soit fusionnée, elle doit être approuvée par un minimum de trois reviewers, y compris des membres externes au groupe émetteur, afin de garantir une évaluation complète et de qualité.
+
+**_Fusion par un membre du groupe_** : La personne responsable de la fusion de la pull request doit impérativement être un membre du même groupe que celui qui a émis la pull request. Cela garantit que les membres du groupe assument la responsabilité des changements apportés et de leurs conséquences potentielles.
