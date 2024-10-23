@@ -46,3 +46,5 @@
 22. Concernant les demandes d'identifications, est-ce que tu accepterais un message supplémentaire ?
 
 23. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
+
+24. Dans la doc de Simplon Remastered, lorsqu'une fabrique est supprimée il est dit que les promotions actives qui y sont liées sont supprimées aussi. Sont-elles vraiment supprimées ou plutôt archivées ?
