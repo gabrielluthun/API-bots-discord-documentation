@@ -1,6 +1,6 @@
 # Règles de gestion
 
-## Rappels
+## Rappels 
 
 **RG1** - Le bot doit pouvoir sélectionner un membre du Discord
 
@@ -8,6 +8,7 @@
 
 **RG3** - Le bot doit pouvoir envoyer un message dans un canal
 
-**RG4** - Le bot permet de configurer l'intervalle et la durée des notifications automatiques.
+**RG4** - Le bot doit pouvoir mentionner dans un canal
 
-**RG5** - Le bot permet de personnaliser le message envoyé lors des notifications automatiques.
+**RG5** - Le bot doit pouvoir personnaliser les messages envoyés
+
