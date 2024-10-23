@@ -78,3 +78,5 @@ Le reviewer doit fournir une explication détaillée pour s'assurer que le contr
 **_Nombre minimum de reviewers_** : Pour qu'une pull request soit fusionnée, elle doit être approuvée par un minimum de trois reviewers, y compris des membres externes au groupe émetteur, afin de garantir une évaluation complète et de qualité.
 
 **_Fusion par un membre du groupe_** : La personne responsable de la fusion de la pull request doit impérativement être un membre du même groupe que celui qui a émis la pull request. Cela garantit que les membres du groupe assument la responsabilité des changements apportés et de leurs conséquences potentielles.
+
+**_Validation du Tech Lead_** : Parmi les reviewers, le Tech Lead du groupe émetteur de la pull request doit obligatoirement faire partie des approbateurs. L'approbation finale du Tech Lead est nécessaire pour qu'un membre du groupe puisse procéder à la fusion. Il revient au Tech Lead de donner l'aval définitif, assurant que la pull request est prête à être intégrée dans la base de code principale.
