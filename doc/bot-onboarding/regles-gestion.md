@@ -69,12 +69,12 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 
 - **RG47** : Un forum contient un nom unique qui le décrit
 - **RG48** : Un forum peut être privé
-- **RG49** : Dans le cas d'un forum privé, l'administrateur choisir les membres ou rôles qui peuvent rejoindre ce forum
-- **RG50** : Seuls un administrateur et un directeur peuvent créer un forum
-- **RG51** : Seuls un administrateur et un directeur peuvent modifier un forum
-- **RG52** : Seuls un administrateur et un directeur peuvent supprimer un forum
-- **RG53** : Un forum peut contenir une guideline indiquant la nature de ce forum
-- **RG54** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts
+- **RG49** : Un administrateur, un directeur et un chargé de projet peuvent créer un forum
+- **RG50** : Un administrateur, un directeur et un chargé de projet peuvent modifier un forum
+- **RG51** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un forum
+- **RG52** : Dans le cas d'un forum privé, son créateur peut choisir les membres ou rôles qui peuvent le rejoindre
+- **RG53** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts
+- ***RG54** : Un forum peut contenir une guideline indiquant la nature de ce forum*
 
 ## Gestion des Posts
 
