@@ -25,3 +25,9 @@
 **RG09** - Le bot doit permettre de personnaliser le contenu d’un modèle prédéfini de sondage
 
 **RG10** - Le bot doit permettre supprimer un modèle prédéfini de sondage
+
+### Portée :
+
+**RG11** - Le destinataire du sondage peut être un rôle
+
+**RG12** - Le bot peut mentionner un rôle lors de l'envoi du sondage
