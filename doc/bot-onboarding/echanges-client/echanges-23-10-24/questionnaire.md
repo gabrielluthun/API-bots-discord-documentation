@@ -26,3 +26,31 @@
 11. On a remarqué qu'il était possible pour les apprenants de faire des posts; est-ce intentionnel ?
 
 12. Doit-on fournir un guide d'utilisation aux nouveaux arrivants pour évoquer les bonnes pratiques en terme de sécurité ?
+
+13. Est-ce qu'à l'avenir le bot va devoir gérer un autre serveur que Simplon HDF, ex: Simplon IDF ?
+
+14. A la création d'une promotion, la possibilité de mettre une date de début et une date de fin pour définir sa période de validité ? Possibilité d'enlevé la période de validité.
+
+15. Concernant la modération des zones communes, est-ce que vous pensez qu'une simple sensibilisation suffirait ou faudrait-il mettre en place des restrictions notamment pour la création de post ?
+
+16. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
+
+17. En regardant le RBAC de Discord Simplon, on a ramarqué une permission nommée "Administrateur", à quoi sert-elle ?
+
+18. Dans le schéma discord par rôle fourni par Claire, on remarque l'existence des rôles "admins" et "administrateur" ? Pour éviter la confusion ne serait-il pas mieux de parler de "administration" et "administrateur" ?
+
+19. Lors de la confirmation d'identification, il y a un choix "staff" et "apprenant"? Faudrait-il ajouter d'autres rôles comme "formateur" ou "invité" ?
+
+20. Actuellement même les apprennants peuvent notifier toute une fabrique, est-ce que l'on garde cet état de fait ?
+
+21. Accordons-nous le droit à un formateur de créer des posts ? Avec une limite ?
+
+22. Concernant les demandes d'identifications, est-ce que tu accepterais un message supplémentaire ?
+
+23. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
+
+24. Dans la doc de Simplon Remastered, lorsqu'une fabrique est supprimée il est dit que les promotions actives qui y sont liées sont supprimées aussi. Sont-elles vraiment supprimées ou plutôt archivées ?
+
+25. Dans le cas de la création de channel dans le stock de channel, auriez-vous besoin d'une option en plus pour permettre de mettre une limite de personne dans un channel vocal ?
+
+26. Est-il pertinent de prévoir, une fois le forum privé créé et paramétré, la possibilité via le bot de modifier ultérieurement les rôles inclus dans ce forum ?
