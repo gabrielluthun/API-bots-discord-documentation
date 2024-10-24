@@ -26,6 +26,25 @@ Durant notre rendez-vous, nous avons discuté des points suivants :
 - Potentielle limitation du nombre de personnes dans les channels
 - Kickage d'apprenants sur les channels vocaux temporaires
 
+Par rapport aux points ci-dessus, nous avons compris que :
+- Le mélange channel textuel/ forum sur Simplon HDF est dû à un manque de temps et n'était donc pas volontaire.
+- Le stock de channels est disponible en privé sur le serveur discord Simplon HDF au sein d'une *category*.
+- Si on partait de la V1 du bot onboarding, on utiliserait le stock de channel évoqué précédemment afin d'utiliser les noms des dits channels pour créer des posts, en tant que nom et message lors de leur création des posts.
+- Le apprenants ne doivent pas avoir la possibilité de créer des posts.
+- Sous réserve d'une approbation de Claire, les formateurs pourront créer autant de posts qu'ils le désireront dans leur promotion.
+- La permission administrateur est une permission propre à discord.
+- Le "forum cloud" tel que nous l'avons vu sur la documentation fournie par Claire est bien un forum unique, il ne posera donc pas de problème.
+- Sous réserve d'une approbation de Claire, il faudra renommer les rôles admins et administrateur afin d'éviter toute confusion.
+- Concernant le rôle staff, il y aura une liste de rôle qui sera attribué à la volée, pour la personne concernée pour qu'elle puisse accéder aux catégories de channels nécessaires pour ses fonctions.
+- Le schéma fonctionnel fourni est toujorus pertinent.
+- Il faut ajouter une flèche entre le dashboard et le bot discord dans le schéma.
+- La création de forum privé n'est pas pertinente dans le cadre du bot discord.
+- Lors de l'identification, la possibilité d'ajouter des rôles comme "formateur ou "invité" n'est pas exclue.
+- La suppresion de fabrique pouvait entrainer un choix de la suppression des promotions liées à une fabrique.
+- Le suppression de formation entraine obligatoirement la suppression des promotions actives.
+- Lors de la création d'un channel dans un stock de channel, rajouter une option pour limiter le nombre de personnes.
+- Sous réserve d'un acceptation de CLaire, il peut être envisagé de mettre en place un système de kickage des apprenants dans les salons vocaux temporaires.
+
 Suite à la démonstration du bot discord nous avons compris que :
 
 - Les listes déroulantes où sont stockées les channels ont une limitation de 25
@@ -73,3 +92,6 @@ Bien cordialement,
 **Aurore Reynier**
 
 Le groupe Discord onboarding
+
+Le schéma inclu:
+![schéma bot onboarding](./../../../assets/images/bot-onboarding-operation-diagram.jpg)
