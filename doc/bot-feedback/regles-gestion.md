@@ -4,7 +4,11 @@
 
 ### Création du sondage :
 
-**RG01** - un administrateurs, un membre du staff et un délégué peuvent créer un sondage
+**RG01** - Un administrateurs, un membre du staff, un formateur et un délégué peuvent créer un sondage
+
+**RG01** - A la création d'un sondage, un ou plusieurs rôles y sont assignés
+
+**RG01** - Un administrateur, un membre du staff, un formateur et un délégué peuvent créer un modèle prédéfini de sondage
 
 **RG01** - Le sondage contient une ou plusieurs questions
 
@@ -20,6 +24,8 @@
 
 ### Sondage Standardisé :
 
+**RG01** - Un administrateur, un membre du staff, un formateur et un délégué peuvent utiliser un modèle prédéfini de sondage
+
 **RG07** - Le bot doit permettre de créer un modèle prédéfini de sondage
 
 **RG08** - Le bot doit permettre de sauvegarder un modèle prédéfini de sondage
@@ -30,7 +36,11 @@
 
 ### Portée :
 
-**RG01** - Tous les membes du serveur communautaire peuvent répondre à un sondage auquel ils sont assignés
+**RG01** - (Tous les membes du serveur communautaire) Un administrateurs, un membre du staff, un formateur, un délégué, un apprenant et un alumni peuvent répondre à un sondage auquel ils sont assignés
+
+**RG01** - Un formateur et un délégué peuvent assigner un sondage aux promotions auxquelles ils sont associés
+
+**RG01** - Un administrateur et un membre du staff peuvent assigner un sondage aux membres sur serveur communautaire
 
 **RG11** - Le destinataire du sondage peut être un rôle
 
@@ -38,7 +48,7 @@
 
 ### Gestion du sondage :
 
-**RG01** - Un administrateurs, un membre du staff et un délégué peuvent supprimer un sondage si leur rôle le permet
+**RG01** - Un administrateur, un membre du staff, un formateur et un délégué peuvent supprimer un modèle prédéfini de sondage selon leur rôle ou si ils en sont à l'origine
 
 **RG13** - Le sondage est envoyé dans un cannal
 
