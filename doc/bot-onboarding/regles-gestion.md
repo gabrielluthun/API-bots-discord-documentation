@@ -6,9 +6,9 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 
 ## Glossaire
 
-- Stock de channels : il s'agit de noms de channels réutilisables que l'on peut sélectionner lors de la création d'une formation. 
+- Stock de channels vocaux : il s'agit de channels stockés dans une "category" discord. Il devient alors possible de les dupliquer lors de la création d'une nouvelle promotion par exemple. 
 
-- Forums pré-enregistrés : il s'agit de template de forums avec des posts dédiés que l'on peut sélectionner lors de la création d'une formation.
+- Stock de forums : il s'agit de template de forums avec des posts dédiés que l'on peut sélectionner lors de la création d'une formation.
 
 ## Gestion de promotion
 
