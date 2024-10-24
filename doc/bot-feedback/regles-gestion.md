@@ -14,9 +14,9 @@
 
 **RG04** - Le sondage a une durée
 
-**RG05** - La création du sondage est déclanchée par une commande
+**RG05** - La création du sondage est déclenchée par une commande
 
-**RG06** - Le sondage peut-être basé sur un template
+**RG06** - Le sondage peut-être basé sur un modèle prédéfini
 
 ### Sondage Standardisé :
 
@@ -26,7 +26,7 @@
 
 **RG09** - Le bot doit permettre de personnaliser le contenu d’un modèle prédéfini de sondage
 
-**RG10** - Le bot doit permettre supprimer un modèle prédéfini de sondage
+**RG10** - Le bot doit permettre de supprimer un modèle prédéfini de sondage
 
 ### Portée :
 
@@ -38,7 +38,7 @@
 
 ### Gestion du sondage :
 
-**RG01** - un administrateurs, un membre du staff et un délégué peuvent supprimer un sondage si leur rôle le permet
+**RG01** - Un administrateurs, un membre du staff et un délégué peuvent supprimer un sondage si leur rôle le permet
 
 **RG13** - Le sondage est envoyé dans un cannal
 
@@ -48,11 +48,11 @@
 
 **RG16** - Le sondage peut être supprimé
 
-### Rappels :
+### Rappel :
 
 **RG17** - Le bot doit pouvoir sélectionner un membre du Discord
 
-**RG18** - Le bot doit pouvoir envoyer un message en privé
+**RG18** - Le bot doit pouvoir envoyer un message privé
 
 **RG19** - Le bot doit pouvoir envoyer un message dans un canal
 
