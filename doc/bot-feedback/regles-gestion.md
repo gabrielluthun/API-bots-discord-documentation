@@ -4,52 +4,66 @@
 
 ### Création du sondage :
 
-**RG01** - Le sondage contient une ou plusieurs questions
+**RG01** - Un administrateurs, un membre du staff, un formateur et un délégué peuvent créer un sondage
 
-**RG02** - Le sondage est à choix unique ou multiple
+**RG02** - A la création d'un sondage, un ou plusieurs rôles y sont assignés
 
-**RG03** - Le sondage peut être anonyme
+**RG03** - Un administrateur, un membre du staff, un formateur et un délégué peuvent créer un modèle prédéfini de sondage
 
-**RG04** - Le sondage a une durée
+**RG04** - Le sondage contient une ou plusieurs questions
 
-**RG05** - La création du sondage est déclanchée par une commande
+**RG05** - Le sondage est à choix unique ou multiple
 
-**RG06** - Le sondage peut-être basé sur un template
+**RG06** - Le sondage peut être anonyme
+
+**RG07** - Le sondage a une durée
+
+**RG08** - La création du sondage est déclenchée par une commande
+
+**RG09** - Le sondage peut-être basé sur un modèle prédéfini
 
 ### Sondage Standardisé :
 
-**RG07** - Le bot doit permettre de créer un modèle prédéfini de sondage
+**RG10** - Un administrateur, un membre du staff, un formateur et un délégué peuvent utiliser un modèle prédéfini de sondage
 
-**RG08** - Le bot doit permettre de sauvegarder un modèle prédéfini de sondage
+**RG11** - Le bot doit permettre de créer un modèle prédéfini de sondage
 
-**RG09** - Le bot doit permettre de personnaliser le contenu d’un modèle prédéfini de sondage
+**RG12** - Le bot doit permettre de sauvegarder un modèle prédéfini de sondage
 
-**RG10** - Le bot doit permettre supprimer un modèle prédéfini de sondage
+**RG13** - Le bot doit permettre de personnaliser le contenu d’un modèle prédéfini de sondage
+
+**RG14** - Le bot doit permettre de supprimer un modèle prédéfini de sondage
 
 ### Portée :
 
-**RG11** - Le destinataire du sondage peut être un rôle
+**RG15** - (Tous les membes du serveur communautaire) Un administrateurs, un membre du staff, un formateur, un délégué, un apprenant et un alumni peuvent répondre à un sondage auquel ils sont assignés
 
-**RG12** - Le bot peut mentionner un rôle lors de l'envoi du sondage
+**RG16** - Un formateur et un délégué peuvent assigner un sondage aux promotions auxquelles ils sont associés
+
+**RG17** - Un administrateur et un membre du staff peuvent assigner un sondage aux membres sur serveur communautaire
+
+**RG18** - Le bot peut mentionner un rôle lors de l'envoi du sondage
 
 ### Gestion du sondage :
 
-**RG13** - Le sondage est envoyé dans un cannal
+**RG19** - Un administrateur, un membre du staff, un formateur et un délégué peuvent supprimer un modèle prédéfini de sondage selon leur rôle ou si ils en sont à l'origine
 
-**RG14** - Le sondage peut être fermé
+**RG20** - Le sondage est envoyé dans un cannal
 
-**RG15** - *Le sondage peut être réouvert*
+**RG21** - Le sondage peut être fermé
 
-**RG16** - Le sondage peut être supprimé
+**RG22** - *Le sondage peut être réouvert*
 
-### Rappels :
+**RG23** - Le sondage peut être supprimé
 
-**RG17** - Le bot doit pouvoir sélectionner un membre du Discord
+### Rappel :
 
-**RG18** - Le bot doit pouvoir envoyer un message en privé
+**RG24** - Le bot doit pouvoir sélectionner un membre du Discord
 
-**RG19** - Le bot doit pouvoir envoyer un message dans un canal
+**RG25** - Le bot doit pouvoir envoyer un message privé
 
-**RG20** - Le bot doit pouvoir mentionner dans un canal
+**RG26** - Le bot doit pouvoir envoyer un message dans un canal
 
-**RG21** - Le bot doit pouvoir personnaliser les messages envoyés
+**RG27** - Le bot doit pouvoir mentionner dans un canal
+
+**RG28** - Le bot doit pouvoir personnaliser les messages envoyés
