@@ -20,3 +20,4 @@
 9. Concernant les demandes d'identifications, est-ce que tu accepterais un message supplémentaire ?
 
 10. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
+
