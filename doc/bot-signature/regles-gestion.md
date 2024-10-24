@@ -46,7 +46,7 @@
 
 # Journalisation
 - R.G 37: Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.
-    - R.G 38: Le journal écrit les informations de la manière suivante :
+- R.G 38: Le journal écrit les informations de la manière suivante :
     - R.G 39: À quelle date a été lancée la commande.
     - R.G 40: Quel utilisateur a lancé la commande.
     - R.G 41: Quelle commande a été utilisée.
