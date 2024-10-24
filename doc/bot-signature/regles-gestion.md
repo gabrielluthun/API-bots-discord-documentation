@@ -51,3 +51,14 @@
     - R.G 40: Quel utilisateur a lancé la commande.
     - R.G 41: Quelle commande a été utilisée.
     - R.G 42: À quel utilisateur la commande est-elle destinée.
+
+# Structuration de l'organisation
+- R.G 43: Un formateur est lié à une ou plusieurs promotions.
+- R.G 44: Une promotion est liée à un ou plusieurs formateurs.
+- R.G 45: Un apprenant suit une formation à la fois.
+- R.G 46: Une promotion regroupe plusieurs apprenants.
+- R.G 47: Un apprenant appartient à une promotion.
+- R.G 48: Une promotion a un chargé de projets.
+- R.G 49: Un chargé de projets a une ou plusieurs promotions.
+- R.G 50: Une formation peut être dispensée dans un ou plusieurs centres.
+- R.G 51: Un centre peut proposer une ou plusieurs formations.
