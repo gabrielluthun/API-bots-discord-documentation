@@ -4,6 +4,8 @@
 
 ### Création du sondage :
 
+**RG01** - un administrateurs, un membre du staff et un délégué peuvent créer un sondage
+
 **RG01** - Le sondage contient une ou plusieurs questions
 
 **RG02** - Le sondage est à choix unique ou multiple
@@ -28,11 +30,15 @@
 
 ### Portée :
 
+**RG01** - Tous les membes du serveur communautaire peuvent répondre à un sondage auquel ils sont assignés
+
 **RG11** - Le destinataire du sondage peut être un rôle
 
 **RG12** - Le bot peut mentionner un rôle lors de l'envoi du sondage
 
 ### Gestion du sondage :
+
+**RG01** - un administrateurs, un membre du staff et un délégué peuvent supprimer un sondage si leur rôle le permet
 
 **RG13** - Le sondage est envoyé dans un cannal
 
