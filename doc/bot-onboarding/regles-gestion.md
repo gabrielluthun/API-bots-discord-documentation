@@ -20,7 +20,7 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 - **RG6** : Lors de la modification, un message de confirmation apparait
 - **RG7** : Lors de la suppression, un message de confirmation apparait
 - **RG8** : Lors de la création, un message de confirmation apparait
-- **RG9** : Pour créer une promotion il sera nécessaire de sélectionner sa formation et sa fabrique associées
+- **RG9** : Pour créer une promotion il sera nécessaire de renseigner son nom puis de sélectionner sa formation et sa fabrique associées
 - **RG10** : La création d'une promotion crée également un rôle associé avec le nom de la promo
 - **RG11** : La promotion est archivée un mois après la fin de la session associée
 - **RG12** : Une promotion est forcément liée à une fabrique
