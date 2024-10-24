@@ -36,9 +36,8 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 - **RG19** : Lors de la modification, un message de confirmation apparait
 - **RG20** : Lors de la suppression, un message de confirmation apparait
 - **RG21** : Lors de la création, un message de confirmation apparait
-- **RG22** : Lors de la création d'une formation, il sera possible de sélectionner des canaux déjà pré-enregistrés (template)
-- **RG23** : Lors de la modification d'une formation, il sera possible de choisir des autres canaux déjà pré-enregistrés (template)
-- **RG24** : Une formation contient un template de channels organisé qui lui est dédié
+- **RG22** : Lors de la création d'une formation, il sera possible de sélectionner des channels vocaux dans le stocks de channels vocaux
+- **RG23** : Lors de la modification d'une formation, il sera possible de sélectionner d'autres channels disponibles dans le stock de channels vocaux
 - **RG25** : Un apprenant est toujours lié à sa formation une fois sa promotion archivée
 
 ## Gestion de fabrique
