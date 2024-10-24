@@ -42,7 +42,7 @@
 
 ### Gestion du sondage :
 
-**RG17** - Le sondage est envoyé dans un cannal
+**RG17** - Le sondage est envoyé dans un canal
 
 **RG18** - Le sondage peut être fermé
 
