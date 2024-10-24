@@ -38,7 +38,7 @@
 - R.G 31: Une promotion regroupe plusieurs apprenants.
 - R.G 32: Un apprenant appartient à une promotion.
 - R.G 33: Une promotion a un chargé de projets.
-- R.G 34: Un chargé de projets a une ou plusieurs promotions.
+- R.G 34: Un chargé de projets est lié a une ou plusieurs promotions.
 - R.G 35: Une formation peut être dispensée dans un ou plusieurs centres.
 - R.G 36: Un centre peut proposer une ou plusieurs formations.
 # Données nécessaires au bot
