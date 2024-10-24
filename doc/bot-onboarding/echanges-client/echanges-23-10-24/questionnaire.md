@@ -14,3 +14,15 @@
 5. On a entendu dire que le terme de fabrique serait sans doute remplacé par celui de campus, quel terme doit-on utiliser dans la documentation ?
 
 6. Sur ce sujet, avons-nous des nouvelles concerant la nouvelle nomenclature ? Par exemple, pour les noms de promo ?
+
+7. Proposition pour les canaux vocaux temporaires lorsque des apprenants sont encore présents en dehors des heures de cours : préférez-vous que ces canaux disparaissent automatiquement une heure après la fin des cours (avec impossibilité d'en créer en dehors des heures de cours), ou qu'ils disparaissent à minuit, avec la possibilité de les recréer immédiatement après ?
+
+8. Combien de formation avez-vous en moyenne en parallèle ?
+
+9. Combien de channels fixes existe t'il sur le discord des hauts-de-France? Par exemple il existe la formation CDA qui possède 4 channels en continu et 6 forums. A l'avenir à la création d'une promotion y'aura t-il autre chose que des channels vocaux ?
+
+10. Pourquoi ne pas avoir mis que des forums?
+
+11. On a remarqué qu'il était possible pour les apprenants de faire des posts; est-ce intentionnel ?
+
+12. Doit-on fournir un guide d'utilisation aux nouveaux arrivants pour évoquer les bonnes pratiques en terme de sécurité ?
