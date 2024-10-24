@@ -46,11 +46,7 @@
 
 ### Gestion du sondage :
 
-<<<<<<< HEAD
 **RG19** - Le sondage est envoyé dans un canal
-=======
-**RG17** - Le sondage est envoyé dans un canal
->>>>>>> 1bdbd5ea96049e26c2abaaea16dea3a5a8e06a11
 
 **RG20** - Le sondage peut être fermé
 
