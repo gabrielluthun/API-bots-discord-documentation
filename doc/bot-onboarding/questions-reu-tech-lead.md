@@ -17,7 +17,7 @@
 
 8. Combien de formation avez-vous en moyenne en parallèle ?
 
-9. Combien de channels fixes existe t'il sur le discord des hauts-de-France? Par exemple il existe la formation CDA qui possède 4 channels en continu et 6 forums.
+9. Combien de channels fixes existe t'il sur le discord des hauts-de-France? Par exemple il existe la formation CDA qui possède 4 channels en continu et 6 forums. A l'avenir à la création d'une promotion y'aura t-il autre chose que des channels vocaux ?
 
 10. Pourquoi ne pas avoir mis que des forums?
 
@@ -49,4 +49,6 @@
 
 24. Dans la doc de Simplon Remastered, lorsqu'une fabrique est supprimée il est dit que les promotions actives qui y sont liées sont supprimées aussi. Sont-elles vraiment supprimées ou plutôt archivées ?
 
-24. Est-il pertinent de prévoir, une fois le forum privé créé et paramétré, la possibilité via le bot de modifier ultérieurement les rôles inclus dans ce forum ?
+25. Dans le cas de la création de channel dans le stock de channel, auriez-vous besoin d'une option en plus pour permettre de mettre une limite de personne dans un channel vocal ?
+
+26. Est-il pertinent de prévoir, une fois le forum privé créé et paramétré, la possibilité via le bot de modifier ultérieurement les rôles inclus dans ce forum ?

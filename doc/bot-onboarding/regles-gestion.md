@@ -4,9 +4,15 @@ Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fon
 
 Attention, ***les règles de gestions en italiques** sont des suggestions et **ne sont pas prioritaires***.
 
+## Glossaire
+
+- Stock de channels : il s'agit de noms de channels réutilisables que l'on peut sélectionner lors de la création d'une formation. 
+
+- Forums pré-enregistrés : il s'agit de template de forums avec des posts dédiés que l'on peut sélectionner lors de la création d'une formation.
+
 ## Gestion de promotion
 
-- **RG1** : Une promotion contient un nom qui la décrit
+- **RG1** : Une promotion possède un nom qui la décrit
 - **RG2** : Une promotion contient une date de début et une date de fin
 - **RG3** : Un administrateur, un directeur et un chargé de projet peuvent créer une promotion
 - **RG4** : Un administrateur et un directeur et un chargé de projet peuvent modifier une promotion
@@ -17,13 +23,13 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 - **RG9** : Pour créer une promotion il sera nécessaire de sélectionner sa formation et sa fabrique associées
 - **RG10** : La création d'une promotion crée également un rôle associé avec le nom de la promo
 - **RG11** : La promotion est archivée un mois après la fin de la session associée
-- **RG12** : Une promotion est forcément lié à une fabrique
-- **RG13** : Une promotion est forcément lié à une formation
+- **RG12** : Une promotion est forcément liée à une fabrique
+- **RG13** : Une promotion est forcément liée à une formation
 - **RG14** : Dans le client discord, les promotions seront groupées visuellement par fabrique
 
 ## Gestion de formation
 
-- **RG15** : Une formation contient un nom qui l'a décrit
+- **RG15** : Une formation possède un nom qui l'a décrit
 - **RG16** : Un administrateur, un directeur et un chargé de projet peuvent créer une formation
 - **RG17** : Un administrateur, un directeur et un chargé de projet peuvent modifier une formation
 - **RG18** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une formation
@@ -37,7 +43,7 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 
 ## Gestion de fabrique
 
-- **RG26** : Une fabrique contient un nom qui la décrit
+- **RG26** : Une fabrique possède un nom qui la décrit
 - **RG27** : Un administrateur, un directeur et un chargé de projet peuvent créer une fabrique
 - **RG28** : Un administrateur, un directeur et un chargé de projet peuvent modifier une fabrique
 - **RG29** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une fabrique
@@ -55,7 +61,7 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 - **RG38** : Un administrateur, un directeur et un chargé de projet peuvent créer un channel dans le stock de channel
 - **RG39** : Un administrateur, un directeur et un chargé de projet peuvent modifier un channel dans le stock de channel
 - **RG40** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un channel dans le stock de channel
-- **RG41** : Un channel contient un nom unique qui le décrit
+- **RG41** : Un channel possède un nom unique qui le décrit
 - ***RG42** : Un channel a un emoji qui le défini*
 - **RG43** : Deux channels peuvent avoir le même emoji
 - **RG44** : Lors de la création d'un channel, celui-ci peut être stocké en tant que template de channel
@@ -69,47 +75,39 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 
 ## Gestion des Forums
 
-- **RG49** : Un forum contient un nom unique qui le décrit
-- **RG50** : Un forum peut être privé
+- **RG49** : Un forum possède un nom unique qui le décrit
 - **RG51** : Un administrateur, un directeur et un chargé de projet peuvent créer un forum pré-enregistré
 - **RG52** : Un administrateur, un directeur et un chargé de projet peuvent modifier un forum pré-enregistré
 - **RG53** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un forum pré-enregistré
-- **RG54** : Dans le cas d'un forum privé, son créateur peut choisir les membres ou rôles qui peuvent le rejoindre
-- ***RG55** : Un forum peut contenir des tags qui lui sont propres pour filtrer les posts*
 - ***RG56** : Un forum peut contenir une guideline indiquant la nature de ce forum*
 
 ## Gestion des Posts
 
-- **RG57** : Empêcher les apprenants de créer des posts
-- **RG58** : Un post contient un titre
+- **RG57** : Les apprenants ne doivent pas pouvoir créer des postes
+- **RG58** : Un post possède un titre
 - **RG59** : Un post contient un message
 - ***RG60** : Un post peut contenir un emoji*
 - ***RG61** : Un post peut contenir une image*
 - ***RG62** : Un post peut contenir une réaction par défaut*
 - ***RG63** : Un post peut contenir un ou plusieurs tags*
-- **RG64** : Seuls un administrateur et un directeur peuvent créer un post dans le stock de post
-- **RG65** : Lors de la création d'un post, celui-ci peut être stocké en tant que template de post
-- **RG66** : Un template de posts générique est disponible
-- **RG67** : Seuls un administrateuret un directeur peuvent modifier un post dans le stock de post
-- **RG68** : Seuls un administrateur et un directeur peuvent supprimer un post dans le stock de post
 
 ## Gestion d'identification
 
-- **RG69** : Une demande d'identification est effectuée par un nouvel arrivant
-- **RG70** : Une demande d'identification passe par un formulaire
-- **RG71** : Un formulaire de demande d'identification contient le nom de la personne
-- **RG72** : Un formulaire de demande d'identification contient le prénom de la personne
-- **RG73** : Un formulaire de demande d'identification contient l'adresse email de la personne
-- **RG74** : Un formulaire de demande d'identification contient un champs libre de données complémentaires de la personne
-- **RG75** : Un formulaire de demande d'identification contient des listes déroulantes permettant de cibler le profil de l'utilisateur (ex. sa formation)
-- **RG76** : Un formulaire de demande d'identification contient un encart lié au RGPD selon lequel la personne consent au traitement de ses données personnelles
-- **RG77** : Un administrateur, un directeur, un chargé de projet peuvent accepter/refuser une demande d'identification
-- **RG78** : La personne acceptant la demande d'identification peut attribuer le rôle en question
-- **RG79** : Une fois la demande d'identification acceptée, la personne sera automatiquement renommée par son nom et prénom
-- **RG80** : Lorsque ce rôle est apprenant, la personne acceptant la demande d'identification lui attribue le rôle de sa formation et de la promotion
-- **RG81** : Une fois un rôle attribué au nouvel arrivant, ce rôle de nouvel arrivant lui est retiré
-- **RG82** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur
+- **RG64** : Une demande d'identification est effectuée par un nouvel arrivant
+- **RG65** : Une demande d'identification passe par un formulaire
+- **RG66** : Un formulaire de demande d'identification contient le nom de la personne
+- **RG67** : Un formulaire de demande d'identification contient le prénom de la personne
+- **RG68** : Un formulaire de demande d'identification contient l'adresse email de la personne
+- **RG69** : Un formulaire de demande d'identification contient un champs libre de données complémentaires de la personne
+- **RG70** : Un formulaire de demande d'identification contient des listes déroulantes permettant de cibler le profil de l'utilisateur (ex. sa formation)
+- **RG71** : Un formulaire de demande d'identification contient un encart lié au RGPD selon lequel la personne consent au traitement de ses données personnelles
+- **RG72** : Un administrateur, un directeur, un chargé de projet peuvent accepter/refuser une demande d'identification
+- **RG73** : La personne acceptant la demande d'identification peut attribuer le rôle en question
+- **RG74** : Une fois la demande d'identification acceptée, la personne sera automatiquement renommée par son nom et prénom
+- **RG75** : Lorsque ce rôle est apprenant, la personne acceptant la demande d'identification lui attribue le rôle de sa formation et de la promotion
+- **RG76** : Une fois un rôle attribué au nouvel arrivant, ce rôle de nouvel arrivant lui est retiré
+- **RG77** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur
 
 ## Ciblages
 
-- **RG83** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes avec @everyone et @here
+- **RG78** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes avec @everyone et @here
