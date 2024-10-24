@@ -62,7 +62,7 @@
 
 **RG25** - Le bot peut sélectionner un canal du serveur
 
-**RG26** - Le bot peut envoyer un message dans un cannal
+**RG26** - Le bot peut envoyer un message dans un canal
 
 **RG27** - Le bot peut mentionner dans un canal
 
