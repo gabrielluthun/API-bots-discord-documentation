@@ -32,3 +32,14 @@
 - R.G 25: La promo est notifiée via un tag @.
 - R.G 26: Le bot peut sauvegarder l'ID du message.
 - R.G 27: Le bot peut supprimer le message quand il n'est plus utile.
+
+# Rappeler à un apprenant qu'il a oublié de signer
+- R.G 28: Le message est lié à un channel de promo.
+- R.G 29: Le message contient une liste de boutons.
+- R.G 30: Seuls les formateurs peuvent interagir avec les boutons.
+- R.G 31: Il y a un bouton par apprenant de la promo.
+- R.G 32: Les boutons ont deux états : actif et inactif.
+- R.G 33: Plusieurs boutons peuvent être actifs en même temps.
+- R.G 34: Il y a un bouton pour valider l'envoi des rappels.
+- R.G 35: Lorsqu'un rappel est validé, le bot dresse une liste d'apprenants à notifier selon l'état "activé" des boutons.
+- R.G 36: Les apprenants sélectionnés sont notifiés par message privé.
