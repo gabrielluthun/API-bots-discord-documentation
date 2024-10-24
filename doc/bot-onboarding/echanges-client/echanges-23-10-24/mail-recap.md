@@ -28,7 +28,15 @@ Durant notre rendez-vous, nous avons discuté des points suivants :
 
 Suite à la démonstration du bot discord nous avons compris que :
 
+- Les listes déroulantes où sont stockées les channels ont une limitation de 25
+- Pour initier l'interface nous utilisons une commande(exemple : ##configuration)
+- Les messages avec un fond bleu envoyé par le bot sont des messages privés pour la personne initiant le bot
+- Le fonctionnement de la configuration du bot pour calibrer les rôles 
+- Le fonctionnement de la Category discord et son ciblage dans la création de la nouvelle formation
+- L'abandon du concaténage pour le nommage des promos
+- Les noms de channels peuvent être utilisés en tant que nom de post au moment de leur création
 
+(Schéma récapitulatif des étapes en fichier joint)
 
 
 À l'issue de notre discussion, nous avons convenu des actions suivantes :
