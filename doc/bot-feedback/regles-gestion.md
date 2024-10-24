@@ -8,7 +8,7 @@
 
 **RG02** - Un sondage peut servir à la création de modèle prédéfini de sondage
 
-**RG02** - A la création d'un sondage, un ou plusieurs rôles y sont assignés
+**RG03** - A la création d'un sondage, un ou plusieurs rôles y sont assignés
 
 **RG04** - Le sondage contient une ou plusieurs questions
 
