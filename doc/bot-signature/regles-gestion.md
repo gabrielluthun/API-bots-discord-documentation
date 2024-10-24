@@ -43,3 +43,11 @@
 - R.G 34: Il y a un bouton pour valider l'envoi des rappels.
 - R.G 35: Lorsqu'un rappel est validé, le bot dresse une liste d'apprenants à notifier selon l'état "activé" des boutons.
 - R.G 36: Les apprenants sélectionnés sont notifiés par message privé.
+
+# Journalisation
+- R.G 37: Le bot enregistre chaque fois qu'un utilisateur fait appel à lui dans un journal.
+    - R.G 38: Le journal écrit les informations de la manière suivante :
+    - R.G 39: À quelle date a été lancée la commande.
+    - R.G 40: Quel utilisateur a lancé la commande.
+    - R.G 41: Quelle commande a été utilisée.
+    - R.G 42: À quel utilisateur la commande est-elle destinée.
