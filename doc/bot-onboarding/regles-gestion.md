@@ -53,7 +53,7 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 - **RG34** : Un apprenant n'est plus lié à la fabrique une fois sa promotion archivée
 - **RG35** : Une création de fabrique a pour conséquence la création de son rôle discord associé
 - **RG36** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes concernées par une fabrique
-- **RG37** : Lorsqu'une fabrique est supprimée, toutes les promotions actives qui y sont liées sont supprimées aussi
+- **RG37** : Lorsqu'une fabrique est supprimée il y a un choix entre supprimer ou archiver les promotions qui y sont liées.
 
 ## Gestion des channels
 
