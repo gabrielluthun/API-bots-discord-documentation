@@ -23,3 +23,12 @@
 - R.G 18: Il y a un bouton pour démarrer le vote.
 - R.G 19: Il faut trois votes pour que le vote soit un succès.
 - R.G 20: Dès que le vote est un succès, le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
+
+# Prévenir les apprenants qu'ils peuvent signer
+- R.G 21: Le message est lié à un channel de promo.
+- R.G 22: Le message possède un bouton.
+- R.G 23: Seuls les formateurs peuvent utiliser le bouton.
+- R.G 24: Le message est envoyé directement dans le thread signature.
+- R.G 25: La promo est notifiée via un tag @.
+- R.G 26: Le bot peut sauvegarder l'ID du message.
+- R.G 27: Le bot peut supprimer le message quand il n'est plus utile.
