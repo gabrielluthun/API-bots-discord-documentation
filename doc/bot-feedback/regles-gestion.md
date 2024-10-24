@@ -42,30 +42,28 @@
 
 **RG17** - Un administrateur et un membre du staff peuvent assigner un sondage aux membres sur serveur communautaire
 
-**RG18** - Le destinataire du sondage peut être un rôle
-
-**RG19** - Le bot peut mentionner un rôle lors de l'envoi du sondage
+**RG18** - Le bot peut mentionner un rôle lors de l'envoi du sondage
 
 ### Gestion du sondage :
 
-**RG20** - Un administrateur, un membre du staff, un formateur et un délégué peuvent supprimer un modèle prédéfini de sondage selon leur rôle ou si ils en sont à l'origine
+**RG19** - Un administrateur, un membre du staff, un formateur et un délégué peuvent supprimer un modèle prédéfini de sondage selon leur rôle ou si ils en sont à l'origine
 
-**RG21** - Le sondage est envoyé dans un cannal
+**RG20** - Le sondage est envoyé dans un cannal
 
-**RG22** - Le sondage peut être fermé
+**RG21** - Le sondage peut être fermé
 
-**RG23** - *Le sondage peut être réouvert*
+**RG22** - *Le sondage peut être réouvert*
 
-**RG24** - Le sondage peut être supprimé
+**RG23** - Le sondage peut être supprimé
 
 ### Rappel :
 
-**RG25** - Le bot doit pouvoir sélectionner un membre du Discord
+**RG24** - Le bot doit pouvoir sélectionner un membre du Discord
 
-**RG26** - Le bot doit pouvoir envoyer un message privé
+**RG25** - Le bot doit pouvoir envoyer un message privé
 
-**RG27** - Le bot doit pouvoir envoyer un message dans un canal
+**RG26** - Le bot doit pouvoir envoyer un message dans un canal
 
-**RG28** - Le bot doit pouvoir mentionner dans un canal
+**RG27** - Le bot doit pouvoir mentionner dans un canal
 
-**RG29** - Le bot doit pouvoir personnaliser les messages envoyés
+**RG28** - Le bot doit pouvoir personnaliser les messages envoyés
