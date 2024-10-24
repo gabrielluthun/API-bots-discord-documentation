@@ -1,3 +1,22 @@
+
+# Sommaire
+
+1. [Normes pour les commits et les pull requests](#normes-pour-les-commits-et-les-pull-requests)
+   - [Messages de commit](#messages-de-commit)
+   - [Body du commit (corps détaillé)](#body-du-commit-corps-détaillé)
+   - [Longueur des commits](#longueur-des-commits)
+   - [Commits atomiques](#commits-atomiques)
+   - [Noms des pull requests](#noms-des-pull-requests)
+   - [Labels sur les pull requests](#labels-sur-les-pull-requests)
+   - [Noms de fichiers](#noms-de-fichiers)
+   - [Suivi des changements dans les pull requests](#suivi-des-changements-dans-les-pull-requests)
+   - [Processus d'approbation et de fusion des pull requests](#processus-dapprobation-et-de-fusion-des-pull-requests)
+
+
+
+
+
+
 # Normes pour les commits et les pull requests ✍️
 
 Afin de maintenir une cohérence et une clarté dans notre travail collaboratif, nous avons mis en place des normes pour les messages de commit et les pull requests.
