@@ -10,6 +10,25 @@ Vos réponses, idées et suggestions ont été extrêmement enrichissantes pour 
 
 Durant notre rendez-vous, nous avons discuté des points suivants :
 
+- Le fait qu'il y'ai eu un mélange channel textuel/forum sur Simplon HDF
+- La pertinence du stock de channels
+- Mettre des stocks pour les posts
+- Les permissions de l'apprenant lié à la création de posts
+- Les permissions du formateur lié à la création de posts
+- L'existence de la permission administrateur et sa diffèrence avec le rôle administrateur
+- La clarification de la nomenclature du forum cloud
+- La clarification de la nomenclature des rôles
+- Clarification du rôle staff
+- Pertinence du schéma fonctionnel fourni
+- La possibilité pour le bot de modifier les rôles dans un forum privé après sa création a été discutée.
+- Lors de l'identification, la pertinence d'ajouter des rôles comme "formateur" ou "invité" a été évoquée.
+- La suppression de la fabrique et la formation
+- Potentielle limitation du nombre de personnes dans les channels
+- Kickage d'apprenants sur les channels vocaux temporaires
+
+Suite à la démonstration du bot discord nous avons compris que :
+
+
 
 
 À l'issue de notre discussion, nous avons convenu des actions suivantes :
