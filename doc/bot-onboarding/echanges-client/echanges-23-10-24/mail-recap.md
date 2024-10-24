@@ -41,7 +41,11 @@ Suite à la démonstration du bot discord nous avons compris que :
 
 À l'issue de notre discussion, nous avons convenu des actions suivantes :
 
-
+- Réalisation de test du bot par l'équipe en interne
+- Révision des règles de gestion
+- Révision des users stories 
+- Demander un second avis au client non tech
+- En dehors des stocks, abandon total des channels textuels 
 
 Nous avons également validé les éléments suivants pour le développement du bot:
 
