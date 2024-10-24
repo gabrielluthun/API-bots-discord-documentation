@@ -10,3 +10,16 @@
 - R.G 7: Le bot possède une fonctionnalité pour créer les trois messages d'un coup.
 - R.G 8: Le bot possède une fonctionnalité pour créer les messages dans plusieurs threads signature d'un coup.
 - R.G 9: Le bot possède une fonctionnalité pour créer les messages dans tous les threads signature d'un coup (pour l'initialisation du bot).
+
+# Rappeler à un formateur qu'il a oublié de faire signer
+- R.G 10: Le message est lié à un channel de promo.
+- R.G 11: Le message prend la forme d'un vote.
+- R.G 12: Le message contient une liste de boutons.
+- R.G 13: Il y a un bouton par formateur de la promo.
+- R.G 14: Les boutons ont deux états : actif et inactif.
+- R.G 15: Un seul bouton peut être actif à la fois.
+- R.G 16: Activer un bouton désactive les autres.
+- R.G 17: Il faut un bouton actif pour lancer le vote.
+- R.G 18: Il y a un bouton pour démarrer le vote.
+- R.G 19: Il faut trois votes pour que le vote soit un succès.
+- R.G 20: Dès que le vote est un succès, le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
