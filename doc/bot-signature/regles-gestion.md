@@ -62,3 +62,13 @@
 - R.G 49: Un chargé de projets a une ou plusieurs promotions.
 - R.G 50: Une formation peut être dispensée dans un ou plusieurs centres.
 - R.G 51: Un centre peut proposer une ou plusieurs formations.
+
+# Données nécessaires au bot
+- R.G 52: Le bot doit avoir accès à la liste des formateurs.
+- R.G 53: Le bot doit avoir accès à la liste des formations.
+- R.G 54: Le bot doit avoir accès à la liste des promotions.
+- R.G 55: Le bot doit avoir accès à la liste des apprenants.
+- R.G 56: Le bot doit avoir accès à la liste des chargés de projets.
+- R.G 57: Le bot doit avoir accès à l'ID Discord des utilisateurs.
+- R.G 58: Le bot doit avoir accès à l'ID des canaux Discord des promotions.
+- R.G 59: Le bot doit avoir accès à l'ID des fils Discord de signature.
