@@ -11,6 +11,12 @@
    - [Noms de fichiers](#noms-de-fichiers)
    - [Suivi des changements dans les pull requests](#suivi-des-changements-dans-les-pull-requests)
    - [Processus d'approbation et de fusion des pull requests](#processus-dapprobation-et-de-fusion-des-pull-requests)
+2. [Fichiers communs](./doc/)
+    - [Contexte](doc/contexte.md)
+    - [Contraintes et opportunités](doc/contraintes-opportunités.md)
+    - [Enjeux](doc/enjeux.md)
+    - [Objectifs](doc/objectifs.md)
+    - [RBAC](doc/RBAC.md)
 
 
 
