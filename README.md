@@ -17,6 +17,13 @@
     - [Enjeux](doc/enjeux.md)
     - [Objectifs](doc/objectifs.md)
     - [RBAC](doc/RBAC.md)
+3. [Bot Feedback](./doc/bot-feedback/)
+    - [Echanges clients](doc/bot-feedback/echanges-client/)
+    - [Daily meeting](doc/bot-feedback/daily-meeting.md)
+    - [Exigences](doc/bot-feedback/exigences.md)
+    - [Problématiques](doc/bot-feedback/problematiques.md)
+    - [Règles de gestion](doc/bot-feedback/regles-gestion.md)
+    
 
 
 
