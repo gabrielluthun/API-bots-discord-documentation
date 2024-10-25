@@ -23,7 +23,13 @@
     - [Exigences](doc/bot-feedback/exigences.md)
     - [Problématiques](doc/bot-feedback/problematiques.md)
     - [Règles de gestion](doc/bot-feedback/regles-gestion.md)
-    
+4. [Bot Onboarding](./doc/bot-onboarding/)
+    - [Echanges clients](doc/bot-onboarding/echanges-client/)
+    - [Daily meeting](doc/bot-onboarding/daily-meeting.md)
+    - [Exigences](doc/bot-onboarding/exigences.md)
+    - [Problématiques](doc/bot-onboarding/problematiques.md)
+    - [Règles de gestion](doc/bot-onboarding/regles-gestion.md)
+    - [Schéma fonctionnel client](doc/bot-onboarding/schema-fonctionnel-client.md)
 
 
 
