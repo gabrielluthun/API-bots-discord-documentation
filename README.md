@@ -11,30 +11,38 @@
    - [Noms de fichiers](#noms-de-fichiers)
    - [Suivi des changements dans les pull requests](#suivi-des-changements-dans-les-pull-requests)
    - [Processus d'approbation et de fusion des pull requests](#processus-dapprobation-et-de-fusion-des-pull-requests)
-2. [Fichiers communs](./doc/)
-    - [Contexte](doc/contexte.md)
-    - [Contraintes et opportunités](doc/contraintes-opportunités.md)
-    - [Enjeux](doc/enjeux.md)
-    - [Objectifs](doc/objectifs.md)
-    - [RBAC](doc/RBAC.md)
-3. [Bot Feedback](./doc/bot-feedback/)
-    - [Echanges clients](doc/bot-feedback/echanges-client/)
-    - [Daily meeting](doc/bot-feedback/daily-meeting.md)
-    - [Exigences](doc/bot-feedback/exigences.md)
-    - [Problématiques](doc/bot-feedback/problematiques.md)
-    - [Règles de gestion](doc/bot-feedback/regles-gestion.md)
-4. [Bot Onboarding](./doc/bot-onboarding/)
-    - [Echanges clients](doc/bot-onboarding/echanges-client/)
-    - [Daily meeting](doc/bot-onboarding/daily-meeting.md)
-    - [Exigences](doc/bot-onboarding/exigences.md)
-    - [Problématiques](doc/bot-onboarding/problematiques.md)
-    - [Règles de gestion](doc/bot-onboarding/regles-gestion.md)
-    - [Schéma fonctionnel client](doc/bot-onboarding/schema-fonctionnel-client.md)
+2. [Fichiers communs](./doc/) 📂
+    - [Contexte](doc/contexte.md) 📄
+    - [Contraintes et opportunités](doc/contraintes-opportunités.md) 📄
+    - [Enjeux](doc/enjeux.md) 📄
+    - [Objectifs](doc/objectifs.md) 📄
+    - [RBAC](doc/RBAC.md) 📄
+3. [Bot Feedback](./doc/bot-feedback/) 📂
+    - [Echanges clients](doc/bot-feedback/echanges-client/) 📂
+    - [Daily meeting](doc/bot-feedback/daily-meeting.md) 📄
+    - [Exigences](doc/bot-feedback/exigences.md) 📄
+    - [Problématiques](doc/bot-feedback/problematiques.md) 📄
+    - [Règles de gestion](doc/bot-feedback/regles-gestion.md) 📄
+4. [Bot Onboarding](./doc/bot-onboarding/) 📂
+    - [Echanges clients](doc/bot-onboarding/echanges-client/) 📂
+    - [Daily meeting](doc/bot-onboarding/daily-meeting.md) 📄
+    - [Exigences](doc/bot-onboarding/exigences.md) 📄
+    - [Problématiques](doc/bot-onboarding/problematiques.md) 📄
+    - [Règles de gestion](doc/bot-onboarding/regles-gestion.md) 📄
+    - [Schéma fonctionnel client](doc/bot-onboarding/schema-fonctionnel-client.md) 📄
+5. [Bot Signature](./doc/bot-signature/) 📂
+    - [Echanges clients](doc/bot-signature/echanges-client/) 📂
+    - [Daily meeting](doc/bot-signature/daily-meeting.md) 📄
+    - [Questionnaire](doc/bot-signature/questionnaire.md) 📄
+    - [Problématiques](doc/bot-signature/problematiques.md) 📄
+    - [Règles de gestion](doc/bot-signature/regles-gestion.md) 📄
 
 
 
+<br>
+<br>
 
-
+--------------------------------------------
 
 # Normes pour les commits et les pull requests ✍️
 
