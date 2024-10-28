@@ -55,34 +55,30 @@ Attention, ***les règles de gestions en italiques** sont des suggestions et **n
 - **RG36** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes concernées par une fabrique
 - **RG37** : Lorsqu'une fabrique est supprimée il y a un choix entre supprimer ou archiver les promotions qui y sont liées.
 
-## Gestion des channels
-
-- **RG38** : Un administrateur, un directeur et un chargé de projet peuvent créer un channel dans le stock de channel
-- **RG39** : Un administrateur, un directeur et un chargé de projet peuvent modifier un channel dans le stock de channel
-- **RG40** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un channel dans le stock de channel
-- **RG41** : Un channel possède un nom unique qui le décrit
-- ***RG42** : Un channel a un emoji qui le défini*
-- **RG43** : Deux channels peuvent avoir le même emoji
-- **RG44** : Lors de la création d'un channel, celui-ci peut être stocké en tant que template de channel
-- **RG45** : Un template de channels générique est disponible et modifiable
-- **RG46** : Une template de channels est une liste de channels organisés
-
 ## Gestion des channels vocaux
 
-- **RG47** : un channel vocal général et un channel vocal SOS sont présents par défaut, le reste est créé à la demande
-- **RG48** : Les channels vocaux créés sont temporaires
+- **RG41** : Un channel vocal possède un nom unique qui le décrit
+- **RG42** : Un channel vocal a un emoji qui le défini
+- **RG43** : Deux channels vocaux peuvent avoir le même emoji
+- **RG38** : Un administrateur, un directeur et un chargé de projet peuvent créer un channel vocal dans le stock de channel
+- **RG39** : Un administrateur, un directeur et un chargé de projet peuvent modifier un channel vocal dans le stock de channel
+- **RG40** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un channel vocal dans le stock de channel
+- **RG44** : Il n'y a que deux chanels vocaux fixes par promotion : un SOS et un général
+- **RG45** : Des channels vocaux temporaires sont disponibles pour chaque promotion
+- **RG46** : Un channel vocal temporaire disparaît quand il n'y a personne dedans 
 
 ## Gestion des Forums
 
-- **RG49** : Un forum possède un nom unique qui le décrit
-- **RG51** : Un administrateur, un directeur et un chargé de projet peuvent créer un forum pré-enregistré
-- **RG52** : Un administrateur, un directeur et un chargé de projet peuvent modifier un forum pré-enregistré
-- **RG53** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un forum pré-enregistré
+- **RG49** : Un forum du stock de forum possède un nom unique qui le décrit
+- **RGXX** : Un forum du stock de forum contient des posts qui lui sont propres 
+- **RG51** : Un administrateur, un directeur et un chargé de projet peuvent enregistrer un forum dans le stock de forum
+- **RG52** : Un administrateur, un directeur et un chargé de projet peuvent modifier un forum du stock de forum
+- **RG53** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un forum du stock de forum
 - ***RG56** : Un forum peut contenir une guideline indiquant la nature de ce forum*
 
 ## Gestion des Posts
 
-- **RG57** : Les apprenants ne doivent pas pouvoir créer des postes
+- **RG57** : Les apprenants ne doivent pas pouvoir créer des posts
 - **RG58** : Un post possède un titre
 - **RG59** : Un post contient un message
 - ***RG60** : Un post peut contenir un emoji*
