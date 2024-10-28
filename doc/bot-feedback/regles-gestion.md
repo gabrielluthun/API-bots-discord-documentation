@@ -60,4 +60,4 @@ Du fait que les apprenants ne peuvent pas créer de sondage, ils pourront se rap
 
 **RG22** - Le bot peut sélectionner un membre du serveur Discord et lui envoyer un message privé
 
-**RG23** - *Le bot peut sélectionner un cannal et y envoyer un message*
+**RG23** - *Le bot peut sélectionner un canal et y envoyer un message*
