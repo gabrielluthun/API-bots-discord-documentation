@@ -21,3 +21,6 @@
 
 10. Concernant le formulaire d'identification, est-ce que tu voudrais que l'apprenant puisse directement choisir sa formation et sa promo pour automatiser le processus au maximum ?
 
+11. Avoir une copie du serveur Simplon HDF. 
+
+12. Confirmation de suppression des promotions lors de la suppression d'une formation (cascade).
