@@ -17,3 +17,7 @@ Le système a été conçu pour n'exiger que des droits de lecture et de mise à
 ## Gestion des logs
 
 La mise en place d’un système de journalisation (logging) pour le bot Discord est essentielle pour assurer la sécurité et le suivi des activités. En enregistrant les interactions clés, telles que les commandes exécutées, les erreurs rencontrées ou les comportements suspects, le bot peut fournir des données précieuses pour détecter rapidement des anomalies ou des abus. Ces journaux doivent être stockés de manière sécurisée, avec des accès restreints, et purgés régulièrement afin de garantir leur conformité aux bonnes pratiques et aux réglementations en vigueur.
+
+## RGPD
+
+La collecte et le traitement des données personnelles étant encadrés par le RGPD, une attention particulière sera portée à ce sujet pour garantir la conformité. Les seules données utilisées par le bot proviendront directement de l'API Discord et se limiteront strictement aux identifiants des messages nécessaires à la fonction de réinitialisation des canaux de signature. Aucune autre donnée personnelle ne sera collectée ou stockée, ce qui nous assure une conformité automatique avec les exigences du RGPD.
