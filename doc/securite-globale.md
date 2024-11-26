@@ -26,13 +26,12 @@
 
 - **Utilisation des UUID**
 
-- **Politique de rétention**
-    - Sauvegardes
-        - Automatisation
-            - Fréquence
-            - Nombre
+- **Politique de sauvegarde**
+    - Automatisation
+        - Fréquence
+        - Nombre
+    - Politique de rétention
         - Règle 3.2.1
             - Nombres de sauvegarde
             - Support (stockage)
         - Durée de conservation
-------
