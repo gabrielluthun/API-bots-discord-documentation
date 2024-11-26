@@ -52,3 +52,17 @@
     - Fréquence de changement
     - Archivage des anciens mots de passe
 - **Messages d'erreurs**
+
+## Front-end :
+
+- **Sanitization**
+    - Validation des données
+    - Types et formats attendus
+- **HTTPS**
+    - HSTS
+    - TLS
+- **SOP**
+- **CSP**
+    - Referer policy
+    - SRI
+- **Messages d'erreurs**
