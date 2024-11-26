@@ -5,13 +5,18 @@
 - R.G 3: Le bot peut créer les messages à la demande.
 # Rappeler à un formateur qu'il a oublié de faire signer
 - R.G 4: Le message est lié à un channel de promo.
-- R.G 5: Le message prend la forme d'un vote.
-- R.G 6: Un apprenant de la promo peut lancer un vote pour rappeler au formateur qu'il a oublié de faire signer.
-- R.G 7: Il y a un une liste selectionable contenant les formateurs liés a la promo.
-- R.G 8: Un seul formateur peut être sélectionné à la fois.
-- R.G 9: Il faut qu'un formateur soit sélectionner pour lancer le vote.
-- R.G 10: Il faut trois votes pour que le vote soit un succès.
-- R.G 11: Dès que le vote est un succès, le bot envoie un message privé au formateur pour l'avertir qu'il doit autoriser les apprenants à signer.
+- **~~R.G 5: Le message prend la forme d'un vote.~~**
+- **R.G 6: Un apprenant de la promo peut utiliser la fonctionnalité du bot pour rappeler au formateur ou au cdp qu'il a oublié de faire signer.**
+- **R.G 7: Il y a un une liste selectionable contenant les formateurs liés et le cdp a la promo.**
+- **R.G 8: Un seul formateur ou cdp peut être sélectionné à la fois.**
+- **R.G 9: Il faut qu'un formateur ou cdp soit sélectionné pour envoyer le message.**
+- **Un apprenant doit attendre 30 minutes avant de réutiliser la commande.**
+- **~~R.G 10: Il faut trois votes pour que le vote soit un succès.~~**
+- **R.G 11: Le bot envoie un message privé au formateur ou au cdp séléctionné pour l'avertir qu'il doit autoriser les apprenants à signer.**
+- **Le message propose d'envoyer directement la nofication aux apprenants pour leur signaler qu'ils peuvent signer**
+- **Le message permet au formateur ou cdp de signer qu'ils ne peuvent pas faire signer les apprenants**
+- **Si le formateur signale qu'il n'est pas responsable des signatures, le bot lui envoie un second message privé pour prévenir le formateur ou cdp concerné**
+- **Le second message envoyé au formateur ou cdp reprend le modèle défini par les rg 7 8 et 9**
 # Prévenir les apprenants qu'ils peuvent signer
 - R.G 12: Le message est lié à un channel de promo.
 - R.G 13: Le message permet de notifier les apprenants qu'ils peuvent signer.
