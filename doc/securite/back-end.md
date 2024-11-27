@@ -46,3 +46,11 @@ Cependant, il convient de respecter les bonnes pratiques, en faisant en sorte qu
 
 Un UUID (Universally Unique Identifier) est un identifiant standardisé de 128 bits garantissant l'unicité à l'échelle mondiale.
 
+**Pourquoi mettre en place les UUID ?**
+
+L’utilisation des UUID (Universally Unique Identifier) dans une architecture back-end offre un moyen robuste et universel pour identifier des entités.
+
+Il vise à remplacer les identifiants séquentiels par des identifiants uniques, aléatoires et non prédictibles.
+
+En effet, si un individu malveillant venait à récupérer les informations d’un compte utilisateur et son identifiant, il pourrait savoir aisément s’il y a d'autres comptes avant ou après dans la base de données. L’utilisation d’un UUID rend les identifiants utilisateur totalement indépendants les uns des autres.
+
