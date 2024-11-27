@@ -54,3 +54,11 @@ Il vise à remplacer les identifiants séquentiels par des identifiants uniques,
 
 En effet, si un individu malveillant venait à récupérer les informations d’un compte utilisateur et son identifiant, il pourrait savoir aisément s’il y a d'autres comptes avant ou après dans la base de données. L’utilisation d’un UUID rend les identifiants utilisateur totalement indépendants les uns des autres.
 
+**Pour lutter contre quelle menace ?**
+
+L’utilisation des UUID renforce la sécurité dans plusieurs contextes. Voici les attaques courantes et la manière dont les UUID aident à les contrer :
+
+1. **Prévention des attaques par force brute :**
+
+   - **Problème avec les IDs séquentiels**: Lorsqu'un système utilise des IDs séquentiels (par ex. `user_id=1, user_id=2`), un attaquant peut facilement deviner ou itérer sur les identifiants pour accéder à des données ou des ressources qu’il ne devrait pas voir.
+   - **Solution UUID** : Les UUID, particulièrement ceux générés de manière aléatoire, sont imprévisibles. Leur longueur et leur format rendent une attaque par force brute ou devinette beaucoup plus difficile.
