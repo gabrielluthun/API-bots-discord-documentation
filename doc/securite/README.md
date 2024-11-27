@@ -51,3 +51,15 @@
   - [Fréquence de changement](#)  
   - [Archivage des anciens mots de passe](#)  
 - [Messages d'erreurs](#)  
+
+---
+
+### **2. Front-end**  
+
+#### **2.1 Introduction**  
+- [Comportement utilisateur](#)  
+- [Bonnes pratiques](#)  
+  - [TypeScript](#)  
+  - [Ne coder que l'essentiel](#)  
+  - [Gestion de la lecture/écriture](#)  
+
