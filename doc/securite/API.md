@@ -16,3 +16,9 @@ Nous forcerons l’utilisation de HTTPS pour s’assurer que toutes les communic
 Nous obtiendrons cette certification via l’autorité de certification (CA) « Let’s Encrypt » qui est gratuite. Le certificat contient des informations sur le site et sur l'autorité de certification qui l’a émis. Il suffira ensuite de l’installer sur le serveur. Nous emploieront spécifiquement la version TLSv1.3.
 
 ### HSTS
+La mise en œuvre de HSTS (HTTP Strict Transport Security) est une mesure de sécurité essentielle pour protéger notre application contre les attaques de type downgrade, c'est à dire des attaques visant à revenir sur une version moins sécurisée de l'application et les attaques de type *man-in-the-middle* telles que les interceptions de trafic au moyen d'accès non sécurisés générés par les utilisateurs ou un attaquant.
+
+En forçant les navigateurs à établir des connexions uniquement via HTTPS, HSTS garantit que toutes les communications entre le client et le serveur sont chiffrées, réduisant ainsi le risque d'accès non autorisé aux données sensibles.
+
+Pour activer HSTS, il est crucial de configurer correctement l'en-tête HTTP et de définir une période de durée minimale pour laquelle la règle doit s'appliquer, que nous définissons à un an. De plus, il est recommandé de tester régulièrement cette configuration pour s'assurer de son bon fonctionnement. Enfin, l'activation de HSTS doit être accompagnée d'une stratégie de déploiement prudente, en commençant par les domaines moins sensibles avant de l'appliquer à l'ensemble de notre infrastructure, afin de minimiser les risques d'erreurs potentielles.
+
