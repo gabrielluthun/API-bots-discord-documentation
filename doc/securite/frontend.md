@@ -8,7 +8,7 @@ Nous ne devons jamais faire confiance au client, c'est-à-dire le navigateur de 
 
 **Bonnes pratiques**
 
-Pour renforcer la sécurité de notre front-end, il est important d'adopter certaines bonnes pratiques, comme une approche strict qui empechera les attaques de types XSS d'avoir lieu. 
+Pour renforcer la sécurité de notre front-end, il est important d'adopter certaines bonnes pratiques, comme une approche stricte qui empechera les attaques de types XSS d'avoir lieu. 
 
 Cela réduira la surface d'attaque potentielle.
 
