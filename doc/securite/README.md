@@ -57,14 +57,14 @@
 ### **2. Front-end**  
 
 #### **2.1 Introduction**  
-- [Comportement utilisateur](03-front-end.md/#)  
-- [Bonnes pratiques](03-front-end.md/#)
+- [Comportement utilisateur](03-front-end.md/#comportement-utilisateur)  
+- [Bonnes pratiques](03-front-end.md/#bonnes-pratiques)
 
 #### **2.2 Sanitization**  
-- [Validation des données](03-front-end.md/#)
+- [Validation des données](03-front-end.md/#validation-des-données)
 
 #### **2.3 HTTPS**  
-- [HSTS]03-front-end.md/(#)  
+- [HSTS](03-front-end.md/#hsts)  
 - [TLS](03-front-end.md/#)  
 
 #### **2.4 SOP**  
@@ -72,14 +72,14 @@
 - [Iframe](03-front-end.md/#)  
 
 #### **2.5 CSP**  
-- [Referrer policy](03-front-end.md/#)  
-- [SRI](03-front-end.md/#)  
+- [Referrer policy](03-front-end.md/#referrer-policy)  
+- [SRI](03-front-end.md/#sri)  
 
 #### **2.6 Messages d'erreurs**  
-- [Obfuscation](03-front-end.md/#)  
+- [Obfuscation](03-front-end.md/#obfuscation)  
 
 #### **2.7 Web storage**  
-- [Local storage](03-front-end.md/#)  
-- [Session storage](03-front-end.md/#)  
+- [Local storage](03-front-end.md/#local-storage)  
+- [Session storage](03-front-end.md/#session-storage)  
 
 ---
