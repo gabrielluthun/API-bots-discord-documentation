@@ -18,12 +18,11 @@ La sanitization est le processus de nettoyage et de validation des données entr
 
 **Validation des données**
 
-Chaque donnée entrée par l'utilisateur doit être vérifiée pour s'assurer qu'elle respecte les contraintes attendues. Par exemple, pour un champ de formulaire demandant une adresse e-mail, nous devons vérifier que la valeur fournie correspond bien au format d'une adresse e-mail valide. L'utilisation de REGEX (expression régulière) permet de s'assurer que les données entrées sont bien les données attendu.
+Chaque donnée entrée par l'utilisateur doit être vérifiée pour s'assurer qu'elle respecte les contraintes attendues. 
+`Par exemple, pour un champ de formulaire demandant une adresse e-mail, nous devons vérifier que la valeur fournie correspond bien au format d'une adresse e-mail valide.` L'utilisation de REGEX (expression régulière) permet de s'assurer que les données entrées sont bien les données attendu.
 En effectuant une validation côté serveur, nous nous assurons que seules les données conformes sont traitées et stockées.
 
 ### **HTTPS**
-
-OBLIGATOIRE.
 
 **HSTS**
 
@@ -47,10 +46,7 @@ Pour nous protéger contre ces risques, nous devons contrôler les sources des i
 
 La **Content Security Policy (CSP)** est un puissant mécanisme de sécurité qui nous permet de contrôler quelles ressources peuvent être chargées et exécutées dans notre application.
 
-**Referrer Policy**
-
-La **Referrer Policy** est une directive CSP qui contrôle les informations envoyées dans l'en-tête `Referer` lors des requêtes HTTP. En configurant cette politique, nous pouvons limiter les informations sur l'URL d'origine qui sont transmises aux sites tiers. Par exemple, nous pouvons choisir de n'envoyer que le nom de domaine sans le chemin complet, ou de ne rien envoyer du tout.
-
+La **Referrer Policy** est une directive CSP qui contrôle les informations envoyées dans l'en-tête `Referer` lors des requêtes HTTP.
 En limitant les données partagées dans le `Referer`, nous protégeons la confidentialité des utilisateurs et réduisons les risques de fuite d'informations sensibles, telles que des identifiants de session ou des paramètres de requête contenant des données privées.
 
 **SRI**
