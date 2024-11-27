@@ -21,7 +21,8 @@ La sanitization est le processus de nettoyage et de validation des données entr
 Chaque donnée entrée par l'utilisateur doit être vérifiée pour s'assurer qu'elle respecte les contraintes attendues. 
 
 ```
-Par exemple, pour un champ de formulaire demandant une adresse e-mail, nous devons vérifier que la valeur fournie correspond bien au format d'une adresse e-mail valide.` 
+Par exemple, pour un champ de formulaire demandant une adresse e-mail, 
+nous devons vérifier que la valeur fournie correspond bien au format d'une adresse e-mail valide.
 L'utilisation de REGEX (expression régulière) permet de s'assurer que les données entrées sont bien les données attendu.
 ```
 En effectuant une validation côté serveur, nous nous assurons que seules les données conformes sont traitées et stockées.
