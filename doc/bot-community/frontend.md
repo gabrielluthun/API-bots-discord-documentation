@@ -78,15 +78,17 @@ Cette approche réduit les informations disponibles pour un attaquant qui pourra
 
 **Local Storage**
 
-Nous devons éviter de stocker des informations sensibles telles que des tokens d'authentification (JWT), des identifiants de session ou des informations personnelles sur le local storage, bien qu'il soit pratique pour stocker des préférences utilisateur ou des données non sensibles, il est accessible via JavaScript et donc vulnérable en cas d'attaques XSS.
-
-
-Par exemple, si un attaquant parvient à injecter du code malveillant dans notre application via une faille XSS, il pourrait accéder aux données stockées dans le local storage et les envoyer à un serveur distant. Cela pourrait compromettre la sécurité des comptes utilisateurs et de l'application dans son ensemble.
+Nous devons éviter de stocker des informations sensibles telles que des tokens d'authentification (JWT), des identifiants de session ou des informations personnelles sur le local storage.
+Bien qu'il soit pratique pour stocker des préférences utilisateur ou des données non sensibles, il est accessible via JavaScript et donc vulnérable en cas d'attaques XSS.
 
 **Session Storage**
 
-La **session storage** est similaire au local storage, mais les données sont effacées lorsque l'onglet ou le navigateur est fermé. Cela offre un niveau de sécurité légèrement supérieur, car les données ne persistent pas au-delà de la session en cours. Cependant, La session storage reste accessible via JavaScript et est donc également vulnérable aux attaques XSS.
+La **session storage** est similaire au local storage, mais les données sont effacées lorsque l'onglet ou le navigateur est fermé. Cela offre un niveau de sécurité légèrement supérieur, car les données ne persistent pas au-delà de la session en cours.
 
 Il est préférable d'éviter de stocker des informations critiques dans la session storage. Pour les données sensibles, comme les tokens d'authentification, nous recommandons d'utiliser des cookies sécurisés avec les attributs `HttpOnly` (empêchant l'accès via JavaScript) et `Secure` (le cookie n'est transmis que via HTTPS). Ces mesures réduisent le risque d'exposition des données en cas d'attaque côté client.
 
-En résumé, la sécurité du front-end est un aspect crucial du développement web moderne. En adoptant des bonnes pratiques, en validant rigoureusement les données, en sécurisant les communications et en étant attentifs aux détails tels que les messages d'erreur et le stockage local, nous pouvons construire des applications robustes et résilientes face aux menaces potentielles.
+```
+Par exemple, si un attaquant parvient à injecter du code malveillant dans notre application via 
+une faille XSS, il pourrait accéder aux données stockées dans le local storage ou session storage et les envoyer à 
+un serveur distant. Cela pourrait compromettre la sécurité des comptes utilisateurs et de l'application dans son ensemble.
+```
