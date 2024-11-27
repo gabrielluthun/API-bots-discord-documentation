@@ -4,25 +4,22 @@
 
 ## Table : Utilisateurs
 
-| **Nom de la colonne**         | **Type**   | **Taille** | **Description**                                  |
-| ----------------------------- | ---------- | ---------- | ------------------------------------------------ |
-| uuid_utilisateurs             | UUID       |            | Identifiant unique de l'utilisateur.             |
-| pseudo_utilisateurs           | VARCHAR    | 255        | Pseudonyme ou nom d'affichage de l'utilisateur.  |
-| email_utilisateurs            | VARCHAR    | 255        | Adresse email de l'utilisateur.                  |
-| id_roles                      | INTEGER    |            | Identifiant du rôle attribué à l'utilisateur.    |
-| nom_roles                     | VARCHAR    | 100        | Nom descriptif du rôle attribué à l'utilisateur. |
-| xp_utilisateurs               | INTEGER    |            | Points d'expérience accumulés par l'utilisateur. |
-| niveau_utilisateurs           | INTEGER    |            | Niveau de l'utilisateur.                         |
-| badges_utilisateurs           | VARCHAR[]  |            | Liste des badges obtenus par l'utilisateur.      |
-| statut_utilisateurs           | VARCHAR    | 50         | Statut de l'utilisateur (actif, inactif, banni). |
-| date_inscription_utilisateurs | TIMESTAMPZ |            | Date et heure d'inscription de l'utilisateur.    |
-| dernier_acces_utilisateurs    | TIMESTAMPZ |            | Dernière connexion de l'utilisateur.             |
+| **Nom de la colonne**  | **Type**  | **Taille** | **Description**                                  |
+|------------------------|-----------| ---------- |--------------------------------------------------|
+| uuid_utilisateurs      | UUID      |            | Identifiant unique de l'utilisateur.             |
+| pseudo_utilisateurs    | VARCHAR   | 255        | Pseudonyme ou nom d'affichage de l'utilisateur.  |
+| id_roles               | NUMBER    |            | Identifiant du rôle attribué à l'utilisateur.    |
+| nom_roles              | VARCHAR   | 100        | Nom descriptif du rôle attribué à l'utilisateur. |
+| xp_utilisateurs        | NUMBER    |            | Points d'expérience accumulés par l'utilisateur. |
+| niveau_utilisateurs    | NUMBER    |            | Niveau de l'utilisateur.                         |
+| badges_utilisateurs    | VARCHAR[] |            | Liste des badges obtenus par l'utilisateur.      |
+| nombre_de_signalement  | VARCHAR   |            | Nombres de de signalement reçu                   |
+| classement_utilisateur | NUMBER    |            | Classement de l'utilisateur                      |
 
 ## Table : Ressources
 
 | **Nom de la colonne**        | **Type**   | **Taille** | **Description**                                       |
-| ---------------------------- | ---------- | ---------- | ----------------------------------------------------- |
-| uuid_ressources              | UUID       |            | Identifiant unique de la ressource.                   |
+|------------------------------|------------| ---------- |-------------------------------------------------------|
 | titre_ressources             | VARCHAR    | 255        | Titre de la ressource.                                |
 | description_ressources       | TEXT       |            | Description détaillée de la ressource.                |
 | tags_ressources              | VARCHAR[]  |            | Liste des tags associés à la ressource.               |
@@ -31,12 +28,14 @@
 | createur_ressources          | UUID       |            | Identifiant de l'utilisateur ayant créé la ressource. |
 | date_creation_ressources     | TIMESTAMPZ |            | Date et heure de création de la ressource.            |
 | date_modification_ressources | TIMESTAMPZ |            | Date et heure de la dernière modification.            |
-| signalements_ressources      | INTEGER    |            | Nombre de signalements reçus par la ressource.        |
+| signalements_ressources      | NUMBER     |            | Nombre de signalements reçus par la ressource.        |
+| nb_utile                     | NUMBER     |            | Nombre de vote utile                                  |
+| nb_inutile                   | NUMBER     |            | Nombre de vote inutile                                |
 
 ## Table : Signalements
 
 | **Nom de la colonne**  | **Type**   | **Taille** | **Description**                                         |
-| ---------------------- | ---------- | ---------- | ------------------------------------------------------- |
+|------------------------|------------|------------|---------------------------------------------------------|
 | uuid_signalements      | UUID       |            | Identifiant unique du signalement.                      |
 | categorie_signalements | VARCHAR    | 100        | Catégorie du signalement (contenu illégal, spam, etc.). |
 | raison_signalements    | TEXT       |            | Raison détaillée du signalement.                        |
@@ -44,6 +43,7 @@
 | createur_signalements  | UUID       |            | Identifiant de l'utilisateur ayant créé le signalement. |
 | ressource_signalements | UUID       |            | Identifiant de la ressource signalée.                   |
 | date_signalements      | TIMESTAMPZ |            | Date et heure de création du signalement.               |
+| moderateur_signalement | UUID       |            | Modérateur qui a pris en charge le signalement          |
 
 ## Table : Historique des Événements
 
@@ -60,17 +60,13 @@
 
 | **Nom de la colonne**   | **Type**   | **Taille** | **Description**                                     |
 | ----------------------- | ---------- | ---------- | --------------------------------------------------- |
-| uuid_blacklist          | UUID       |            | Identifiant unique de l'entrée dans la liste noire. |
 | valeur_blacklist        | VARCHAR    | 255        | Mot-clé, lien ou expression bloquée.                |
-| type_blacklist          | VARCHAR    | 50         | Type de l'entrée (mot-clé, lien, expression).       |
 | date_creation_blacklist | TIMESTAMPZ |            | Date d'ajout de l'entrée dans la liste noire.       |
 
 ## Table : XP et Récompenses
 
 | **Nom de la colonne** | **Type**   | **Taille** | **Description**                                           |
-| --------------------- | ---------- | ---------- | --------------------------------------------------------- |
-| uuid_rewards          | UUID       |            | Identifiant unique de la récompense ou pénalité d'XP.     |
+| --------------------- |------------| ---------- | --------------------------------------------------------- |
 | utilisateur_rewards   | UUID       |            | Identifiant de l'utilisateur ayant reçu/perdu des points. |
-| raison_rewards        | VARCHAR    | 255        | Raison spécifique de la récompense ou pénalité.           |
-| valeur_rewards        | INTEGER    |            | Valeur de l'XP gagnée ou perdue.                          |
+| valeur_rewards        | NUMBER     |            | Valeur de l'XP gagnée ou perdue.                          |
 | date_rewards          | TIMESTAMPZ |            | Date et heure d'attribution de la récompense/pénalité.    |
