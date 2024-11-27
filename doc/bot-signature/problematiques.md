@@ -1,10 +1,10 @@
-# ❗️Problèmatiques
+# ❗️ Problèmatiques
 
 Actuellement, les apprenants signent chaque jour sur l'application SWS student et NetYpario pour prouver leur bonne présence et leur implication à la formation intégrée, envers les parties prenantes, financeurs des formations Simplon.  
 La problématique est qu'il arrive que les formateurs et les apprenants oublient d'émarger, ce qui est très pénalisant sur certains points, se trouvant dans le tableau ci-dessous, et les moyens mis en place pour y pallier sont inefficients. 
 Il est donc essentiel de réfléchir à des solutions afin de parer à ces problèmes.
 
-## Problems table
+<hr>
 
 <table>
     <tr>
@@ -29,7 +29,7 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td><a href="#">Centraliser les groupes d'apprenants</a></td>
     </tr>
     <tr>
-        <td>Demander un envoi de signature au coach</td>
+        <td>Demander un envoi de signature au formateur</td>
         <td><a href="#">Système de vote</a></td>
     </tr>
     <tr>
@@ -44,3 +44,10 @@ Il est donc essentiel de réfléchir à des solutions afin de parer à ces probl
         <td><a href="#">Commande manuelle de notification</a></td>
     </tr>
 </table>
+
+<hr>
+
+# 😱 Problèmes et Conséquences
+L'une des problématiques rencontrées est l'oubli de signature, provoquant des problèmes récurrents.  
+Ces problèmes mènent à des conséquences que nous devons résoudre pour éviter, voire, éliminer ces oublis.  
+Voici les différentes conséquences causées par les oublis de signatures :
