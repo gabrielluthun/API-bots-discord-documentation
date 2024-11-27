@@ -33,3 +33,12 @@ Accès non autorisé aux données : Dans le cas où un domaine non autorisé ten
 
 Notre domaine principal, ses sous-domaines et ceux de Discord sont les seuls autorisés à effectuer des requêtes vers les API. Toute tentative d’accès à partir d’un autre domaine sera bloquée.
 
+### CSP
+Le Content Security Policy (CSP) est une mesure de sécurité qui s'applique au niveau du navigateur, mais qui est configurée côté serveur. Il permet de prévenir diverses attaques, notamment les injections de scripts telles que les attaques XSS, en limitant les sources de contenu pouvant être chargées par l'application. 
+
+Si le navigateur permet à des scripts malveillants de se charger depuis des sources non sécurisées, ces scripts pourraient voler des informations personnelles (comme des identifiants ou des sessions utilisateurs) ou manipuler la page pour duper l’utilisateur.
+
+Le CSP est une configuration côté serveur qui se fait sous la forme d'une en-tête HTTP. Cette politique est comme une liste de règles données au navigateur. Elle lui dit exactement d’où il est autorisé à charger du contenu (scripts, images, etc.), et empêche tout contenu non autorisé de s’exécuter. 
+
+pour tester l'efficacité de la politique CSP mise en place, nous devons surveiller les rapports d'erreurs générés par le navigateur, ce qui nous permettra d'ajuster notre configuration en fonction des besoins et des comportements des utilisateurs.
+
