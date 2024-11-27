@@ -32,3 +32,7 @@ La politique de moindre privilège est essentielle pour plusieurs raisons :
 
    - **Prévention des escalades de privilèges** : L'application des principes de moindre privilège limite les possibilités pour un attaquant d'escalader ses privilèges dans le système.
 
+### RBAC
+
+Le **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol), souvent représenté sous forme d'un tableau, permet de définir les permissions pour chaque rôle. Etablir un RBAC permet de s'assurer de la bonne distribution des permissions dans l'application, et contribue à la mise en place de la politique de moindre privilège.
+
