@@ -64,3 +64,10 @@ la limitation du temps de session sera un mécanisme crucial pour sécuriser les
 
 Une déconnexion automatique après 15 minutes d'inactivité sera adéquate pour nos administrateurs. De plus chaque session sera automatiquement fermée après 8 heures de connexion, obligeant l'utilisateur à se reconnecter. Si la session expire, un message explicite devra indiquer que la session a été terminée pour des raisons de sécurité, avec une option pour se reconnecter facilement.
 
+## Limitation d'appel API
+Pour prévenir les attaques par déni de service (DoS ou DDoS), il est crucial de mettre en place des mécanismes permettant de limiter le nombre de requêtes qu'un utilisateur peut effectuer dans un laps de temps donné.
+
+Une approche efficace consiste à restreindre le nombre d'appels à l'API à 30 requêtes par minute par utilisateur. Cette limite permet de contrôler le volume de trafic généré par chaque utilisateur et empêche un acteur malveillant de saturer les ressources du serveur en envoyant un grand nombre de requêtes en peu de temps.
+
+Si un utilisateur dépasse ce seuil, l'application peut automatiquement bloquer temporairement les requêtes supplémentaires ou renvoyer une réponse indiquant un "trop grand nombre de requêtes" avec un code d'erreur HTTP 429.
+
