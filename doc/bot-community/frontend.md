@@ -19,7 +19,11 @@ La sanitization est le processus de nettoyage et de validation des données entr
 **Validation des données**
 
 Chaque donnée entrée par l'utilisateur doit être vérifiée pour s'assurer qu'elle respecte les contraintes attendues. 
-`Par exemple, pour un champ de formulaire demandant une adresse e-mail, nous devons vérifier que la valeur fournie correspond bien au format d'une adresse e-mail valide.` L'utilisation de REGEX (expression régulière) permet de s'assurer que les données entrées sont bien les données attendu.
+
+```
+Par exemple, pour un champ de formulaire demandant une adresse e-mail, nous devons vérifier que la valeur fournie correspond bien au format d'une adresse e-mail valide.` 
+L'utilisation de REGEX (expression régulière) permet de s'assurer que les données entrées sont bien les données attendu.
+```
 En effectuant une validation côté serveur, nous nous assurons que seules les données conformes sont traitées et stockées.
 
 ### **HTTPS**
@@ -51,17 +55,22 @@ En limitant les données partagées dans le `Referer`, nous protégeons la confi
 
 **SRI**
 
-**SRI (Subresource Integrity)** est une fonctionnalité de sécurité qui nous permet de nous assurer que les ressources externes n'ont pas été modifiées depuis leur publication. En ajoutant un hash cryptographique (généralement SHA256) aux balises de ressources telles que `<script>` ou `<link>`, le navigateur peut vérifier l'intégrité du fichier téléchargé. Si le fichier a été altéré, le navigateur refusera de l'exécuter.
+**SRI (Subresource Integrity)** est une fonctionnalité de sécurité qui nous permet de nous assurer que les ressources externes n'ont pas été modifiées depuis leur publication. 
 
 Cela est particulièrement utile lorsque nous chargeons des ressources depuis des CDN ou des sources tierces. SRI nous protège contre les attaques où un attaquant aurait compromis le serveur hébergeant la ressource pour y injecter du code malveillant.
 
 ### **Messages d'erreurs**
 
-Les messages d'erreur fournis aux utilisateurs peuvent, s'ils sont trop détaillés, révéler des informations sensibles sur notre application ou notre infrastructure.
-
 **Obfuscation**
 
-Pour éviter de fournir des informations exploitables par des attaquants potentiels, nous devons veiller à ce que nos messages d'erreur soient génériques. Plutôt que d'afficher des messages indiquant précisément quelle erreur s'est produite (par exemple, "Erreur SQL : syntaxe incorrecte près de 'SELECT'"), nous pouvons afficher un message plus général comme "Une erreur est survenue, veuillez réessayer plus tard".
+Pour éviter de fournir des informations exploitables par des attaquants potentiels, nous devons veiller à ce que nos messages d'erreur soient génériques. 
+
+```
+Plutôt que d'afficher des messages indiquant précisément quelle erreur
+s'est produite (par exemple, "Erreur SQL : syntaxe incorrecte près de 'SELECT'"),
+nous pouvons afficher un message plus général`
+comme "Une erreur est survenue, veuillez réessayer plus tard".
+```
 
 Cette approche réduit les informations disponibles pour un attaquant qui pourrait utiliser les détails techniques pour identifier des vulnérabilités spécifiques dans notre application. En interne, nous pouvons conserver des logs détaillés pour le diagnostic, mais ces informations ne doivent pas être exposées aux utilisateurs finaux.
 
