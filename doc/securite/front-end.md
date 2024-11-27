@@ -4,11 +4,11 @@
 
 Le front-end est la partie visible de l'application avec laquelle les utilisateurs interagissent directement. Bien que nous implémentions de nombreuses mesures de sécurité côté serveur, il est essentiel de ne pas négliger la sécurité du front-end. En effet, les vulnérabilités côté client peuvent être exploitées pour compromettre une application, voler des informations sensibles ou même prendre le contrôle de sessions utilisateur.
 
-## **Comportement utilisateur**
+### **Comportement utilisateur**
 
 Nous ne devons jamais faire confiance au client, c'est-à-dire le navigateur de l'utilisateur, qui peut être manipulé à tout moment. Cela inclut la modification du JavaScript exécuté, la falsification des données envoyées au serveur, ou encore l'injection de scripts malveillants. Par conséquent, toutes les données provenant du client doivent être considérées comme potentiellement non fiables ou dangereuses.
 
-## **Bonnes pratiques**
+### **Bonnes pratiques**
 
 Pour renforcer la sécurité de notre front-end, il est important d'adopter certaines bonnes pratiques, comme une approche stricte qui empêchera les attaques de types XSS d'avoir lieu. Cela réduira la surface d'attaque potentielle.
 
