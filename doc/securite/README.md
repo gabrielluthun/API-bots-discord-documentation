@@ -16,7 +16,7 @@
 - [Journalisation](02-back-end.md/#journalisation)  
 
 #### **1.2 Base de données**  
-- [Utilisation des UUID](#)  
+- [Utilisation des UUID](02-back-end.md/#utilisation-des-uuid)  
 - [Politique de sauvegarde](#)  
   - [Automatisation](#)  
     - [Fréquence](#)  
@@ -58,14 +58,10 @@
 
 #### **2.1 Introduction**  
 - [Comportement utilisateur](#)  
-- [Bonnes pratiques](#)  
-  - [TypeScript](#)  
-  - [Ne coder que l'essentiel](#)  
-  - [Gestion de la lecture/écriture](#)  
+- [Bonnes pratiques](#)
 
 #### **2.2 Sanitization**  
-- [Validation des données](#)  
-- [Types et formats attendus](#)  
+- [Validation des données](#)
 
 #### **2.3 HTTPS**  
 - [HSTS](#)  
