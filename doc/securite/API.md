@@ -78,4 +78,15 @@ Il est crucial de protéger ces données en veillant à ce qu'elles ne soient pa
 
 Dans le cadre de notre application, nous utilisons un fichier nommé .env pour stocker ces variables en toute sécurité. Nous veillons à ce que ce fichier ne soit jamais intégré dans le dépôt de code (par exemple, via Git). De plus, nous configurons l'application pour masquer ces variables autant que possible, en les exposant uniquement aux services ou fonctionnalités qui en ont strictement besoin.
 
+## Politique des mots de passe
+### Hachage
+Les mots de passe ne sont jamais stockés en clair dans la base de données. Si un attaquant parvient à obtenir les données de la base de données, les mots de passe hachés et salés sont presque impossibles à inverser pour retrouver le mot de passe d'origine.
 
+Le hachage est un processus qui convertit des données de taille variable en une chaîne de caractères de longueur fixe, garantissant ainsi l'intégrité des données. Il s'agit d'une fonction unidirectionnelle, ce qui rend pratiquement impossible la récupération des données originales à partir de leur hachage. nous utilisons pour celà un algorithme de hachage sécurisé tel que bcrypt
+
+Le hachage est couramment utilisé pour stocker les mots de passe de manière sécurisée et peut également servir à vérifier l'intégrité des fichiers et à valider des signatures numériques.
+
+### Salage
+Le salage renforce la sécurité des mots de passe en ajoutant une valeur aléatoire, ou "sel", à un mot de passe avant de le hacher. Cela empêche les attaques par tables arc-en-ciel qui consiste à déchiffrer des mots de passe en utilisant des tables pré-calculées de hachages, car même si deux utilisateurs partagent le même mot de passe, leurs hachages seront différents grâce au sel unique.
+
+Le sel est généralement stocké avec le hachage, permettant ainsi de le récupérer lors de la vérification du mot de passe. En somme, le salage contribue à rendre le hachage plus résistant aux attaques et améliore la sécurité globale des systèmes d'authentification.
