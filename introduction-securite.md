@@ -16,3 +16,19 @@ Port dédié : Le bot Discord "signature" utilisera exclusivement le port 5239 p
 ```
 Enfin, tous les services inutiles seront désactivés pour réduire les risques d’exploitation. (exemple: service FTP).
 ## RGPD
+Pour chaque utilisateur du système, certaines parties interagiront avec des données personnelles telles que le nom, le prénom et l’adresse e-mail. Conformément à la réglementation en vigueur, notamment le RGPD, nous respecterons les directives de la CNIL (Commission Nationale de l'Informatique et des Libertés). Ces mesures garantiront une collecte, un stockage et un traitement des données personnelles dans des conditions sécurisées et transparentes.
+
+### Consentement explicite
+Nous demanderons de façon claire et explicite à l'utilisateur son accord pour la collecte et l'utilisation de ses données personnelles. 
+
+### Droit de consultation
+Nous nous assurerons que l'utilisateur est en mesure de pouvoir consulter les données qui lui sont associées.
+
+### Droit de modification
+Nous permettrons à l'utilisateur de pouvoir modifier simplement ses données lorsqu'il le souhaite.
+
+### Droit à l'oubli
+Nous permettrons à l'utilisateur de pouvoir supprimier totalement ses informations du système.
+
+### Prévention
+En cas de faille dans le systèmes, nous avertirons que leurs données personnelles ont été compromises.
