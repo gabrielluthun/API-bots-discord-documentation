@@ -42,3 +42,9 @@ Le CSP est une configuration côté serveur qui se fait sous la forme d'une en-t
 
 pour tester l'efficacité de la politique CSP mise en place, nous devons surveiller les rapports d'erreurs générés par le navigateur, ce qui nous permettra d'ajuster notre configuration en fonction des besoins et des comportements des utilisateurs.
 
+## ORM
+L'utilisation d’un ORM (Object-Relational Mapping) dans notre architecture API est essentielle pour faciliter la gestion des données tout en renforçant la sécurité.
+
+En utilisant un ORM, nous pouvons éviter les injections SQL en garantissant que toutes les interactions avec la base de données passent par des méthodes sécurisées et validées. Cela permet également de standardiser l’accès aux données, réduisant ainsi le risque d'erreurs humaines lors de l’écriture de requêtes SQL.
+
+Cependant, il est crucial de s'assurer que l'ORM est configuré correctement et que les mises à jour sont effectuées régulièrement pour corriger les failles de sécurité potentielles. Enfin, une vigilance constante est nécessaire pour surveiller les performances de l’ORM afin de détecter rapidement toute anomalie ou vulnérabilité.
