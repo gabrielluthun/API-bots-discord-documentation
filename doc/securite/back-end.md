@@ -41,3 +41,8 @@ La **journalisation** consiste à enregistrer des événements et actions import
 Cependant, il convient de respecter les bonnes pratiques, en faisant en sorte que les journaux ne puissent pas être utilisés à des fins malveillants. Par exemple, des données pourraient être dérobées via ces journaux. Ou encore, la création de journaux pourrait servir à une attaque par déni de service.
 
 ## Base de données
+
+### Utilisation des UUID
+
+Un UUID (Universally Unique Identifier) est un identifiant standardisé de 128 bits garantissant l'unicité à l'échelle mondiale.
+
