@@ -1,6 +1,6 @@
 # Stratégie de sécurisation :
 
-### Introduction :
+## Introduction :
 
 - Défense en profondeur
 - Réduction de la surface d'attaque
@@ -15,8 +15,6 @@
 - Journalisation
 
 ### Base de données
-
-
 
 - **Utilisation des UUID**
 
@@ -42,12 +40,14 @@
 - **Utilisation d'un ORM**
 - **Authentification (token)**
 - **Limitation d'appel API**
+- **Utilisation de variables d'environnement**
 - **Politique des mots de passe**
     - Hachage
     - Salage 
     - Complexité
-        - longueur maximale
+        - Longueur maximale
         - Robustesse
+    - Mot de passe multifacteur
     - Oubli des mots de passe
     - Fréquence de changement
     - Archivage des anciens mots de passe
@@ -55,6 +55,12 @@
 
 ## Front-end :
 
+- **Introduction**
+    - Comportement utilisateur
+    - Bonnes pratiques
+        - Typescript
+        - Ne coder que l'essentiel
+        - Lecture/écriture
 - **Sanitization**
     - Validation des données
     - Types et formats attendus
@@ -62,7 +68,13 @@
     - HSTS
     - TLS
 - **SOP**
+    - CORS
+    - Iframe
 - **CSP**
-    - Referer policy
+    - Referrer policy
     - SRI
 - **Messages d'erreurs**
+    - Obfuscation
+- **Web storage**
+    - Local storage
+    - Session storage
