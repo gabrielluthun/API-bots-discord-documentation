@@ -22,3 +22,14 @@ En forçant les navigateurs à établir des connexions uniquement via HTTPS, HST
 
 Pour activer HSTS, il est crucial de configurer correctement l'en-tête HTTP et de définir une période de durée minimale pour laquelle la règle doit s'appliquer, que nous définissons à un an. De plus, il est recommandé de tester régulièrement cette configuration pour s'assurer de son bon fonctionnement. Enfin, l'activation de HSTS doit être accompagnée d'une stratégie de déploiement prudente, en commençant par les domaines moins sensibles avant de l'appliquer à l'ensemble de notre infrastructure, afin de minimiser les risques d'erreurs potentielles.
 
+## Sécurité des origines
+### SOP et CORS
+La SOP (Same-Origin Policy) est une politique de sécurité des navigateurs qui limite les interactions entre différentes origines (domaines). Elle permet de restreindre les requêtes HTTP pour qu’un site ne puisse accéder qu’aux ressources de son propre domaine. Cependant, la SOP n’est pas toujours suffisante, car elle peut être contournée dans certains cas via des attaques comme JSONP, des extensions malveillantes ou des redirections complexes.
+
+Pour renforcer la sécurité et éviter les contournements de la SOP, nous utilisons CORS (Cross-Origin Resource Sharing). CORS permet de spécifier explicitement quelles origines externes sont autorisées à interagir avec les API. Cette politique fournit une couche de contrôle supplémentaire, permettant à nos serveurs de vérifier les requêtes venant d'autres domaines et d'autoriser ou de bloquer l'accès en fonction des règles définies.
+
+Prévention des attaques XSS : Un attaquant pourrait essayer de créer un script malveillant sur un autre domaine pour exécuter des requêtes API en utilisant les informations de session d’un utilisateur légitime. La politique CORS bloque ces requêtes provenant de domaines non autorisés.
+Accès non autorisé aux données : Dans le cas où un domaine non autorisé tente d’accéder à l'API (via des attaques d'extraction de données), la politique CORS empêchera cette tentative, limitant l’accès aux seules origines autorisées (comme le domaine principal de pire2pire.com).
+
+Notre domaine principal, ses sous-domaines et ceux de Discord sont les seuls autorisés à effectuer des requêtes vers les API. Toute tentative d’accès à partir d’un autre domaine sera bloquée.
+
