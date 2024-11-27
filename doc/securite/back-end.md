@@ -36,3 +36,12 @@ La politique de moindre privilège est essentielle pour plusieurs raisons :
 
 Le **RBAC** (**R**ole **B**ased **A**ccess **C**ontrol), souvent représenté sous forme d'un tableau, permet de définir les permissions pour chaque rôle. Etablir un RBAC permet de s'assurer de la bonne distribution des permissions dans l'application, et contribue à la mise en place de la politique de moindre privilège.
 
+### Journalisation
+
+La **journalisation** consiste à enregistrer des événements et actions importantes afin de faciliter la surveillance, le débogage, la sécurité, et la maintenance de l'application. C'est une mesure importante pour assurer la sécurité, la maintenance, et l’optimisation. Voici plusieurs objectifs de la journalisation :
+
+   - **Surveiller les actions des utilisateurs** : Mettre en place des mécanismes de surveillance pour détecter des comportements suspects ou des tentatives d'escalade de privilèges.
+
+   - **Effectuer des audits réguliers** : Analyser périodiquement les droits d'accès et les privilèges des utilisateurs, ainsi que les configurations des systèmes pour détecter des anomalies et garantir que les privilèges n'ont pas été excessivement élargis.
+
+Cependant, il convient de respecter les bonnes pratiques, en faisant en sorte que les journaux ne puissent pas être utilisés à des fins malveillants. Par exemple, des données pourraient être dérobées via ces journaux. Ou encore, la création de journaux pourrait servir à une attaque par déni de service.
