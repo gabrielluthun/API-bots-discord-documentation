@@ -63,3 +63,27 @@
   - [Ne coder que l'essentiel](#)  
   - [Gestion de la lecture/écriture](#)  
 
+#### **2.2 Sanitization**  
+- [Validation des données](#)  
+- [Types et formats attendus](#)  
+
+#### **2.3 HTTPS**  
+- [HSTS](#)  
+- [TLS](#)  
+
+#### **2.4 SOP**  
+- [CORS](#)  
+- [Iframe](#)  
+
+#### **2.5 CSP**  
+- [Referrer policy](#)  
+- [SRI](#)  
+
+#### **2.6 Messages d'erreurs**  
+- [Obfuscation](#)  
+
+#### **2.7 Web storage**  
+- [Local storage](#)  
+- [Session storage](#)  
+
+---
