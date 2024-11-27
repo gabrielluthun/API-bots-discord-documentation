@@ -71,3 +71,11 @@ Une approche efficace consiste à restreindre le nombre d'appels à l'API à 30 
 
 Si un utilisateur dépasse ce seuil, l'application peut automatiquement bloquer temporairement les requêtes supplémentaires ou renvoyer une réponse indiquant un "trop grand nombre de requêtes" avec un code d'erreur HTTP 429.
 
+## Utilisation de variables d'environnement
+Les variables d'environnement permettent de stocker des clés et des valeurs qui servent à configurer et personnaliser le comportement de notre application. Ces informations inclueront des paramètres sensibles, comme des mots de passe ou des clés d'accès à des services.
+
+Il est crucial de protéger ces données en veillant à ce qu'elles ne soient pas accessibles à tout le monde. Elles doivent être conservées dans des fichiers sécurisés ou des systèmes dédiés, afin d'éviter tout risque de fuite ou d'utilisation malveillante.
+
+Dans le cadre de notre application, nous utilisons un fichier nommé .env pour stocker ces variables en toute sécurité. Nous veillons à ce que ce fichier ne soit jamais intégré dans le dépôt de code (par exemple, via Git). De plus, nous configurons l'application pour masquer ces variables autant que possible, en les exposant uniquement aux services ou fonctionnalités qui en ont strictement besoin.
+
+
