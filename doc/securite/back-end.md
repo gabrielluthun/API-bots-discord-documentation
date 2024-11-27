@@ -1,12 +1,6 @@
 # Back-end
 
-## Sommaire
-
 ## Introduction
-
-- Politique de moindre privilège
-- RBAC
-- Journalisation
 
 ### Politique de moindre privilège
 
@@ -45,3 +39,5 @@ La **journalisation** consiste à enregistrer des événements et actions import
    - **Effectuer des audits réguliers** : Analyser périodiquement les droits d'accès et les privilèges des utilisateurs, ainsi que les configurations des systèmes pour détecter des anomalies et garantir que les privilèges n'ont pas été excessivement élargis.
 
 Cependant, il convient de respecter les bonnes pratiques, en faisant en sorte que les journaux ne puissent pas être utilisés à des fins malveillants. Par exemple, des données pourraient être dérobées via ces journaux. Ou encore, la création de journaux pourrait servir à une attaque par déni de service.
+
+## Base de données
