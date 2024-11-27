@@ -48,3 +48,19 @@ L'utilisation d’un ORM (Object-Relational Mapping) dans notre architecture API
 En utilisant un ORM, nous pouvons éviter les injections SQL en garantissant que toutes les interactions avec la base de données passent par des méthodes sécurisées et validées. Cela permet également de standardiser l’accès aux données, réduisant ainsi le risque d'erreurs humaines lors de l’écriture de requêtes SQL.
 
 Cependant, il est crucial de s'assurer que l'ORM est configuré correctement et que les mises à jour sont effectuées régulièrement pour corriger les failles de sécurité potentielles. Enfin, une vigilance constante est nécessaire pour surveiller les performances de l’ORM afin de détecter rapidement toute anomalie ou vulnérabilité.
+
+## Authentification (token)
+Les JWT permettent une gestion sécurisée et décentralisée des sessions utilisateurs. Ils évitent le besoin de stocker des sessions côté serveur, ce qui allège la charge des serveurs tout en garantissant une sécurité accrue. Le JWT est signé cryptographiquement, ce qui garantit que les données à l'intérieur du jeton ne peuvent pas être modifiées sans invalidation.
+
+Dans un scénario où un attaquant parvient à accéder aux informations d’un utilisateur (via phishing, par exemple), le JWT limite les risques en expirant après une durée donnée. Même si l'attaquant obtient le token, il deviendra inutilisable après un certain temps.
+
+Dans le cas où un utilisateur change ses informations sensibles (comme son mot de passe), tous les anciens JWT sont invalidés, forçant l’utilisateur à se reconnecter avec les nouvelles informations d'authentification.
+
+Lorsqu’un utilisateur se connecte à la plateforme, il reçoit un JWT valide. Lors de chaque requête API, ce token est envoyé dans l'en-tête de la requête pour s'assurer que l'utilisateur est bien authentifié et possède les droits nécessaire. Cette approche améliore l'efficacité et la scalabilité du système, en plus d'offrir une solution robuste pour l'accès à l’API.
+
+Il est essentiel de veiller à ce que ces tokens soient stockés et transmis de manière sécurisée, en utilisant HTTPS pour protéger les données en transit. Aussi, il est important d'analyser et de journaliser l'utilisation des tokens pour détecter toute activité suspecte et assurer la traçabilité des accès.
+
+la limitation du temps de session sera un mécanisme crucial pour sécuriser les sessions des utilisateurs. Elle permettra de limiter la durée pendant laquelle une session utilisateur reste active, réduisant ainsi les risques d'abus ou de compromission des comptes en cas d'inactivité prolongée ou d'accès non autorisé.  La limitation des sessions est une exigence dans plusieurs standards de sécurité, notamment pour respecter les bonnes pratiques liées à la gestion des sessions en ligne (ex. RGPD).
+
+Une déconnexion automatique après 15 minutes d'inactivité sera adéquate pour nos administrateurs. De plus chaque session sera automatiquement fermée après 8 heures de connexion, obligeant l'utilisateur à se reconnecter. Si la session expire, un message explicite devra indiquer que la session a été terminée pour des raisons de sécurité, avec une option pour se reconnecter facilement.
+
