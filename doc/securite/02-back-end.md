@@ -104,6 +104,8 @@ Nous appliquerons dans la mesure du possible, et en fonction du materiel disponi
 
 ##### Durée de conservation
 
+Nous conserverons une sauvegarde de la base de données au maximum une semaine. Il y'aura donc un total de 7 sauvegardes (1 par jour) présentes en même temps. Chaque nouvelle sauvegarde écrasera la sauvegarde la plus ancienne.
+
 # API 
 Notre application intégrera plusieurs API, ou Application Programming Interface. Il s’agit d’un programme qui permet à deux applications distinctes de communiquer entre elles et d’échanger des données. Nos APIs seront tant développées en internes qu'externe du fait de Discord. 
 
