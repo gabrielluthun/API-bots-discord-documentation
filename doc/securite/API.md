@@ -120,6 +120,9 @@ Nous opterons donc pour une approche équilibrée qui reste sécurisée tout en 
 
 Pour nous assurer que nos critères de complexité soient bel et bien respectés, nous réutiliserons les expressions régulières (REGEX).
 
+### Mot de passe multifacteur
+Bien que celà soit une recommandation de l'anssi, nous faisons le choix de rester sur un système de mot de passe simple afin de privilégier l'expérience utilisateur.
+
 ### Gestion de l'oubli des mots de passe
 La fonctionnalité de récupération ou réinitialisation de mot de passe est une cible courante pour les attaques. Nous mettrons en place les mesures suivante: 
 - Une limite stricte sera imposée sur le nombre de demandes de récupération pour un compte donné dans une période de temps définie, afin d'éviter des attaques par force brute. Si cette limite est passée, nous bloquerons l'utilisateur en l'invitant à contacter un administrateur.
