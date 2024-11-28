@@ -90,3 +90,26 @@ Le hachage est couramment utilisé pour stocker les mots de passe de manière s�
 Le salage renforce la sécurité des mots de passe en ajoutant une valeur aléatoire, ou "sel", à un mot de passe avant de le hacher. Cela empêche les attaques par tables arc-en-ciel qui consiste à déchiffrer des mots de passe en utilisant des tables pré-calculées de hachages, car même si deux utilisateurs partagent le même mot de passe, leurs hachages seront différents grâce au sel unique.
 
 Le sel est généralement stocké avec le hachage, permettant ainsi de le récupérer lors de la vérification du mot de passe. En somme, le salage contribue à rendre le hachage plus résistant aux attaques et améliore la sécurité globale des systèmes d'authentification.
+
+## Messages d'erreur
+La gestion des messages d’erreur joue un rôle crucial dans la sécurisation de notre API. Une exposition trop détaillée des messages d’erreur peut fournir des informations exploitables aux attaquants. Voici les mesures mises en place pour sécuriser cette partie :
+
+Messages génériques pour les utilisateurs finaux :
+Les messages d'erreur présentés à l'utilisateur doivent être génériques pour éviter de révéler des informations sensibles sur la structure ou le comportement de l'application. Par exemple :
+- Plutôt que : "Échec de la connexion : utilisateur non trouvé dans la base de données"
+- Utiliser : "Identifiants invalides, veuillez réessayer."
+
+Logs détaillés côté serveur :
+Toutes les erreurs détaillées, contenant des informations techniques (comme les traces d’exception, les requêtes défaillantes, ou les configurations incorrectes) seront enregistrées côté serveur uniquement. Ces logs permettront une résolution efficace des problèmes sans exposer les détails au grand public.
+
+Codes d'état HTTP cohérents :
+Les codes HTTP retourneront des informations pertinentes sans exposer de vulnérabilités.
+- 400 Bad Request pour les requêtes mal formées.
+- 401 Unauthorized pour les accès non authentifiés.
+- 403 Forbidden pour les accès refusés.
+- 500 Internal Server Error pour des erreurs inattendues.
+
+Limitation des fuites d’informations :
+Lors de tests de sécurité, nous garantirons que les réponses API ne fournissent pas d'informations involontaires, comme des chemins de fichiers ou des numéros de version de logiciels utilisés.
+
+En suivant ces directives, nous éviterons de fournir des indices exploitables aux attaquants, tout en offrant une expérience utilisateur cohérente.
