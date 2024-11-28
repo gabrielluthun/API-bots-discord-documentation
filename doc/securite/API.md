@@ -91,6 +91,34 @@ Le salage renforce la sécurité des mots de passe en ajoutant une valeur aléat
 
 Le sel est généralement stocké avec le hachage, permettant ainsi de le récupérer lors de la vérification du mot de passe. En somme, le salage contribue à rendre le hachage plus résistant aux attaques et améliore la sécurité globale des systèmes d'authentification.
 
+### Complexité
+Même si nos mots de passes sont hashés et salés, cela ne veut pas pour autant dire qu’il faut accepter n’importe quoi en guise mot de passe. Dans le cadre de notre API, on peut considérer que l'accès à un dashboard adminstrateur sur le serveur Discord de Simplon Hauts-de-France est d'un niveau de sensibilité élevé. De fait, nous mettrons en place une politique des mots de passe strictes. 
+
+#### Longueur minimale et maximale des mots de passe
+##### Longueur minimale des mots passes
+Pour commencer, il est important de comprendre que plus un rôle à de permissions vis-à-vis de la base de données, plus il sera nécessaire de protéger son compte, cela va de soi. Si l'on se base sur la "TABLE 3 – Recommandations concernant les longueurs minimales des mots de passe" de l'ANSSI, les comptes ayant des niveaux de permissions à sensibilité forte doivent avoir des mots de passes d'une longueur minimale de 15 caractères. 
+
+##### Longueur maximale des mots de passe
+Concernant la longueur maximale maintenant, même s’il est recommandé de ne pas fixer de limite aux nombres de caractères, cela est nécessaire pour éviter une surcharge du serveur de vérification des mots de passe (bcrypt). Effectivement un utilisateur (ou un attaquant) soumettant un mot de passe extrêmement long, pourrait entraîner une surcharge du serveur.
+
+Effectivement, un attaquant pourrait exploiter la lenteur volontaire de bcrypt en soumettant intentionnellement des mots de passe extrêmement longs pour consommer les ressources de calcul du serveur, ce qui pourrait ralentir le service ou le rendre indisponible (attaque par déni de service). Nous recommanderons donc une longueur maximale de 64 caractères.
+
+Cette limite offre un très haut niveau de sécurité. En effet, un mot de passe de 64 caractères, même composé uniquement de lettres, offre une quantité astronomique de combinaisons possibles, rendant toute tentative d'attaque par force brute quasiment impossible dans un cadre réaliste. De plus, ce plafond est largement au-dessus des besoins typiques pour des mots de passe complexes et variés.
+
+#### Robustesse
+En plus de définir une longueur minimale et maximale pour les mots de passe, il est essentiel de garantir leur complexité afin de rendre plus difficile toute tentative de compromission par attaque de type force brute ou devinette. 
+
+Cependant, une politique de complexité mal conçue pourrait frustrer les utilisateurs ou les inciter à adopter des comportements risqués (comme la réutilisation de mots de passe ou l'utilisation de modèles simples).
+
+Nous opterons donc pour une approche équilibrée qui reste sécurisée tout en restant gérable pour les utilisateurs. Les mots de passe doivent répondre aux critères suivants pour s'assurer qu'ils ne sont pas facilement devinables ou vulnérables à des attaques courantes :
+- **Inclusion de différents types de caractères :** Chaque mot de passe doit inclure au moins une lettre majuscule, une lettre minuscule, un chiffre, et un caractère spécial (comme !, @, #, $, %, etc.). Cette variété augmente la complexité, ce qui rend plus difficile pour un attaquant d'essayer des combinaisons courantes ou d'utiliser des attaques basées sur des dictionnaires.
+- **Éviter les séquences courantes et les répétitions :** Les mots de passe ne doivent pas contenir de suites simples comme 123456, abcdef, ou des répétitions évidentes telles que aaaaaa. Les utilisateurs doivent être encouragés à éviter des modèles facilement prédictibles.
+- **Pas de réutilisation de mots de passe :** Nous ne permettrons pas aux utilisateurs de réutiliser leurs anciens mots de passe lors de la réinitialisation. Un historique des mots de passe récents sera conservé pour s'assurer que les 5 derniers mots de passe utilisés par un utilisateur ne soit pas réutilisables.
+- **Pas de données personnelles dans les mots-de-passe :** Nous nous assurerons aussi que nos utlisateurs n'utilise pas de données personnelles facilement trouvables tels que leur nom, prénom et date de naissance.
+
+Pour nos assurer que nos critères de complexité soient bel et bien respectés, nous réutiliserons les expressions régulières (REGEX).
+
+
 ## Messages d'erreur
 La gestion des messages d’erreur joue un rôle crucial dans la sécurisation de notre API. Une exposition trop détaillée des messages d’erreur peut fournir des informations exploitables aux attaquants. Voici les mesures mises en place pour sécuriser cette partie :
 
