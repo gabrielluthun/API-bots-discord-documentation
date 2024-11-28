@@ -63,6 +63,18 @@ L’utilisation des UUID renforce la sécurité dans plusieurs contextes. Voici 
    - **Problème avec les IDs séquentiels**: Lorsqu'un système utilise des IDs séquentiels (par ex. `user_id=1, user_id=2`), un attaquant peut facilement deviner ou itérer sur les identifiants pour accéder à des données ou des ressources qu’il ne devrait pas voir.
    - **Solution UUID** : Les UUID, particulièrement ceux générés de manière aléatoire, sont imprévisibles. Leur longueur et leur format rendent une attaque par force brute ou devinette beaucoup plus difficile.
 
+### Politique de sauvegarde
+
+#### Automatisation
+
+##### Fréquence
+
+#### Politique de rétention 
+
+##### Règle 3.2.1
+
+##### Durée de conservation
+
 # API 
 Notre application intégrera plusieurs API, ou Application Programming Interface. Il s’agit d’un programme qui permet à deux applications distinctes de communiquer entre elles et d’échanger des données. Nos APIs seront tant développées en internes qu'externe du fait de Discord. 
 
