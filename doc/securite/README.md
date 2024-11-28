@@ -20,9 +20,9 @@
 - [Politique de sauvegarde](02-back-end.md/#politique-de-sauvegarde)  
   - [Automatisation](02-back-end.md/#automatisation)  
     - [Fréquence](02-back-end.md/#fréquence)  
-  - [Politique de rétention](02-back-end.md/#)  
-    - [Règle 3.2.1](02-back-end.md/#) 
-    - [Durée de conservation](02-back-end.md/#)  
+  - [Politique de rétention](02-back-end.md/#politique-de-rétention)  
+    - [Règle 3.2.1](02-back-end.md/#règle-321) 
+    - [Durée de conservation](02-back-end.md/#durée-de-conservation)  
 
 #### **1.3 API**  
 - [Sécurisation des communications](02-back-end.md/#sécurisation-des-communications)  
