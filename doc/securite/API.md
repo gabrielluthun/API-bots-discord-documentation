@@ -118,6 +118,23 @@ Nous opterons donc pour une approche équilibrée qui reste sécurisée tout en 
 
 Pour nos assurer que nos critères de complexité soient bel et bien respectés, nous réutiliserons les expressions régulières (REGEX).
 
+### Gestion de l'oubli des mots de passe
+La fonctionnalité de récupération ou réinitialisation de mot de passe est une cible courante pour les attaques. Nous mettrons en place les mesures suivantes pour sécuriser cette fonctionnalité :
+
+Limitation des tentatives de récupération :
+Une limite stricte sera imposée sur le nombre de demandes de récupération pour un compte donné dans une période de temps définie, afin d'éviter des attaques par force brute.
+
+Validation de l'identité :
+Un email ou un message sécurisé sera envoyé à l'adresse enregistrée, contenant un lien temporaire ou un code à usage unique (OTP). Ce lien/codé sera :
+Temporaire (valable pendant une durée limitée, comme 10 minutes).
+À usage unique, et invalide dès qu’il est utilisé une fois.
+
+Lien de réinitialisation sécurisé :
+Le lien de réinitialisation contiendra un jeton signé (JWT ou autre mécanisme sécurisé). Ce jeton sera stocké temporairement côté serveur pour vérifier sa validité et sera détruit après expiration ou usage.
+
+Validation côté serveur :
+La réinitialisation du mot de passe nécessitera une validation stricte côté serveur pour garantir que l'opération n'est pas falsifiée. 
+
 
 ## Messages d'erreur
 La gestion des messages d’erreur joue un rôle crucial dans la sécurisation de notre API. Une exposition trop détaillée des messages d’erreur peut fournir des informations exploitables aux attaquants. Voici les mesures mises en place pour sécuriser cette partie :
