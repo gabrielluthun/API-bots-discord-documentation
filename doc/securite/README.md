@@ -21,9 +21,7 @@
   - [Automatisation](02-back-end.md/#)  
     - [Fréquence](02-back-end.md/#)  
   - [Politique de rétention](02-back-end.md/#)  
-    - [Règle 3.2.1](02-back-end.md/#)  
-      - [Nombre de sauvegardes](02-back-end.md/#)  
-      - [Support (stockage)](02-back-end.md/#)  
+    - [Règle 3.2.1](02-back-end.md/#) 
     - [Durée de conservation](02-back-end.md/#)  
 
 #### **1.3 API**  
