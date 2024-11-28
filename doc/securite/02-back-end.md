@@ -65,6 +65,21 @@ L’utilisation des UUID renforce la sécurité dans plusieurs contextes. Voici 
 
 ### Politique de sauvegarde
 
+**Pourquoi mettre en place une politique de sauvegarde ?**
+
+Nous mettons en place une politique de sauvegarde afin de déterminer quand et à quelle fréquence réaliser des sauvegardes de la base de données.
+
+**Pour lutter contre quelle menace ?**
+
+Effectuer des sauvegardes régulières de la base de données permet de répondre à plusieurs menaces :
+
+   - **Ransomwares** : Lorsqu'un ransomware attaque, il chiffre souvent les fichiers critiques, y compris ceux d'une base de données, et demande une rançon pour fournir la clé de déchiffrement. Les sauvegardes jouent un rôle essentiel pour se protéger contre ce genre de menace, car nous pourrons restaurer les données sans avoir à négocier avec les attaquants.
+   Une combinaison de sauvegardes régulières, de stockage isolé, de tests rigoureux, et de mesures de sécurité renforcées contribue à réduire le risque d'attaque et à garantir une récupération rapide en cas d'incident.
+   
+   - **Erreurs humaines** : Qu'il s'agisse d'une suppression accidentelle de fichiers, d'une mauvaise manipulation des bases de données ou d'une mise à jour erronée, les erreurs humaines peuvent avoir des conséquences désastreuses. En effectuant des sauvegardes régulières, nous pourrons rapidement restaurer les données à un point antérieur à l'incident, minimisant ainsi l'impact d'une erreur. Cela permettra non seulement de préserver l'intégrité des informations, mais aussi d'assurer la continuité des activités en cas de perte de données non intentionnelle.
+
+   - **Défaillance du materiel** : La défaillance du materiel peut survenir sans avertissement et entraîner une perte irréversible de données si aucune sauvegarde n'est disponible. Une panne de serveur ou tout autre incident matériel peut rendre les données inaccessibles ou corrompues. En effectuant des sauvegardes régulières, noux aurons une copie fiable de la base de données un autre support ou dans le cloud, permettant ainsi une récupération rapide des données perdues.
+
 #### Automatisation
 
 ##### Fréquence
