@@ -17,9 +17,9 @@
 
 #### **1.2 Base de données**  
 - [Utilisation des UUID](02-back-end.md/#utilisation-des-uuid)  
-- [Politique de sauvegarde](02-back-end.md/#)  
-  - [Automatisation](02-back-end.md/#)  
-    - [Fréquence](02-back-end.md/#)  
+- [Politique de sauvegarde](02-back-end.md/#politique-de-sauvegarde)  
+  - [Automatisation](02-back-end.md/#automatisation)  
+    - [Fréquence](02-back-end.md/#fréquence)  
   - [Politique de rétention](02-back-end.md/#)  
     - [Règle 3.2.1](02-back-end.md/#) 
     - [Durée de conservation](02-back-end.md/#)  
