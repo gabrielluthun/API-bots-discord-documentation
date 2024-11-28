@@ -135,6 +135,31 @@ Le lien de réinitialisation contiendra un jeton signé (JWT ou autre mécanisme
 Validation côté serveur :
 La réinitialisation du mot de passe nécessitera une validation stricte côté serveur pour garantir que l'opération n'est pas falsifiée. 
 
+### Fréquence de changement
+Les mots de passe des administrateurs sont un élément essentiel de la sécurité, mais les forcer à les changer tous les 3 à 6 mois, comme recommandé par l'ANSSI, peut être contraignant. Nous avons donc choisi une méthode qui soit plus simple à utiliser tout en restant sécurisée adapté à notre contexte.
+
+Les administrateurs du bot et du dashboard interagissent avec une interface simple et n'ont pas à gérer des données sensibles telles que des informations bancaires ou des mots de passe utilisateur. Les données collectées via le formulaire d’identification (nom, prénom, email) sont limitées et stockées de manière sécurisée.
+
+Les administrateurs ne seront pas obligés de changer leur mot de passe régulièrement. Cette décision permet de limiter les désagréments liés à la mémorisation ou au choix de nouveaux mots de passe.
+
+Un mot de passe devra être modifié uniquement si un problème est détecté, comme une tentative d'accès suspecte ou un risque de sécurité.
+
+Nous utilisons un système de double vérification pour sécuriser chaque connexion (par exemple, un code envoyé sur un téléphone ou un email). Toute activité inhabituelle est surveillée et signalée.
+
+Cela simplifie la vie des administrateurs tout en évitant les mauvaises pratiques, comme l’utilisation de mots de passe trop simples ou réutilisés. En cas de problème, des mesures de sécurité supplémentaires sont en place pour réagir rapidement.
+
+### Archivage des anciens mots de passe
+Pour éviter que des mots de passe déjà utilisés puissent être réemployés, nous avons mis en place une gestion des anciens mots de passe. Cela limite les risques en cas de compromission passée.
+
+Quand un administrateur change son mot de passe, le système vérifie qu’il ne réutilise pas un ancien mot de passe.
+
+Nous stockons une liste des 5 à 10 derniers mots de passe pour chaque administrateur. Cela empêche qu’un mot de passe précédent puisse être repris par erreur.
+
+Les mots de passe archivés sont chiffrés avec une méthode robuste, de sorte qu’ils ne puissent pas être exploités en cas de fuite.
+
+Les mots de passe archivés sont supprimés automatiquement après une période définie (par exemple 90 jours). Cela réduit les risques d’exploitation d’anciennes données.
+
+Cela garantit que même si un mot de passe est compromis, il ne pourra pas être réutilisé. Le stockage et la suppression des mots archivés suivent les bonnes pratiques, ce qui limite tout risque supplémentaire.
 
 ## Messages d'erreur
 La gestion des messages d’erreur joue un rôle crucial dans la sécurisation de notre API. Une exposition trop détaillée des messages d’erreur peut fournir des informations exploitables aux attaquants. Voici les mesures mises en place pour sécuriser cette partie :
