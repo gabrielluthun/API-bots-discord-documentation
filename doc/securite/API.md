@@ -82,7 +82,7 @@ Dans le cadre de notre application, nous utilisons un fichier nommé .env pour s
 ### Hachage
 Les mots de passe ne sont jamais stockés en clair dans la base de données. Si un attaquant parvient à obtenir les données de la base de données, les mots de passe hachés et salés sont presque impossibles à inverser pour retrouver le mot de passe d'origine.
 
-Le hachage est un processus qui convertit des données de taille variable en une chaîne de caractères de longueur fixe, garantissant ainsi l'intégrité des données. Il s'agit d'une fonction unidirectionnelle, ce qui rend pratiquement impossible la récupération des données originales à partir de leur hachage. nous utilisons pour celà un algorithme de hachage sécurisé tel que bcrypt
+Le hachage est un processus qui convertit des données de taille variable en une chaîne de caractères de longueur fixe, garantissant ainsi l'intégrité des données. Il s'agit d'une fonction unidirectionnelle, ce qui rend pratiquement impossible la récupération des données originales à partir de leur hachage. nous utilisons pour celà un algorithme de hachage sécurisé tel que bcrypt.
 
 Le hachage est couramment utilisé pour stocker les mots de passe de manière sécurisée et peut également servir à vérifier l'intégrité des fichiers et à valider des signatures numériques.
 
@@ -92,51 +92,46 @@ Le salage renforce la sécurité des mots de passe en ajoutant une valeur aléat
 Le sel est généralement stocké avec le hachage, permettant ainsi de le récupérer lors de la vérification du mot de passe. En somme, le salage contribue à rendre le hachage plus résistant aux attaques et améliore la sécurité globale des systèmes d'authentification.
 
 ### Complexité
-Même si nos mots de passes sont hashés et salés, cela ne veut pas pour autant dire qu’il faut accepter n’importe quoi en guise mot de passe. Dans le cadre de notre API, on peut considérer que l'accès à un dashboard adminstrateur sur le serveur Discord de Simplon Hauts-de-France est d'un niveau de sensibilité élevé. De fait, nous mettrons en place une politique des mots de passe strictes. 
+Même si nos mots de passes sont hashés et salés, cela ne veut pas pour autant dire qu’il faut accepter n’importe quoi en guise mot de passe. Dans le cadre de notre API, on peut considérer que l'accès à un dashboard adminstrateur sur le serveur Discord de Simplon Hauts-de-France est d'un niveau de sensibilité élevé. De fait, nous mettrons en place une politique des mots de passe stricte. 
 
 #### Longueur minimale et maximale des mots de passe
 ##### Longueur minimale des mots passes
-Pour commencer, il est important de comprendre que plus un rôle à de permissions vis-à-vis de la base de données, plus il sera nécessaire de protéger son compte, cela va de soi. Si l'on se base sur la "TABLE 3 – Recommandations concernant les longueurs minimales des mots de passe" de l'ANSSI, les comptes ayant des niveaux de permissions à sensibilité forte doivent avoir des mots de passes d'une longueur minimale de 15 caractères. 
+Pour commencer, il est important de comprendre que plus un rôle a de permissions vis-à-vis de la base de données, plus il sera nécessaire de protéger son compte, celà va de soi. Si l'on se base sur la "TABLE 3 – Recommandations concernant les longueurs minimales des mots de passe" de l'ANSSI, les comptes ayant des niveaux de permissions à sensibilité forte doivent avoir des mots de passes d'une longueur minimale de 15 caractères. 
 
 ##### Longueur maximale des mots de passe
-Concernant la longueur maximale maintenant, même s’il est recommandé de ne pas fixer de limite aux nombres de caractères, cela est nécessaire pour éviter une surcharge du serveur de vérification des mots de passe (bcrypt). Effectivement un utilisateur (ou un attaquant) soumettant un mot de passe extrêmement long, pourrait entraîner une surcharge du serveur.
+Concernant la longueur maximale, même s’il est recommandé de ne pas fixer de limite au nombre de caractères, cela est nécessaire pour éviter une surcharge du serveur de vérification des mots de passe (bcrypt). Effectivement un utilisateur (ou un attaquant) soumettant un mot de passe extrêmement long, pourrait entraîner une surcharge du serveur.
 
 Effectivement, un attaquant pourrait exploiter la lenteur volontaire de bcrypt en soumettant intentionnellement des mots de passe extrêmement longs pour consommer les ressources de calcul du serveur, ce qui pourrait ralentir le service ou le rendre indisponible (attaque par déni de service). Nous recommanderons donc une longueur maximale de 64 caractères.
 
 Cette limite offre un très haut niveau de sécurité. En effet, un mot de passe de 64 caractères, même composé uniquement de lettres, offre une quantité astronomique de combinaisons possibles, rendant toute tentative d'attaque par force brute quasiment impossible dans un cadre réaliste. De plus, ce plafond est largement au-dessus des besoins typiques pour des mots de passe complexes et variés.
 
+Dernière recommandation, employer des *passphrase* en tant que mot de passe est une bonne pratique. Une *passphrase* est l'emploi d'une phrase complète employée en tant que mot de passe. Nous recommanderons à nos utilisateur d'employer ce type de mot de passe via un message au moment de la création ou le renouvellement des mots de passe.
+
 #### Robustesse
-En plus de définir une longueur minimale et maximale pour les mots de passe, il est essentiel de garantir leur complexité afin de rendre plus difficile toute tentative de compromission par attaque de type force brute ou devinette. 
+En plus de définir une longueur minimale et maximale pour les mots de passe, il est essentiel de garantir leur complexité afin de rendre plus difficile toute tentative de compromission par attaque de type force brute. 
 
 Cependant, une politique de complexité mal conçue pourrait frustrer les utilisateurs ou les inciter à adopter des comportements risqués (comme la réutilisation de mots de passe ou l'utilisation de modèles simples).
 
 Nous opterons donc pour une approche équilibrée qui reste sécurisée tout en restant gérable pour les utilisateurs. Les mots de passe doivent répondre aux critères suivants pour s'assurer qu'ils ne sont pas facilement devinables ou vulnérables à des attaques courantes :
 - **Inclusion de différents types de caractères :** Chaque mot de passe doit inclure au moins une lettre majuscule, une lettre minuscule, un chiffre, et un caractère spécial (comme !, @, #, $, %, etc.). Cette variété augmente la complexité, ce qui rend plus difficile pour un attaquant d'essayer des combinaisons courantes ou d'utiliser des attaques basées sur des dictionnaires.
 - **Éviter les séquences courantes et les répétitions :** Les mots de passe ne doivent pas contenir de suites simples comme 123456, abcdef, ou des répétitions évidentes telles que aaaaaa. Les utilisateurs doivent être encouragés à éviter des modèles facilement prédictibles.
-- **Pas de réutilisation de mots de passe :** Nous ne permettrons pas aux utilisateurs de réutiliser leurs anciens mots de passe lors de la réinitialisation. Un historique des mots de passe récents sera conservé pour s'assurer que les 5 derniers mots de passe utilisés par un utilisateur ne soit pas réutilisables.
-- **Pas de données personnelles dans les mots-de-passe :** Nous nous assurerons aussi que nos utlisateurs n'utilise pas de données personnelles facilement trouvables tels que leur nom, prénom et date de naissance.
+- **Pas de réutilisation de mots de passe :** Nous ne permettrons pas aux utilisateurs de réutiliser leurs anciens mots de passe lors de la réinitialisation. Un historique des mots de passe récents sera conservé pour s'assurer que les 5 derniers mots de passe utilisés par un utilisateur ne soient pas réutilisables.
+- **Pas de données personnelles dans les mots-de-passe :** Nous nous assurerons aussi que nos utlisateurs n'utilisent pas de données personnelles facilement trouvables tels que leur nom, prénom et date de naissance.
 
-Pour nos assurer que nos critères de complexité soient bel et bien respectés, nous réutiliserons les expressions régulières (REGEX).
+Pour nous assurer que nos critères de complexité soient bel et bien respectés, nous réutiliserons les expressions régulières (REGEX).
 
 ### Gestion de l'oubli des mots de passe
-La fonctionnalité de récupération ou réinitialisation de mot de passe est une cible courante pour les attaques. Nous mettrons en place les mesures suivantes pour sécuriser cette fonctionnalité :
+La fonctionnalité de récupération ou réinitialisation de mot de passe est une cible courante pour les attaques. Nous mettrons en place les mesures suivante: 
+- Une limite stricte sera imposée sur le nombre de demandes de récupération pour un compte donné dans une période de temps définie, afin d'éviter des attaques par force brute. Si cette limite est passée, nous bloquerons l'utilisateur en l'invitant à contacter un administrateur.
+- Un email ou un message sécurisé sera envoyé à l'adresse enregistrée, contenant un lien temporaire ou un code à usage unique (OTP). Ce lien/codé sera :
+ - Temporaire (valable pendant une durée limitée, comme 10 minutes).
+ - À usage unique, et invalide dès qu’il est utilisé une fois.
+- Le lien de réinitialisation contiendra un jeton signé (JWT ou autre mécanisme sécurisé). Ce jeton sera stocké temporairement côté serveur pour vérifier sa validité et sera détruit après expiration ou usage.
 
-Limitation des tentatives de récupération :
-Une limite stricte sera imposée sur le nombre de demandes de récupération pour un compte donné dans une période de temps définie, afin d'éviter des attaques par force brute.
-
-Validation de l'identité :
-Un email ou un message sécurisé sera envoyé à l'adresse enregistrée, contenant un lien temporaire ou un code à usage unique (OTP). Ce lien/codé sera :
-Temporaire (valable pendant une durée limitée, comme 10 minutes).
-À usage unique, et invalide dès qu’il est utilisé une fois.
-
-Lien de réinitialisation sécurisé :
-Le lien de réinitialisation contiendra un jeton signé (JWT ou autre mécanisme sécurisé). Ce jeton sera stocké temporairement côté serveur pour vérifier sa validité et sera détruit après expiration ou usage.
-
-Validation côté serveur :
 La réinitialisation du mot de passe nécessitera une validation stricte côté serveur pour garantir que l'opération n'est pas falsifiée. 
 
 ### Fréquence de changement
-Les mots de passe des administrateurs sont un élément essentiel de la sécurité, mais les forcer à les changer tous les 3 à 6 mois, comme recommandé par l'ANSSI, peut être contraignant. Nous avons donc choisi une méthode qui soit plus simple à utiliser tout en restant sécurisée adapté à notre contexte.
+Les mots de passe des administrateurs sont un élément essentiel de la sécurité, mais les forcer à les changer tous les 3 à 6 mois, comme recommandé par l'ANSSI, peut être contraignant. Nous avons donc choisi une méthode qui soit plus simple à utiliser tout en restant sécurisée et adaptée à notre contexte.
 
 Les administrateurs du bot et du dashboard interagissent avec une interface simple et n'ont pas à gérer des données sensibles telles que des informations bancaires ou des mots de passe utilisateur. Les données collectées via le formulaire d’identification (nom, prénom, email) sont limitées et stockées de manière sécurisée.
 
@@ -144,42 +139,34 @@ Les administrateurs ne seront pas obligés de changer leur mot de passe réguli�
 
 Un mot de passe devra être modifié uniquement si un problème est détecté, comme une tentative d'accès suspecte ou un risque de sécurité.
 
-Nous utilisons un système de double vérification pour sécuriser chaque connexion (par exemple, un code envoyé sur un téléphone ou un email). Toute activité inhabituelle est surveillée et signalée.
-
-Cela simplifie la vie des administrateurs tout en évitant les mauvaises pratiques, comme l’utilisation de mots de passe trop simples ou réutilisés. En cas de problème, des mesures de sécurité supplémentaires sont en place pour réagir rapidement.
+Cela simplifie la vie des administrateurs tout en évitant les mauvaises pratiques, comme l’utilisation de mots de passe trop simples ou réutilisés. En cas de problème, des mesures de sécurité supplémentaires seront mises en place pour réagir rapidement.
 
 ### Archivage des anciens mots de passe
 Pour éviter que des mots de passe déjà utilisés puissent être réemployés, nous avons mis en place une gestion des anciens mots de passe. Cela limite les risques en cas de compromission passée.
 
 Quand un administrateur change son mot de passe, le système vérifie qu’il ne réutilise pas un ancien mot de passe.
 
-Nous stockons une liste des 5 à 10 derniers mots de passe pour chaque administrateur. Cela empêche qu’un mot de passe précédent puisse être repris par erreur.
+Nous stockons une liste des 5 derniers mots de passe pour chaque administrateur. Cela empêche qu’un mot de passe précédent puisse être repris par erreur. Après les 5 premiers mots de passe, tout changement de mot de passe supprimera le mot de passe le plus ancien du stock.
 
 Les mots de passe archivés sont chiffrés avec une méthode robuste, de sorte qu’ils ne puissent pas être exploités en cas de fuite.
 
-Les mots de passe archivés sont supprimés automatiquement après une période définie (par exemple 90 jours). Cela réduit les risques d’exploitation d’anciennes données.
-
-Cela garantit que même si un mot de passe est compromis, il ne pourra pas être réutilisé. Le stockage et la suppression des mots archivés suivent les bonnes pratiques, ce qui limite tout risque supplémentaire.
+Les mots de passe archivés sont supprimés automatiquement après une période de 2 ans, conformément au RGPD. Cela réduit les risques d’exploitation d’anciennes données. Cela garantit que même si un mot de passe est compromis, il ne pourra pas être réutilisé. Le stockage et la suppression des mots archivés suivent les bonnes pratiques, ce qui limite tout risque supplémentaire.
 
 ## Messages d'erreur
-La gestion des messages d’erreur joue un rôle crucial dans la sécurisation de notre API. Une exposition trop détaillée des messages d’erreur peut fournir des informations exploitables aux attaquants. Voici les mesures mises en place pour sécuriser cette partie :
+La gestion des messages d’erreur joue un rôle crucial dans la sécurisation de notre API. Une exposition trop détaillée des messages d’erreur peut fournir des informations exploitables aux attaquants. Voici les mesures mises en place pour sécuriser cette partie.
 
-Messages génériques pour les utilisateurs finaux :
 Les messages d'erreur présentés à l'utilisateur doivent être génériques pour éviter de révéler des informations sensibles sur la structure ou le comportement de l'application. Par exemple :
 - Plutôt que : "Échec de la connexion : utilisateur non trouvé dans la base de données"
 - Utiliser : "Identifiants invalides, veuillez réessayer."
 
-Logs détaillés côté serveur :
-Toutes les erreurs détaillées, contenant des informations techniques (comme les traces d’exception, les requêtes défaillantes, ou les configurations incorrectes) seront enregistrées côté serveur uniquement. Ces logs permettront une résolution efficace des problèmes sans exposer les détails au grand public.
+Toutes les erreurs seront détaillées au moyen de logs, contenant des informations techniques (comme les traces d’exception, les requêtes défaillantes, ou les configurations incorrectes) qui seront enregistrées côté serveur uniquement. Ces logs permettront une résolution efficace des problèmes sans exposer les détails au grand public.
 
-Codes d'état HTTP cohérents :
-Les codes HTTP retourneront des informations pertinentes sans exposer de vulnérabilités.
+Les codes HTTP retourneront des informations pertinentes et cohérentes, sans exposer de vulnérabilités:
 - 400 Bad Request pour les requêtes mal formées.
 - 401 Unauthorized pour les accès non authentifiés.
 - 403 Forbidden pour les accès refusés.
 - 500 Internal Server Error pour des erreurs inattendues.
 
-Limitation des fuites d’informations :
 Lors de tests de sécurité, nous garantirons que les réponses API ne fournissent pas d'informations involontaires, comme des chemins de fichiers ou des numéros de version de logiciels utilisés.
 
 En suivant ces directives, nous éviterons de fournir des indices exploitables aux attaquants, tout en offrant une expérience utilisateur cohérente.
