@@ -82,6 +82,8 @@ Effectuer des sauvegardes régulières de la base de données permet de répondr
 
 #### Automatisation
 
+L'automatisation du processus de sauvegarde présente un véritable atout pour nous, car elle garantit la régularité et la fiabilité des sauvegardes tout en éliminant les risques d'oublis ou d'erreurs humaines. En automatisant ce processus, nous nous assurons que les sauvegardes sont effectuées à intervalles réguliers, sans nécessiter d'intervention manuelle, ce qui réduit considérablement la possibilité de négligence. De plus, cela nous permet de planifier les sauvegardes à des moments stratégiques, comme pendant les périodes de faible activité, pour minimiser l'impact sur les performances du système. L'automatisation rend également plus facile l'adaptation de notre stratégie de sauvegarde en fonction de l'évolution des besoins du projet.
+
 ##### Fréquence
 
 #### Politique de rétention 
