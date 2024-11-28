@@ -20,7 +20,6 @@
 - [Politique de sauvegarde](02-back-end.md/#)  
   - [Automatisation](02-back-end.md/#)  
     - [Fréquence](02-back-end.md/#)  
-    - [Nombre](02-back-end.md/#)  
   - [Politique de rétention](02-back-end.md/#)  
     - [Règle 3.2.1](02-back-end.md/#)  
       - [Nombre de sauvegardes](02-back-end.md/#)  
