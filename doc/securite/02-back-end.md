@@ -73,10 +73,6 @@ L’utilisation des UUID renforce la sécurité dans plusieurs contextes. Voici 
 
 ##### Règle 3.2.1
 
-###### Nombre de sauvegardes
-
-###### Support (stockage)
-
 ##### Durée de conservation
 
 # API 
