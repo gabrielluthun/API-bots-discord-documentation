@@ -86,6 +86,8 @@ L'automatisation du processus de sauvegarde présente un véritable atout pour n
 
 ##### Fréquence
 
+Nous effectuerons une sauvegarde automatique tous les jours à 02h00 du matin. Nous choisissons cet horraire car c'est à ce moment qu'il y'a le moins d'utlisateur connecté.
+
 #### Politique de rétention 
 
 ##### Règle 3.2.1
