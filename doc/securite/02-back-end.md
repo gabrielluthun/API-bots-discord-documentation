@@ -92,6 +92,16 @@ Nous effectuerons une sauvegarde automatique tous les jours à 02h00 du matin. N
 
 ##### Règle 3.2.1
 
+La règle 3-2-1 est une méthode simple mais très efficace pour protéger nos données :
+
+   1. **Trois copies des données** : Nous devons avoir l'original et deux copies supplémentaires pour garantir que nous pouvons récupérer nos informations en cas de perte ou de corruption.
+
+   2. **Deux supports différents** : Les copies doivent être stockées sur deux types de supports distincts, par exemple un disque dur et le cloud, afin de réduire les risques liés à la défaillance d'un seul support.
+
+   3. **Une copie hors site** : Une copie doit être stockée dans un emplacement géographiquement différent, comme un centre de données distant ou un stockage cloud, pour se protéger contre les risques locaux (incendie, vol, etc.).
+
+Nous appliquerons dans la mesure du possible, et en fonction du materiel disponible, cette règle de sécurité.
+
 ##### Durée de conservation
 
 # API 
