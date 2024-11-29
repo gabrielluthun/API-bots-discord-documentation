@@ -74,6 +74,12 @@
     <td></td>
     <td>Identifiant de la réponse</td>
   </tr>
+  <tr align='center'>
+    <td>answer_content</td>
+    <td>text</td>
+    <td></td>
+    <td>Contenu de la question</td>
+  </tr>
     <tr align='center'>
     <td>question_id</td>
     <td>integer</td>
