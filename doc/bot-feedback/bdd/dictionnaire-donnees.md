@@ -32,5 +32,11 @@
     <td></td>
     <td>Si le sondage est un sondage standardisée</td>
   </tr>
+    <tr align='center'>
+    <td>poll_is_anonymous</td>
+    <td>boolean</td>
+    <td></td>
+    <td>Si le sondage accepte les réponses anonymes</td>
+  </tr>
 </tbody>
 </table>
