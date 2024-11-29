@@ -38,5 +38,11 @@
     <td></td>
     <td>Si le sondage accepte les réponses anonymes</td>
   </tr>
+    <tr align='center'>
+    <td>answer_id</td>
+    <td>integer</td>
+    <td></td>
+    <td>Identifiant de la réponse</td>
+  </tr>
 </tbody>
 </table>
