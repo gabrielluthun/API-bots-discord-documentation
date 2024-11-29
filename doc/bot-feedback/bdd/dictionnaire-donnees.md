@@ -74,5 +74,11 @@
     <td></td>
     <td>Durée pendant laquelle on peut répondre au sondage</td>
   </tr>
+    <tr align='center'>
+    <td>poll_is_closed</td>
+    <td>boolean</td>
+    <td></td>
+    <td>Si le sondage est fermé</td>
+  </tr>
 </tbody>
 </table>
