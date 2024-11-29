@@ -20,5 +20,11 @@
     <td></td>
     <td>Identifiant du rôle</td>
   </tr>
+    <tr align='center'>
+    <td>user_uuid</td>
+    <td>UUID</td>
+    <td></td>
+    <td>Identifiant du user</td>
+  </tr>
 </tbody>
 </table>
