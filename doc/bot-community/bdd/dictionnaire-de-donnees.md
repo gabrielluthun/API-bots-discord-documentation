@@ -1,7 +1,3 @@
-Voici le tableau mis à jour avec les noms de colonnes en anglais tout en conservant le reste intact.
-
----
-
 ## Table : Users
 
 | **Column Name**      | **Type**  | **Size** | **Description**                                  |
