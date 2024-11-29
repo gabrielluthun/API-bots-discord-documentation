@@ -86,5 +86,11 @@
     <td></td>
     <td>Identifiant de la question</td>
   </tr>
+  <tr align='center'>
+    <td>question_content</td>
+    <td>text</td>
+    <td></td>
+    <td>Contenu de la réponse</td>
+  </tr>
 </tbody>
 </table>
