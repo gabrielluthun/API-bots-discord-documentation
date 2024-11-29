@@ -50,5 +50,11 @@
     <td></td>
     <td>Identifiant de la question</td>
   </tr>
+    <tr align='center'>
+    <td>poll_text</td>
+    <td>text</td>
+    <td></td>
+    <td>Texte/description du sondage</td>
+  </tr>
 </tbody>
 </table>
