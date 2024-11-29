@@ -44,5 +44,11 @@
     <td></td>
     <td>Identifiant de la réponse</td>
   </tr>
+    <tr align='center'>
+    <td>question_id</td>
+    <td>integer</td>
+    <td></td>
+    <td>Identifiant de la question</td>
+  </tr>
 </tbody>
 </table>
