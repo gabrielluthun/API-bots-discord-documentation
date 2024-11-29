@@ -62,5 +62,11 @@
     <td></td>
     <td>Nom du rôle</td>
   </tr>
+    <tr align='center'>
+    <td>poll_is_multiple_answer</td>
+    <td>boolean</td>
+    <td></td>
+    <td>Si le sondage accepte les réponses multiples</td>
+  </tr>
 </tbody>
 </table>
