@@ -13,3 +13,16 @@
 | `channel_id`         | integer      | identifiant du channel                           |
 | `channel_name`       | text         | nom du channel                                   |
 | `is_temporary`       | bool         | indique si le channel est temporaire ou non      |
+| `forum_id`           | integer      | Identifiant unique du forum                      |
+| `forum_name`         | text         | nom de la promotion                              |
+| `post_id`            | integer      | identifiant unique du post                       |
+| `post_name`          | text         | nom du post                                      |
+| `post_content`       | text         | le message du post                               |
+| `post_reaction`      | text         | la reaction du post                              |
+| `tag_id`             | integer      | Identifiant unique d'un tag lié à un post        |
+| `tag_name`           | text         | nom du tag                                       |
+| `tag_emoji`          | text         | emote du tag                                     |
+| `users_uuid`         | uuid         | identifiant unique et universel de l'utilisateur |
+| `users_name`         | text         | nom de famille de l'utilisateur                  |
+| `users_firstname`    | text         | prénom de l'utilisateur                          |
+| `users_email`        | text         | mail de l'utilisateur                            |
