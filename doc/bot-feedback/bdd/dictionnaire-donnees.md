@@ -14,5 +14,11 @@
     <td></td>
     <td>Identifiant du sondage</td>
   </tr>
+    <tr align='center'>
+    <td>role_id</td>
+    <td>integer</td>
+    <td></td>
+    <td>Identifiant du rôle</td>
+  </tr>
 </tbody>
 </table>
