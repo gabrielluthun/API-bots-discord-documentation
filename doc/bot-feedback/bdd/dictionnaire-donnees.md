@@ -56,5 +56,11 @@
     <td></td>
     <td>Texte/description du sondage</td>
   </tr>
+    <tr align='center'>
+    <td>role_name</td>
+    <td>text</td>
+    <td></td>
+    <td>Nom du rôle</td>
+  </tr>
 </tbody>
 </table>
