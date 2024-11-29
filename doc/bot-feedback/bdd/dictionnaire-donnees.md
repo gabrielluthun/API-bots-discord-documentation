@@ -68,5 +68,11 @@
     <td></td>
     <td>Si le sondage accepte les réponses multiples</td>
   </tr>
+    <tr align='center'>
+    <td>poll_duration</td>
+    <td>timestamp</td>
+    <td></td>
+    <td>Durée pendant laquelle on peut répondre au sondage</td>
+  </tr>
 </tbody>
 </table>
