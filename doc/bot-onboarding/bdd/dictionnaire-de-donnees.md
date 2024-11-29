@@ -22,7 +22,9 @@
 | `tag_id`             | integer      | Identifiant unique d'un tag lié à un post        |
 | `tag_name`           | text         | nom du tag                                       |
 | `tag_emoji`          | text         | emote du tag                                     |
-| `user_uuid`         | uuid         | identifiant unique et universel de l'utilisateur |
-| `user_name`         | text         | nom de famille de l'utilisateur                  |
-| `user_firstname`    | text         | prénom de l'utilisateur                          |
-| `user_email`        | text         | mail de l'utilisateur                            |
+| `user_uuid`          | uuid         | identifiant unique et universel de l'utilisateur |
+| `user_name`          | text         | nom de famille de l'utilisateur                  |
+| `user_firstname`     | text         | prénom de l'utilisateur                          |
+| `user_email`         | text         | mail de l'utilisateur                            |
+| `role_id`            | integer      | identifiant du role                              |
+| `role_name`          | text         | nom du role                                      |
