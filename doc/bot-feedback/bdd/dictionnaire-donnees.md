@@ -26,5 +26,11 @@
     <td></td>
     <td>Identifiant du user</td>
   </tr>
+    <tr align='center'>
+    <td>poll_is_template</td>
+    <td>boolean</td>
+    <td></td>
+    <td>Si le sondage est un sondage standardisée</td>
+  </tr>
 </tbody>
 </table>
