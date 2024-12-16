@@ -24,7 +24,7 @@
 | `tag_emoji`          | text         | emote du tag                                     |
 | `user_uuid`          | uuid         | identifiant unique et universel de l'utilisateur |
 | `user_discord_id`    | text         | identifiant discord de l'utilisateur             |
-| `user_name`          | text         | nom de famille de l'utilisateur                  |
+| `user_lastname`      | text         | nom de famille de l'utilisateur                  |
 | `user_firstname`     | text         | prénom de l'utilisateur                          |
 | `user_email`         | text         | mail de l'utilisateur                            |
 | `role_id`            | integer      | identifiant du role                              |
