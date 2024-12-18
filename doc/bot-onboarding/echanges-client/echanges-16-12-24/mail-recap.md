@@ -49,7 +49,7 @@ Vos idées et suggestions ont été extrêmement enrichissantes pour nous, et el
 
 **Nous avons également validé les éléments suivants :**
 
-- Les cdp pourront ajouter des posts supplémentaires dans les forums pré-sélectionnés lors de la création de la formation, afin de gagner en flexibilité.  
+- Les cdp pourront ajouter des posts supplémentaires dans les forums pré-sélectionnés lors de la création de la promotion, afin de gagner en flexibilité.  
 - La prolongation de la durée d’activation des canaux pour les formations menant à un titre professionnel est validée, afin de tenir compte du temps nécessaire à l’obtention du diplôme.
 
 **Comme convenu, les prochaines étapes seront les suivantes :**
