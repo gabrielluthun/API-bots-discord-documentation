@@ -7,3 +7,7 @@
 4 - Il y a t il une limite au niveau du nombre de rôles sur un serveur discord ?
 
 5 - Lorsqu'une promotion est supprimée, est-ce que le rôle associé est également supprimé ?
+
+6 - La possibilité de modification de promotion est compliquée comparativement à la suppression et l'ajout d'une nouvelle pomotion. Est-il pertinent de la conserver? Ou serait-il pertinent de ne laisser que la modification de date?
+
+7 - La suppression d'une promotion n'est-elle pas plus rapide effectuée manuellement en dehors du bot discord?
