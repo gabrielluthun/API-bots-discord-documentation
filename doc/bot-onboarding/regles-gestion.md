@@ -1,109 +1,104 @@
-# Règles de gestion
+ # Règles de gestion  
 
-Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fonctionnalités et les règles qui y sont associées. Vous trouverez donc ci-dessous les règles de gestions du bot onboarding.
+Les règles de gestion d'un bot ont pour but de rassembler l'ensemble de ses fonctionnalités et les règles qui y sont associées. Vous trouverez donc ci-dessous les règles de gestion du bot onboarding.  
 
-Attention, ***les règles de gestions en italiques** sont des suggestions et **ne sont pas prioritaires***.
+Attention, ***les règles de gestion en italique** sont des suggestions et **ne sont pas prioritaires***.  
 
-## Glossaire
+## Gestion des channels vocaux  
 
-- Stock de channels vocaux : il s'agit de channels stockés dans une "category" discord. Il devient alors possible de les dupliquer lors de la création d'une nouvelle formation. Ils servent aussi à la création de post dans la mesure on l'on pourra récupérer les noms des channels stockés pour les utiliser en tant que "nom" et "message" pour créer des posts.
+- **RG1** : Un channel vocal possède un nom descriptif.  
+- **RG2** : Un channel vocal a un emoji qui le définit.  
+- **RG3** : Un administrateur, un directeur ou un chargé de projet peut créer un channel vocal dans le stock de channels.  
+- **RG4** : Un administrateur, un directeur ou un chargé de projet peut modifier un channel vocal dans le stock de channels.  
+- **RG5** : Un administrateur, un directeur ou un chargé de projet peut supprimer un channel vocal dans le stock de channels.  
+- **RG6** : Chaque promotion dispose de trois channels vocaux fixes : "SOS", "général" et "Sur demande".  
+- **RG7** : Lorsqu'un utilisateur entre dans le channel "Sur demande", il est automatiquement transféré dans un channel vocal temporaire disponible dans la catégorie correspondant à sa promotion.  
+- **RG8** : Un channel vocal temporaire disparaît lorsqu'il n'y a plus personne dedans.  
+- **RG9** : Les channels vocaux sont stockés dans la catégorie "stock".  
 
-## Gestion de promotion
+## Gestion des posts  
 
-- **RG1** : Une promotion possède un nom qui la décrit
-- **RG2** : Une promotion contient une date de début et une date de fin
-- **RG3** : Un administrateur, un directeur et un chargé de projet peuvent créer une promotion
-- **RG4** : Un administrateur et un directeur et un chargé de projet peuvent modifier une promotion
-- **RG5** : Un administrateur et un directeur et un chargé de projet peuvent supprimer une promotion
-- **RG6** : Lors de la modification, un message de confirmation apparait
-- **RG7** : Lors de la suppression, un message de confirmation apparait
-- **RG8** : Lors de la création, un message de confirmation apparait
-- **RG9** : Pour créer une promotion il sera nécessaire de renseigner son nom puis de sélectionner sa formation et son campus associées
-- **RG10** : La création d'une promotion crée également un rôle associé avec le nom de la promo
-- **RG11** : La promotion est archivée un mois après la fin de la session associée
-- **RG12** : Une semaine avant la fin d'une promotion, une notification automatique doit être envoyée sur le channel général de la promotion concernée pour prévenir qu'elle sera archivée un mois à compter de la fin de leur formation 
-- **RG13** : Une promotion est forcément liée à un campus
-- **RG14** : Une promotion est forcément liée à une formation
-- **RG15** : Dans le client discord, les promotions seront groupées visuellement par campus
+- **RG10** : Les étudiants ne peuvent pas créer de posts.  
+- **RG11** : Un post possède un titre.  
+- **RG12** : Un post contient un message.  
+- **RG13** : Les posts sont stockés dans la catégorie "stock".  
+- ***RG14** : Un post peut contenir un emoji.*  
+- ***RG15** : Un post peut contenir une image.*  
+- ***RG16** : Un post peut contenir une réaction par défaut.*  
+- ***RG17** : Un post peut contenir un ou plusieurs tags.*  
 
-## Gestion de formation
+## Gestion des campus  
 
-- **RG15** : Une formation possède un nom qui l'a décrit
-- **RG16** : Un administrateur, un directeur et un chargé de projet peuvent créer une formation
-- **RG17** : Un administrateur, un directeur et un chargé de projet peuvent modifier une formation
-- **RG18** : Un administrateur, un directeur et un chargé de projet peuvent supprimer une formation
-- **RG19** : Lors de la modification, un message de confirmation apparait
-- **RG20** : Lors de la suppression, un message de confirmation apparait
-- **RG21** : Lors de la création, un message de confirmation apparait
-- **RG22** : Lors de la création d'une formation, les channels disponibles dans la category "stock-channels" seront sélectionnés par défaut
-- **RG23** : Dans le contexte de la création de formation, il existera une category "stock-posts" qui contiendra un forum "posts-generiques" dans lequel il sera possible de retrouver les posts que l'on retrouvera toujours dans chaque formation
-- **RG24** : Dans la category "stock-posts", on retrouvera aussi un forum "posts-specifiques" dans lequel il sera possible de retrouver les posts spécifiques à chaque formation
-- **RG25** : Lors de la création d'une formation, les posts présents dans le forum "posts-generiques" seront sélectionnés par défaut
-- **RG26** : Lors de la création d'une formation, il sera possible de sélectionner des posts plus spécifiques dans le forum "posts-specifiques"
-- **RG27** : Lors de la modification d'une formation, il sera possible d'ajouter ou de retirer des posts
-- **RG28** : Un étudiant est toujours lié à sa formation une fois sa promotion archivée
+- **RG18** : Un campus possède un nom descriptif.  
+- **RG19** : Un administrateur, un directeur ou un chargé de projet peut créer un campus.  
+- **RG20** : Un administrateur, un directeur ou un chargé de projet peut modifier un campus.  
+- **RG21** : Un administrateur, un directeur ou un chargé de projet peut supprimer un campus.  
+- **RG22** : Lors d'une modification, un message de confirmation apparaît.  
+- **RG23** : Lors d'une suppression, un message de confirmation apparaît.  
+- **RG24** : Lors d'une création, un message de confirmation apparaît.  
+- **RG25** : Un étudiant en cours de formation dans un campus est lié à ce dernier.  
+- **RG26** : Un étudiant n'est plus lié au campus lorsque sa promotion est archivée.  
+- **RG27** : La création d'un campus entraîne la création de son rôle Discord associé.  
+- **RG28** : Un administrateur, un directeur ou un chargé de projet peut notifier les personnes concernées par un campus.  
+- **RG29** : Lorsque qu'un campus est supprimé, les promotions qui y sont liées sont également supprimées.  
 
-## Gestion de campus
+## Gestion des formations  
 
-- **RG29** : Un campus possède un nom qui la décrit
-- **RG30** : Un administrateur, un directeur et un chargé de projet peuvent créer un campus
-- **RG31** : Un administrateur, un directeur et un chargé de projet peuvent modifier un campus
-- **RG32** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un campus
-- **RG33** : Lors de la modification, un message de confirmation apparait
-- **RG34** : Lors de la suppression, un message de confirmation apparait
-- **RG35** : Lors de la création, un message de confirmation apparait
-- **RG36** : Un étudiant en cours de formation dans un campus sont liés à ce dernier
-- **RG37** : Un étudiant n'est plus lié au campus une fois sa promotion archivée
-- **RG38** : Une création de campus a pour conséquence la création de son rôle discord associé
-- **RG39** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes concernées par un campus
-- **RG40** : Lorsqu'un campus est supprimée il y a un choix entre supprimer ou archiver les promotions qui y sont liées.
+- **RG30** : Une formation possède un nom descriptif.  
+- **RG31** : Une formation doit être précisée comme diplômante ou non.  
+- **RG32** : Les formations créées sont stockées en tant que forums dans la catégorie "template".  
+- **RG33** : Un administrateur, un directeur ou un chargé de projet peut créer une formation.  
+- **RG34** : Un administrateur, un directeur ou un chargé de projet peut modifier une formation.  
+- **RG35** : Un administrateur, un directeur ou un chargé de projet peut supprimer une formation.  
+- **RG36** : Lors d'une modification, un message de confirmation apparaît.  
+- **RG37** : Lors d'une suppression, un message de confirmation apparaît.  
+- **RG38** : Lors d'une création, un message de confirmation apparaît.    
+- **RG39** : Lors de la création d'une formation, il est possible de sélectionner des posts spécifiques parmi les posts de type "post-specifique" disponibles dans la catégorie "stock".  
+- **RG40** : Lors de la modification d'une formation, il est possible d'ajouter ou de retirer des posts.  
+- **RG41** : Un étudiant reste lié à sa formation même lorsque sa promotion est archivée.  
 
-## Gestion des channels vocaux
+## Gestion de promotion  
 
-- **RG41** : Un channel vocal possède un nom qui le décrit
-- **RG42** : Un channel vocal a un emoji qui le défini
-- **RG43** : Un administrateur, un directeur et un chargé de projet peuvent créer un channel vocal dans le stock de channel
-- **RG44** : Un administrateur, un directeur et un chargé de projet peuvent modifier un channel vocal dans le stock de channel
-- **RG45** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un channel vocal dans le stock de channel
-- **RG46** : Il n'y a que trois chanels vocaux fixes par promotion : un SOS, un général et un On demand
-- **RG47** : Des channels vocaux temporaires sont disponibles pour chaque promotion
-- **RG48** : Un channel vocal temporaire disparaît quand il n'y a personne dedans 
+- **RG42** : Une promotion possède un nom descriptif.  
+- **RG43** : Une promotion contient une date de début et une date de fin.  
+- **RG44** : Un administrateur, un directeur ou un chargé de projet peut créer une promotion.  
+- **RG45** : Un administrateur, un directeur ou un chargé de projet peut modifier une promotion.  
+- **RG46** : Un administrateur, un directeur ou un chargé de projet peut supprimer une promotion.  
+- **RG47** : Lors d'une modification, un message de confirmation apparaît.  
+- **RG48** : Lors d'une suppression, un message de confirmation apparaît.  
+- **RG49** : Lors d'une création, un message de confirmation apparaît.  
+- **RG50** : Pour créer une promotion, il est nécessaire de renseigner d'abord son type de formation, ensuite son campus, et enfin son nom.  
+- **RG51** : Lors de la création d'une promotion, les posts présents dans le template de forum de formation associé sont automatiquement ajoutés au forum de promotion.
+- **RG52** : Lors de la création d'une promotion, les channels de type "post-generique" disponibles dans la category "stock" sont automatiquement ajoutés au forum de promotion.
+- **RG53** : Lors de la création d'une promotion, les channels de type "channels vocaux" disponibles dans la category "stock" sont ajoutés à la category de promotion.  
+- **RG54** : Lors de la création d'une promotion, il est possible d'ajouter des posts au forum de promotion qui ne sont pas stockés dans la catégorie "stock".  
+- **RG55** : La création d'une promotion entraîne automatiquement la création d'un rôle portant son nom.  
+- **RG56** : Une promotion est archivée trois mois après la fin de la session associée si elle est diplômante, et un mois après si elle ne l'est pas.  
+- **RG57** : Une semaine avant la fin d'une promotion, une notification automatique est envoyée dans le channel général de la promotion concernée pour prévenir qu'elle sera archivée un ou trois mois après la fin de la formation.  
+- **RG58** : Une promotion doit être liée à un campus.  
+- **RG59** : Une promotion doit être liée à une formation.  
+- **RG60** : Une promotion est stockée dans une catégorie dédiée.  
+- **RG61** : Dans le client Discord, les promotions sont regroupées visuellement par campus.  
+- **RG62** : Un étudiant n'est plus lié à sa promotion lorsque celle-ci est archivée.  
 
-## Gestion des Forums
+## Gestion d'identification  
 
-- **RG49** : Un forum possède un nom qui le décrit
-- **RG50** : Un forum contient des posts qui lui sont propres 
-- **RG51** : Un administrateur, un directeur et un chargé de projet peuvent enregistrer un forum au moment de la création de la formation
-- **RG52** : Un administrateur, un directeur et un chargé de projet peuvent modifier un forum 
-- **RG53** : Un administrateur, un directeur et un chargé de projet peuvent supprimer un forum 
-- ***RG54** : Un forum peut contenir une guideline indiquant la nature de ce forum*
+- **RG63** : Une demande d'identification est effectuée par un nouvel arrivant.  
+- **RG64** : Une demande d'identification passe par un formulaire.  
+- **RG65** : Un formulaire de demande d'identification commence par une liste déroulante permettant de sélectionner le type d'utilisateur (étudiant, formateur, etc.).  
+- **RG66** : Le choix du type d'utilisateur est suivi d'une liste déroulante permettant de sélectionner le type de formation (CDA, TSSR, etc.).  
+- **RG67** : L'utilisateur peut ensuite sélectionner sa promotion parmi les promotions du type de formation choisi.  
+- **RG68** : Un formulaire de demande d'identification contient le nom de la personne.  
+- **RG69** : Un formulaire de demande d'identification contient le prénom de la personne.  
+- **RG70** : Un formulaire de demande d'identification contient l'adresse email de la personne.  
+- **RG71** : Un formulaire de demande d'identification contient un encart lié au RGPD, indiquant que la personne consent au traitement de ses données personnelles.  
+- **RG72** : Un formulaire de demande d'identification contient un encart lié aux règles de gestion du serveur Discord Simplon Hauts-de-France, que le nouvel arrivant devra accepter.  
+- **RG73** : Un administrateur, un directeur ou un chargé de projet peut accepter ou refuser une demande d'identification.  
+- **RG74** : Une demande d'identification acceptée permet au bot d'attribuer automatiquement le rôle ou les rôles correspondants.  
+- **RG75** : Une fois la demande d'identification acceptée, la personne est automatiquement renommée par son nom et prénom.  
+- **RG76** : Une fois qu'un rôle est attribué à un nouvel arrivant, son rôle de "nouvel arrivant" est retiré.  
+- **RG77** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur.  
 
-## Gestion des Posts
+## Ciblages  
 
-- **RG55** : Les étudiants ne doivent pas pouvoir créer des posts
-- **RG56** : Un post possède un titre
-- **RG57** : Un post contient un message
-- ***RG58** : Un post peut contenir un emoji*
-- ***RG59** : Un post peut contenir une image*
-- ***RG60** : Un post peut contenir une réaction par défaut*
-- ***RG61** : Un post peut contenir un ou plusieurs tags*
-
-## Gestion d'identification
-
-- **RG62** : Une demande d'identification est effectuée par un nouvel arrivant
-- **RG63** : Une demande d'identification passe par un formulaire
-- **RG64** : Un formulaire de demande d'identification contient le nom de la personne
-- **RG65** : Un formulaire de demande d'identification contient le prénom de la personne
-- **RG66** : Un formulaire de demande d'identification contient l'adresse email de la personne
-- **RG67** : Un formulaire de demande d'identification contient des listes déroulantes permettant de cibler le profil de l'utilisateur (ex. sa formation)
-- **RG68** : Un formulaire de demande d'identification contient un encart lié au RGPD selon lequel la personne consent au traitement de ses données personnelles
-- **RG69** : Un formulaire de demande d'identification contient un encart lié aux règles de gestions du serveur Discord Simplon Hauts-de-France auxquelles le nouvel arrivant devra accepter de se soumettre
-- **RG70** : Un administrateur, un directeur, un chargé de projet peuvent accepter/refuser une demande d'identification
-- **RG71** : La personne acceptant la demande d'identification permettra au bot d'attribuer automatiquement le rôle ou les rôles destinés
-- **RG72** : Une fois la demande d'identification acceptée, la personne sera automatiquement renommée par son nom et prénom
-- **RG73** : Une fois qu'un rôle est attribué à un nouvel arrivant, son rôle de nouvel arrivant lui est retiré
-- **RG74** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur
-
-## Ciblages
-
-- **RG75** : Un administrateur, un directeur et un chargé de projet peuvent notifier les personnes avec @everyone et @here
+- **RG78** : Un administrateur, un directeur ou un chargé de projet peut notifier les personnes avec @everyone et @here.  
