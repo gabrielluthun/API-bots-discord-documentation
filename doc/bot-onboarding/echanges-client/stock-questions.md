@@ -11,3 +11,7 @@
 6 - La possibilité de modification de promotion est compliquée comparativement à la suppression et l'ajout d'une nouvelle pomotion. Est-il pertinent de la conserver? Ou serait-il pertinent de ne laisser que la modification de date?
 
 7 - La suppression d'une promotion n'est-elle pas plus rapide effectuée manuellement en dehors du bot discord?
+
+8 - Si tous les étudiants sont concernés par la partie community, comment faire avec les étudiants qui ne sont pas encore répertoriés dans la base de données via l'onboarding? (note: actuellement certains champs de usesr info, comme l'adresse email sont non null)
+
+9 - Utiliser le snowflakes discord comme UUID pour les users ne pose t'il pas une faille de sécurité?
