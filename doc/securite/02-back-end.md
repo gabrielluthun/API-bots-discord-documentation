@@ -65,15 +65,46 @@ L’utilisation des UUID renforce la sécurité dans plusieurs contextes. Voici 
 
 ### Politique de sauvegarde
 
+**Pourquoi mettre en place une politique de sauvegarde ?**
+
+Nous mettons en place une politique de sauvegarde afin de déterminer quand et à quelle fréquence réaliser des sauvegardes de la base de données.
+
+**Pour lutter contre quelle menace ?**
+
+Effectuer des sauvegardes régulières de la base de données permet de répondre à plusieurs menaces :
+
+   - **Ransomwares** : Lorsqu'un ransomware attaque, il chiffre souvent les fichiers critiques, y compris ceux d'une base de données, et demande une rançon pour fournir la clé de déchiffrement. Les sauvegardes jouent un rôle essentiel pour se protéger contre ce genre de menace, car nous pourrons restaurer les données sans avoir à négocier avec les attaquants.
+   Une combinaison de sauvegardes régulières, de stockage isolé, de tests rigoureux, et de mesures de sécurité renforcées contribue à réduire le risque d'attaque et à garantir une récupération rapide en cas d'incident.
+   
+   - **Erreurs humaines** : Qu'il s'agisse d'une suppression accidentelle de fichiers, d'une mauvaise manipulation des bases de données ou d'une mise à jour erronée, les erreurs humaines peuvent avoir des conséquences désastreuses. En effectuant des sauvegardes régulières, nous pourrons rapidement restaurer les données à un point antérieur à l'incident, minimisant ainsi l'impact d'une erreur. Cela permettra non seulement de préserver l'intégrité des informations, mais aussi d'assurer la continuité des activités en cas de perte de données non intentionnelle.
+
+   - **Défaillance du materiel** : La défaillance du materiel peut survenir sans avertissement et entraîner une perte irréversible de données si aucune sauvegarde n'est disponible. Une panne de serveur ou tout autre incident matériel peut rendre les données inaccessibles ou corrompues. En effectuant des sauvegardes régulières, noux aurons une copie fiable de la base de données un autre support ou dans le cloud, permettant ainsi une récupération rapide des données perdues.
+
 #### Automatisation
 
+L'automatisation du processus de sauvegarde présente un véritable atout pour nous, car elle garantit la régularité et la fiabilité des sauvegardes tout en éliminant les risques d'oublis ou d'erreurs humaines. En automatisant ce processus, nous nous assurons que les sauvegardes sont effectuées à intervalles réguliers, sans nécessiter d'intervention manuelle, ce qui réduit considérablement la possibilité de négligence. De plus, cela nous permet de planifier les sauvegardes à des moments stratégiques, comme pendant les périodes de faible activité, pour minimiser l'impact sur les performances du système. L'automatisation rend également plus facile l'adaptation de notre stratégie de sauvegarde en fonction de l'évolution des besoins du projet.
+
 ##### Fréquence
+
+Nous effectuerons une sauvegarde automatique tous les jours à 02h00 du matin. Nous choisissons cet horraire car c'est à ce moment qu'il y'a le moins d'utlisateur connecté.
 
 #### Politique de rétention 
 
 ##### Règle 3.2.1
 
+La règle 3-2-1 est une méthode simple mais très efficace pour protéger nos données :
+
+   1. **Trois copies des données** : Nous devons avoir l'original et deux copies supplémentaires pour garantir que nous pouvons récupérer nos informations en cas de perte ou de corruption.
+
+   2. **Deux supports différents** : Les copies doivent être stockées sur deux types de supports distincts, par exemple un disque dur et le cloud, afin de réduire les risques liés à la défaillance d'un seul support.
+
+   3. **Une copie hors site** : Une copie doit être stockée dans un emplacement géographiquement différent, comme un centre de données distant ou un stockage cloud, pour se protéger contre les risques locaux (incendie, vol, etc.).
+
+Nous appliquerons dans la mesure du possible, et en fonction du materiel disponible, cette règle de sécurité.
+
 ##### Durée de conservation
+
+Nous conserverons une sauvegarde de la base de données au maximum une semaine. Il y'aura donc un total de 7 sauvegardes (1 par jour) présentes en même temps. Chaque nouvelle sauvegarde écrasera la sauvegarde la plus ancienne.
 
 # API 
 Notre application intégrera plusieurs API, ou Application Programming Interface. Il s’agit d’un programme qui permet à deux applications distinctes de communiquer entre elles et d’échanger des données. Nos APIs seront tant développées en internes qu'externe du fait de Discord. 
