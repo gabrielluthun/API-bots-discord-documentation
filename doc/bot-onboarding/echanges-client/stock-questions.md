@@ -15,3 +15,7 @@
 8 - Si tous les étudiants sont concernés par la partie community, comment faire avec les étudiants qui ne sont pas encore répertoriés dans la base de données via l'onboarding? (note: actuellement certains champs de usesr info, comme l'adresse email sont non null)
 
 9 - Utiliser le snowflakes discord comme UUID pour les users ne pose t'il pas une faille de sécurité?
+
+10 - Pour les formations, nous prévoyons actuellement de stocker les templates sous forme de forum dans une category "stock-formations", serait-il possible de mettre en place ce stock uniquement dans la base de données?
+
+11 - Aussi pour le campus, est-il mieux d'en faire une category ou de la stocker dans la base de données uniquement?
