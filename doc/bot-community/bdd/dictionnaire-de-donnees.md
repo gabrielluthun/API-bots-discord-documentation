@@ -1,78 +1,146 @@
+# Dictionnaire de donées SImplonComunity
+---
+
 ## Table : Users
 
-| **Column Name**      | **Type**  | **Size** | **Description**                                  |
-|----------------------|-----------|----------|--------------------------------------------------|
-| user_uuid            | UUID      |          | Identifiant unique de l'utilisateur.             |
-| user_pseudo          | VARCHAR   | 255      | Pseudonyme ou nom d'affichage de l'utilisateur.  |
-| role_id              | NUMBER    |          | Identifiant du rôle attribué à l'utilisateur.    |
-| role_name            | VARCHAR   | 100      | Nom descriptif du rôle attribué à l'utilisateur. |
-| user_xp              | NUMBER    |          | Points d'expérience accumulés par l'utilisateur. |
-| user_level           | NUMBER    |          | Niveau de l'utilisateur.                         |
-| user_badges          | VARCHAR[] |          | Liste des badges obtenus par l'utilisateur.      |
-| report_count         | VARCHAR   |          | Nombre de signalements reçus.                    |
-| user_ranking         | NUMBER    |          | Classement de l'utilisateur.                     |
+| **Column Name**       | **Type**         | **Size** | **Description**                                                         |
+|-----------------------|------------------|----------|-------------------------------------------------------------------------|
+| **user_uuid**         | UUID             | –        | Identifiant unique de l'utilisateur (clé primaire).                     |
+| **user_roles**        | VARCHAR(50)      | 50       | Rôles associés à l'utilisateur (ex. admin, modérateur, membre).         |
+| **user_discord_uuid** | UUID             | –        | Identifiant unique Discord de l'utilisateur (obligatoire).              |
+| **user_xp**           | DECIMAL(15,2)    | –        | Points d'expérience accumulés par l'utilisateur.                        |
+| **user_level**        | INT              | –        | Niveau de l'utilisateur, généralement calculé à partir de l'XP.           |
+| **user_status**       | VARCHAR(50)      | 50       | Statut de l'utilisateur (ex. actif, inactif).                           |
 
 ---
 
 ## Table : Resources
 
-| **Column Name**            | **Type**   | **Size** | **Description**                                       |
-|----------------------------|------------|----------|-------------------------------------------------------|
-| resource_title             | VARCHAR    | 255      | Titre de la ressource.                                |
-| resource_description       | TEXT       |          | Description détaillée de la ressource.                |
-| resource_tags              | VARCHAR[]  |          | Liste des tags associés à la ressource.               |
-| resource_content           | TEXT       |          | Contenu de la ressource (URL, fichier, etc.).         |
-| resource_status            | VARCHAR    | 50       | Statut de la ressource (actif, obsolète).             |
-| resource_creator           | UUID       |          | Identifiant de l'utilisateur ayant créé la ressource. |
-| resource_creation_date     | TIMESTAMPZ |          | Date et heure de création de la ressource.            |
-| resource_modification_date | TIMESTAMPZ |          | Date et heure de la dernière modification.            |
-| resource_reports           | NUMBER     |          | Nombre de signalements reçus par la ressource.        |
-| useful_votes               | NUMBER     |          | Nombre de votes utiles.                               |
-| useless_votes              | NUMBER     |          | Nombre de votes inutiles.                             |
+| **Column Name**           | **Type**                | **Size** | **Description**                                                                  |
+|---------------------------|-------------------------|----------|----------------------------------------------------------------------------------|
+| **resource_uuid**         | UUID                    | –        | Identifiant unique de la ressource (clé primaire).                             |
+| **resource_title**        | VARCHAR(50)             | 50       | Titre de la ressource.                                                           |
+| **resource_description**  | TEXT                    | –        | Description détaillée de la ressource.                                           |
+| **resource_content**      | TEXT                    | –        | Contenu de la ressource (par exemple, URL, texte, fichier, etc.).                |
+| **resource_status**       | resource_status_enum    | –        | Statut de la ressource (valeurs possibles : 'draft', 'published', 'archived').     |
+| **resource_updatedAt**    | TIMESTAMPTZ             | –        | Date et heure de la dernière mise à jour de la ressource.                        |
+| **resource_createdAt**    | TIMESTAMPTZ             | –        | Date et heure de création de la ressource.                                       |
+
+---
+
+## Table : Tag
+
+| **Column Name** | **Type**    | **Size** | **Description**                                             |
+|-----------------|-------------|----------|-------------------------------------------------------------|
+| **tag_uuid**    | UUID        | –        | Identifiant unique du tag (clé primaire).                   |
+| **tag_name**    | VARCHAR(50) | 50       | Nom du tag, utilisé pour catégoriser les ressources.        |
+
+---
+
+## Table : Xp_transactions
+
+| **Column Name**          | **Type**      | **Size** | **Description**                                                                     |
+|--------------------------|---------------|----------|-------------------------------------------------------------------------------------|
+| **xp_transaction_uuid**  | UUID          | –        | Identifiant unique de la transaction d'XP (clé primaire).                           |
+| **transaction_type**     | VARCHAR(50)   | 50       | Type de transaction (ex. gain, perte, bonus, etc.).                                  |
+| **transaction_value**    | VARCHAR(50)   | 50       | Valeur de la transaction (peut être positive ou négative).                           |
+| **transaction_createdAt**| TIMESTAMPTZ   | –        | Date et heure d'enregistrement de la transaction.                                   |
+| **user_uuid**            | UUID          | –        | Identifiant de l'utilisateur concerné (clé étrangère vers **Users**).               |
+
+---
+
+## Table : Badge
+
+| **Column Name**    | **Type**      | **Size** | **Description**                                                             |
+|--------------------|---------------|----------|-----------------------------------------------------------------------------|
+| **badge_uuid**     | UUID          | –        | Identifiant unique du badge (clé primaire).                                 |
+| **badge_createdAt**| TIMESTAMPTZ   | –        | Date et heure d'attribution du badge.                                       |
+
+---
+
+## Table : Comments
+
+| **Column Name**       | **Type**      | **Size** | **Description**                                                                     |
+|-----------------------|---------------|----------|-------------------------------------------------------------------------------------|
+| **comment_uuid**      | UUID          | –        | Identifiant unique du commentaire (clé primaire).                                   |
+| **comment_createdAt** | TIMESTAMPTZ   | –        | Date et heure de création du commentaire.                                           |
+| **comment_content**   | TEXT          | –        | Contenu du commentaire.                                                             |
+| **comment_status**    | VARCHAR(50)   | 50       | Statut du commentaire (ex. approuvé, en attente, supprimé).                         |
+| **resource_uuid**     | UUID          | –        | Identifiant de la ressource associée (clé étrangère vers **Resources**).              |
+| **user_uuid**         | UUID          | –        | Identifiant de l'utilisateur qui a posté le commentaire (clé étrangère vers **Users**).|
+
+
+---
+
+## Table : Moderation_Actions
+
+| **Column Name**      | **Type**      | **Size** | **Description**                                                                 |
+|----------------------|---------------|----------|---------------------------------------------------------------------------------|
+| **moderation_uuid**  | UUID          | –        | Identifiant unique de l'action de modération (clé primaire).                     |
+| **target_type**      | VARCHAR(50)   | 50       | Type de cible de la modération (ex. 'comment', 'resource').                      |
+| **target_id**        | VARCHAR(50)   | 50       | Identifiant de la cible, selon le type (par exemple, l'UUID du commentaire).     |
+| **action_type**      | VARCHAR(50)   | 50       | Type d'action effectuée (ex. avertissement, suppression).                        |
+| **action_reason**    | VARCHAR(50)   | 50       | Raison de l'action de modération.                                                |
+| **action_createdAt** | TIMESTAMPTZ   | –        | Date et heure à laquelle l'action a été effectuée.                               |
+
+---
+
+## Table : Votes
+
+| **Column Name**      | **Type**      | **Size** | **Description**                                                                     |
+|----------------------|---------------|----------|-------------------------------------------------------------------------------------|
+| **vote_uuid**        | UUID          | –        | Identifiant unique du vote (clé primaire).                                           |
+| **vote_type**        | VARCHAR(50)   | 50       | Type de vote (ex. upvote, downvote).                                                 |
+| **vote_createdAt**   | TIMESTAMPTZ   | –        | Date et heure du vote.                                                               |
+| **comment_uuid**     | UUID          | –        | Identifiant du commentaire associé (clé étrangère vers **Comments**).                |
+| **user_uuid**        | UUID          | –        | Identifiant de l'utilisateur qui a voté (clé étrangère vers **Users**).              |
+| **resource_uuid**    | UUID          | –        | Identifiant de la ressource associée (clé étrangère vers **Resources**).             |
 
 ---
 
 ## Table : Reports
 
-| **Column Name**       | **Type**   | **Size** | **Description**                                         |
-|------------------------|------------|----------|---------------------------------------------------------|
-| report_uuid            | UUID       |          | Identifiant unique du signalement.                      |
-| report_category        | VARCHAR    | 100      | Catégorie du signalement (contenu illégal, spam, etc.). |
-| report_reason          | TEXT       |          | Raison détaillée du signalement.                        |
-| report_status          | VARCHAR    | 50       | Statut du signalement (en attente, validé, rejeté).     |
-| report_creator         | UUID       |          | Identifiant de l'utilisateur ayant créé le signalement. |
-| reported_resource      | UUID       |          | Identifiant de la ressource signalée.                   |
-| report_date            | TIMESTAMPZ |          | Date et heure de création du signalement.               |
-| report_moderator       | UUID       |          | Modérateur qui a pris en charge le signalement.         |
+| **Column Name**      | **Type**               | **Size** | **Description**                                                                                                     |
+|----------------------|------------------------|----------|---------------------------------------------------------------------------------------------------------------------|
+| **report_uuid**      | UUID                   | –        | Identifiant unique du signalement (clé primaire).                                                                   |
+| **report_category**  | report_category_enum   | –        | Catégorie du signalement (ex. 'spam', 'abuse', 'other').                                                             |
+| **report_reason**    | VARCHAR(50)            | 50       | Raison du signalement (description courte).                                                                         |
+| **report_status**    | VARCHAR(50)            | 50       | Statut du signalement (ex. en attente, validé, rejeté).                                                              |
+| **report_createdAt** | TIMESTAMPTZ            | –        | Date et heure de création du signalement.                                                                           |
+| **report_updatedAt** | TIMESTAMPTZ            | –        | Date et heure de la dernière mise à jour du signalement.                                                             |
+| **moderation_uuid**  | UUID                   | –        | Identifiant de l'action de modération associée (clé étrangère vers **Moderation_Actions**).                          |
+| **comment_uuid**     | UUID                   | –        | Identifiant du commentaire signalé (clé étrangère vers **Comments**).                                                 |
+| **user_uuid**        | UUID                   | –        | Identifiant de l'utilisateur ayant effectué le signalement (clé étrangère vers **Users**).                              |
+| **resource_uuid**    | UUID                   | –        | Identifiant de la ressource signalée (clé étrangère vers **Resources**).                                              |
 
 ---
 
-## Table : Event History
+## Table : Creates (Association entre Users et Resources)
 
-| **Column Name**       | **Type**   | **Size** | **Description**                                         |
-|-----------------------|------------|----------|---------------------------------------------------------|
-| event_uuid            | UUID       |          | Identifiant unique de l’événement.                      |
-| event_type            | VARCHAR    | 50       | Type d'événement (création, modification, suppression). |
-| event_user            | UUID       |          | Identifiant de l'utilisateur lié à l’événement.         |
-| event_resource        | UUID       |          | Identifiant de la ressource liée à l’événement.         |
-| event_date            | TIMESTAMPZ |          | Date et heure de l’événement.                           |
-| event_details         | JSON       |          | Détails spécifiques de l’événement (champs modifiés).   |
+| **Column Name**   | **Type** | **Size** | **Description**                                                                              |
+|-------------------|----------|----------|----------------------------------------------------------------------------------------------|
+| **user_uuid**     | UUID     | –        | Identifiant de l'utilisateur créateur de la ressource (clé étrangère vers **Users**).           |
+| **resource_uuid** | UUID     | –        | Identifiant de la ressource créée (clé étrangère vers **Resources**).                         |
+| **Primary Key**   | Composite| –        | Clé primaire composée des colonnes **user_uuid** et **resource_uuid**.                        |
 
 ---
 
-## Table : Blacklist
+## Table : Assigned (Association entre Resources et Tag)
 
-| **Column Name**         | **Type**   | **Size** | **Description**                                     |
-|-------------------------|------------|----------|-----------------------------------------------------|
-| blacklist_value         | VARCHAR    | 255      | Mot-clé, lien ou expression bloquée.                |
-| blacklist_creation_date | TIMESTAMPZ |          | Date d'ajout de l'entrée dans la liste noire.       |
+| **Column Name**   | **Type** | **Size** | **Description**                                                                              |
+|-------------------|----------|----------|----------------------------------------------------------------------------------------------|
+| **resource_uuid** | UUID     | –        | Identifiant de la ressource (clé étrangère vers **Resources**).                              |
+| **tag_uuid**      | UUID     | –        | Identifiant du tag associé (clé étrangère vers **Tag**).                                     |
+| **Primary Key**   | Composite| –        | Clé primaire composée des colonnes **resource_uuid** et **tag_uuid**.                        |
 
 ---
 
-## Table : XP and Rewards
+## Table : Has (Association entre Users et Badge)
 
-| **Column Name**       | **Type**   | **Size** | **Description**                                           |
-|-----------------------|------------|----------|-----------------------------------------------------------|
-| reward_user           | UUID       |          | Identifiant de l'utilisateur ayant reçu/perdu des points. |
-| reward_value          | NUMBER     |          | Valeur de l'XP gagnée ou perdue.                          |
-| reward_date           | TIMESTAMPZ |          | Date et heure d'attribution de la récompense/pénalité.    |
+| **Column Name**   | **Type** | **Size** | **Description**                                                                              |
+|-------------------|----------|----------|----------------------------------------------------------------------------------------------|
+| **user_uuid**     | UUID     | –        | Identifiant de l'utilisateur propriétaire du badge (clé étrangère vers **Users**).              |
+| **badge_uuid**    | UUID     | –        | Identifiant du badge (clé étrangère vers **Badge**).                                         |
+| **Primary Key**   | Composite| –        | Clé primaire composée des colonnes **user_uuid** et **badge_uuid**.                          |
+
+---
