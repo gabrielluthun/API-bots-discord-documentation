@@ -1,4 +1,3 @@
-
 # Sommaire
 
 1. [Normes pour les commits et les pull requests](#normes-pour-les-commits-et-les-pull-requests)
@@ -36,8 +35,7 @@
     - [Questionnaire](doc/bot-signature/questionnaire.md) 📄
     - [Problématiques](doc/bot-signature/problematiques.md) 📄
     - [Règles de gestion](doc/bot-signature/regles-gestion.md) 📄
-
-
+6. [Bot Community](./doc/bot-community/) 📂
 
 <br>
 <br>
@@ -116,12 +114,9 @@ Le reviewer doit fournir une explication détaillée pour s'assurer que le contr
 
 ## Processus d'approbation et de fusion des pull requests
 
-
-
 **_Approbation partagée_** : Une pull request doit être validée par au moins un membre du groupe émetteur de la PR en question.
 
 **_Nombre minimum de reviewers_** : Pour qu'une pull request soit fusionnée, elle doit être approuvée par un minimum de trois reviewers, y compris des membres externes au groupe émetteur, afin de garantir une évaluation complète et de qualité.
-
 
 **_Validation du Tech Lead_** : Parmi les reviewers, le Tech Lead du groupe émetteur de la pull request doit obligatoirement faire partie des approbateurs. L'approbation finale du Tech Lead est nécessaire pour qu'un membre du groupe puisse procéder à la fusion. Il revient au Tech Lead de donner l'aval définitif, assurant que la pull request est prête à être intégrée dans la base de code principale.
 
@@ -130,3 +125,4 @@ Le reviewer doit fournir une explication détaillée pour s'assurer que le contr
 **_Interdiction pour l'émetteur de fusionner sa pull request_** : L'émetteur de la pull request n'est pas autorisé à fusionner sa propre pull request. Cela permet de garantir une validation externe par les autres membres du groupe ou par des reviewers indépendants, pour renforcer la qualité et la fiabilité des modifications apportées.
 
 **_Annulation des approbations de pull requests lorsque de nouveaux commits sont poussés_** : La règle "Dismiss stale pull request approvals when new commits are pushed" doit être activée. Cela signifie que si des commits supplémentaires sont ajoutés à une pull request déjà approuvée, les approbations précédentes seront automatiquement révoquées. Cette règle garantit que les modifications récentes sont également examinées par les reviewers, assurant ainsi que l'évaluation de la pull request reste valide et à jour.
+
