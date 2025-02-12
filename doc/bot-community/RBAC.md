@@ -1,29 +1,42 @@
 # RBAC - SimplonCommunity
 
-| Permissions                                          | Nouveau Arrivant   | Membre | Modérateur | Administrateur |
-| ---------------------------------------------------- | ------------------ | ------ | ---------- | -------------- |
-| **Accès aux channels liés aux ressources**           | ✅ (Lecture seule) | ✅     | ✅         | ✅             |
-| **Créer une ressource**                              | ❌                 | ✅     | ✅         | ✅             |
-| **Lire les ressources**                              | ✅                 | ✅     | ✅         | ✅             |
-| **Mettre à jour ses propres ressources**             | ❌                 | ✅     | ✅         | ✅             |
-| **Supprimer ses propres ressources**                 | ❌                 | ✅     | ✅         | ✅             |
-| **Modifier toutes les ressources**                   | ❌                 | ❌     | ✅         | ✅             |
-| **Supprimer n'importe quelle ressource**             | ❌                 | ❌     | ✅         | ✅             |
-| **Juger une ressource ("utile"/"inutile")**          | ❌                 | ✅     | ✅         | ✅             |
-| **Signaler une ressource**                           | ❌                 | ✅     | ✅         | ✅             |
-| **Rendre une ressource obsolète**                    | ❌                 | ✅     | ✅         | ✅             |
-| **Gérer l’historique des événements**                | ❌                 | ❌     | ✅         | ✅             |
-| **Recevoir les signalements de haute priorité**      | ❌                 | ❌     | ✅         | ✅             |
-| **Gérer la liste noire**                             | ❌                 | ❌     | ❌         | ✅             |
-| **Gérer les récompenses et XP**                      | ❌                 | ❌     | ❌         | ✅             |
-| **Accéder à tous les logs système**                  | ❌                 | ❌     | ❌         | ✅             |
-| **Gagner de l'XP en partageant des ressources**      | ❌                 | ✅     | ✅         | ✅             |
-| **Gagner de l'XP grâce aux votes "utile"**           | ❌                 | ✅     | ✅         | ✅             |
-| **Perdre de l'XP à cause de votes "inutile"**        | ❌                 | ✅     | ✅         | ✅             |
-| **Gagner/perdre de l'XP via signalements**           | ❌                 | ✅     | ✅         | ✅             |
-| **Gérer les XP des utilisateurs**                    | ❌                 | ❌     | ❌         | ✅             |
-| **Avertir un utilisateur**                           | ❌                 | ❌     | ✅         | ✅             |
-| **Bannir temporairement un utilisateur**             | ❌                 | ❌     | ✅         | ✅             |
-| **Bannir définitivement un utilisateur**             | ❌                 | ❌     | ❌         | ✅             |
-| **Lever une sanction (bannissement, avertissement)** | ❌                 | ❌     | ❌         | ✅             |
-|                                                      |                    |        |            |                |
+| Permission                                    | Nouveau Arrivant | Membre | Modérateur | Administrateur |
+|----------------------------------------------|-----------------|--------|------------|--------------|
+| **ACCÈS ET RESSOURCES**                      |                |        |            |              |
+| Accès aux ressources                         | ✅              | ✅      | ✅          | ✅            |
+| Créer une ressource                          | ❌              | ✅      | ✅          | ✅            |
+| Modifier ses propres ressources              | ❌              | ✅      | ✅          | ✅            |
+| Supprimer ses propres ressources             | ❌              | ✅      | ✅          | ✅            |
+| Modifier toutes les ressources               | ❌              | ❌      | ✅          | ✅            |
+| Supprimer toutes les ressources              | ❌              | ❌      | ✅          | ✅            |
+| Ajouter des tags aux ressources              | ❌              | ✅      | ✅          | ✅            |
+| Marquer une ressource comme obsolète         | ❌              | ✅      | ✅          | ✅            |
+| **ÉVALUATION ET SIGNALEMENT**                |                |        |            |              |
+| Voter une ressource comme "utile"            | ❌              | ✅      | ✅          | ✅            |
+| Voter une ressource comme "inutile"          | ❌              | ✅      | ✅          | ✅            |
+| Signaler une ressource                       | ❌              | ✅      | ✅          | ✅            |
+| Signaler un commentaire                      | ❌              | ✅      | ✅          | ✅            |
+| Signaler un utilisateur                      | ❌              | ✅      | ✅          | ✅            |
+| Traiter les signalements                     | ❌              | ❌      | ✅          | ✅            |
+| **GESTION XP ET BADGES**                     |                |        |            |              |
+| Gagner XP (partage ressources)               | ❌              | ✅      | ✅          | ✅            |
+| Gagner XP (votes positifs)                   | ❌              | ✅      | ✅          | ✅            |
+| Perdre XP (votes négatifs)                   | ❌              | ✅      | ✅          | ✅            |
+| Perdre XP (signalement abusif)               | ❌              | ✅      | ✅          | ✅            |
+| Attribuer des badges                         | ❌              | ❌      | ❌          | ✅            |
+| Modifier l'XP d'un utilisateur               | ❌              | ❌      | ❌          | ✅            |
+| **MODÉRATION ET SANCTIONS**                  |                |        |            |              |
+| Recevoir signalements haute priorité         | ❌              | ❌      | ✅          | ✅            |
+| Avertir un utilisateur                       | ❌              | ❌      | ✅          | ✅            |
+| Bannir temporairement                        | ❌              | ❌      | ✅          | ✅            |
+| Bannir définitivement                        | ❌              | ❌      | ❌          | ✅            |
+| Gérer la liste noire                         | ❌              | ❌      | ❌          | ✅            |
+| Lever une sanction                           | ❌              | ❌      | ❌          | ✅            |
+| **COMMENTAIRES ET VOTES**                    |                |        |            |              |
+| Publier un commentaire                       | ❌              | ✅      | ✅          | ✅            |
+| Supprimer ses commentaires                   | ❌              | ✅      | ✅          | ✅            |
+| Supprimer commentaires des autres            | ❌              | ❌      | ✅          | ✅            |
+| Voter sur un commentaire                     | ❌              | ✅      | ✅          | ✅            |
+| **HISTORIQUE ET NOTIFICATIONS**              |                |        |            |              |
+| Consulter historique des événements          | ❌              | ❌      | ✅          | ✅            |
+| Recevoir notifications de signalement        | ❌              | ✅      | ✅          | ✅            |
