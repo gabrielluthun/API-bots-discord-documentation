@@ -55,50 +55,48 @@ Attention, ***les règles de gestion en italique** sont des suggestions et **ne 
 - **RG38** : Lors d'une création, un message de confirmation apparaît.    
 - **RG39** : Lors de la création d'une formation, il est possible de sélectionner des posts spécifiques parmi les posts de type "post-specifique" disponibles dans la catégorie "stock".  
 - **RG40** : Lors de la modification d'une formation, il est possible d'ajouter ou de retirer des posts.  
-- **RG41** : Un étudiant reste lié à sa formation même lorsque sa promotion est archivée.  
 
 ## Gestion de promotion  
 
-- **RG42** : Une promotion possède un nom descriptif.  
-- **RG43** : Une promotion contient une date de début et une date de fin.  
-- **RG44** : Un administrateur, un directeur ou un chargé de projet peut créer une promotion.  
-- **RG45** : Un administrateur, un directeur ou un chargé de projet peut modifier une promotion.  
-- **RG46** : Un administrateur, un directeur ou un chargé de projet peut supprimer une promotion.  
-- **RG47** : Lors d'une modification, un message de confirmation apparaît.  
-- **RG48** : Lors d'une suppression, un message de confirmation apparaît.  
-- **RG49** : Lors d'une création, un message de confirmation apparaît.  
-- **RG50** : Pour créer une promotion, il est nécessaire de renseigner d'abord son type de formation, ensuite son campus, et enfin son nom.  
-- **RG51** : Lors de la création d'une promotion, les posts présents dans le template de forum de formation associé sont automatiquement ajoutés au forum de promotion.
-- **RG52** : Lors de la création d'une promotion, les channels de type "post-generique" disponibles dans la category "stock" sont automatiquement ajoutés au forum de promotion.
-- **RG53** : Lors de la création d'une promotion, les channels de type "channels vocaux" disponibles dans la category "stock" sont ajoutés à la category de promotion.  
-- **RG54** : Lors de la création d'une promotion, il est possible d'ajouter des posts au forum de promotion qui ne sont pas stockés dans la catégorie "stock".  
-- **RG55** : La création d'une promotion entraîne automatiquement la création d'un rôle portant son nom.  
-- **RG56** : Une promotion est archivée trois mois après la fin de la session associée si elle est diplômante, et un mois après si elle ne l'est pas.  
-- **RG57** : Une semaine avant la fin d'une promotion, une notification automatique est envoyée dans le channel général de la promotion concernée pour prévenir qu'elle sera archivée un ou trois mois après la fin de la formation.  
-- **RG58** : Une promotion doit être liée à un campus.  
-- **RG59** : Une promotion doit être liée à une formation.  
-- **RG60** : Une promotion est stockée dans une catégorie dédiée.  
-- **RG61** : Dans le client Discord, les promotions sont regroupées visuellement par campus.  
-- **RG62** : Un étudiant n'est plus lié à sa promotion lorsque celle-ci est archivée.  
+- **RG41** : Une promotion possède un nom descriptif.  
+- **RG42** : Une promotion contient une date de début et une date de fin.  
+- **RG43** : Un administrateur, un directeur ou un chargé de projet peut créer une promotion.  
+- **RG44** : Un administrateur, un directeur ou un chargé de projet peut modifier une promotion.  
+- **RG45** : Un administrateur, un directeur ou un chargé de projet peut supprimer une promotion.  
+- **RG46** : Lors d'une modification, un message de confirmation apparaît.  
+- **RG47** : Lors d'une suppression, un message de confirmation apparaît.  
+- **RG48** : Lors d'une création, un message de confirmation apparaît.  
+- **RG49** : Pour créer une promotion, il est nécessaire de renseigner d'abord son type de formation, ensuite son campus, et enfin son nom.  
+- **RG50** : Lors de la création d'une promotion, les posts présents dans le template de forum de formation associé sont automatiquement ajoutés au forum de promotion.
+- **RG51** : Lors de la création d'une promotion, les channels de type "post-generique" disponibles dans la category "stock" sont automatiquement ajoutés au forum de promotion.
+- **RG52** : Lors de la création d'une promotion, les channels de type "channels vocaux" disponibles dans la category "stock" sont ajoutés à la category de promotion.  
+- **RG53** : Lors de la création d'une promotion, il est possible d'ajouter des posts au forum de promotion qui ne sont pas stockés dans la catégorie "stock".  
+- **RG54** : La création d'une promotion entraîne automatiquement la création d'un rôle portant son nom.  
+- **RG55** : Une promotion est supprimée trois mois après la fin de la session associée si elle est diplômante, et un mois après si elle ne l'est pas.  
+- **RG56** : Une semaine avant la fin d'une promotion, une notification automatique est envoyée dans le channel général de la promotion concernée pour prévenir qu'elle sera supprimée un ou trois mois après la fin de la formation.  
+- **RG57** : Une promotion doit être liée à un campus.  
+- **RG58** : Une promotion doit être liée à une formation.  
+- **RG59** : Une promotion est stockée dans une catégorie dédiée.  
+- **RG60** : Dans le client Discord, les promotions sont regroupées visuellement par campus.  
 
 ## Gestion d'identification  
 
-- **RG63** : Une demande d'identification est effectuée par un nouvel arrivant.  
-- **RG64** : Une demande d'identification passe par un formulaire.  
-- **RG65** : Un formulaire de demande d'identification commence par une liste déroulante permettant de sélectionner le type d'utilisateur (étudiant, formateur, etc.).  
-- **RG66** : Le choix du type d'utilisateur est suivi d'une liste déroulante permettant de sélectionner le type de formation (CDA, TSSR, etc.).  
-- **RG67** : L'utilisateur peut ensuite sélectionner sa promotion parmi les promotions du type de formation choisi.  
-- **RG68** : Un formulaire de demande d'identification contient le nom de la personne.  
-- **RG69** : Un formulaire de demande d'identification contient le prénom de la personne.  
-- **RG70** : Un formulaire de demande d'identification contient l'adresse email de la personne.  
-- **RG71** : Un formulaire de demande d'identification contient un encart lié au RGPD, indiquant que la personne consent au traitement de ses données personnelles.  
-- **RG72** : Un formulaire de demande d'identification contient un encart lié aux règles de gestion du serveur Discord Simplon Hauts-de-France, que le nouvel arrivant devra accepter.  
-- **RG73** : Un administrateur, un directeur ou un chargé de projet peut accepter ou refuser une demande d'identification.  
-- **RG74** : Une demande d'identification acceptée permet au bot d'attribuer automatiquement le rôle ou les rôles correspondants.  
-- **RG75** : Une fois la demande d'identification acceptée, la personne est automatiquement renommée par son nom et prénom.  
-- **RG76** : Une fois qu'un rôle est attribué à un nouvel arrivant, son rôle de "nouvel arrivant" est retiré.  
-- **RG77** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur.  
+- **RG61** : Une demande d'identification est effectuée par un nouvel arrivant.  
+- **RG62** : Une demande d'identification passe par un formulaire.  
+- **RG63** : Un formulaire de demande d'identification commence par une liste déroulante permettant de sélectionner le type d'utilisateur (étudiant, formateur, etc.).  
+- **RG64** : Le choix du type d'utilisateur est suivi d'une liste déroulante permettant de sélectionner le type de formation (CDA, TSSR, etc.).  
+- **RG65** : L'utilisateur peut ensuite sélectionner sa promotion parmi les promotions du type de formation choisi.  
+- **RG66** : Un formulaire de demande d'identification contient le nom de la personne.  
+- **RG67** : Un formulaire de demande d'identification contient le prénom de la personne.  
+- **RG68** : Un formulaire de demande d'identification contient l'adresse email de la personne.  
+- **RG69** : Un formulaire de demande d'identification contient un encart lié au RGPD, indiquant que la personne consent au traitement de ses données personnelles.  
+- **RG70** : Un formulaire de demande d'identification contient un encart lié aux règles de gestion du serveur Discord Simplon Hauts-de-France, que le nouvel arrivant devra accepter.  
+- **RG71** : Un administrateur, un directeur ou un chargé de projet peut accepter ou refuser une demande d'identification.  
+- **RG72** : Une demande d'identification acceptée permet au bot d'attribuer automatiquement le rôle ou les rôles correspondants.  
+- **RG73** : Une fois la demande d'identification acceptée, la personne est automatiquement renommée par son nom et prénom.  
+- **RG74** : Une fois qu'un rôle est attribué à un nouvel arrivant, son rôle de "nouvel arrivant" est retiré.  
+- **RG75** : Une fois le processus d'identification terminé, la demande d'identification est masquée pour l'utilisateur.  
 
 ## Ciblages  
 
-- **RG78** : Un administrateur, un directeur ou un chargé de projet peut notifier les personnes avec @everyone et @here.  
+- **RG76** : Un administrateur, un directeur ou un chargé de projet peut notifier les personnes avec @everyone et @here.  
